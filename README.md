@@ -1,50 +1,43 @@
-# Material didáctico del curso de Mediciones eléctricas
+# Material didáctico correspondiente a los cursos de Mediciones eléctricas
 
-## Temario
+## CURSO I: Mediciones eléctricas para técnicos nóveles y futuros docentes
 
-## Introducción
+**Duración total:** 60 HORAS
 
-## Carga horaria
-
-
-## Mediciones eléctricas para técnicos nóveles y futuros docentes
-60 HORAS
-
-* Errores: *2 horas*
+* Errores: :point_right: * 2 horas*
   * Clasificación de errores.
   * Clasificación de instrumentos.
   * Tolerancia y precisión.
 
-* Magnitudes eléctricas: *2 horas*
+* Magnitudes eléctricas: :point_right: *2 horas*
   * Tensión.
   * Corriente.
   * Resistencia.
   * Impedancia.
   * Unidades.
 
-* Ley de Ohm:
+* Ley de Ohm :point_right: *1 hora*
   * Deducción.
   * Formalización matemática.
   * Práctica de mediciones con multímetro.
-_1 hora_
 
-* Formas de onda
+
+* Formas de onda :point_right: *8 horas*
   * Corriente continua.
   * Corriente alterna senoidal.
   * Corriente alterna triangular.
   * Corriente alterna cuadrada.
   * Prácticas de laboratorio.
- 8hs.
-
-* Resistencias
+ 
+* Resistencias :point_right: *2 horas*
   * Funcionamiento.
   * Clasificación.
   * Análisis serie-paralelo.
   * Aplicaciones.
   * Simulaciones con software.
   * Mediciones.
-2hs.
-* Capacitores
+
+* Capacitores :point_right: *2 horas*
   * Campo eléctrico.
   * Capacitancia.
   * Construcción y clasificación.
@@ -53,16 +46,16 @@ _1 hora_
   * Aplicaciones.
   * Simulaciones con software.
   * Práctica de mediciones.
-  * Prácticas de laboratorio (fases de carga y descarga).	2hs.
-* Inductores
+  * Prácticas de laboratorio (fases de carga y descarga).
+* Inductores :point_right: *2 horas*
   * Campo magnético
   * Inductancia.
   * Voltaje inducido.
   * Régimen transitorio en fases de almacenamiento y liberación. Análisis serie-paralelo.
   * Aplicaciones.
   * Simulaciones con software.
-  * Prácticas de laboratorio.	2hs.
-* Instrumentos
+  * Prácticas de laboratorio.
+* Instrumentos :point_right: *20 horas*
   * Buscapolo.
   * Probador de tensión
   * Multímetro (voltímetro, amperímetro, óhmetro, capacímetro).
@@ -77,60 +70,61 @@ _1 hora_
   * Medidor de aislamiento.
   * Comprobador de diferenciales.
   * Tableros integrales de mediciones.
-  * Instrumentos de banco.	20hs.
+  * Instrumentos de banco.
 
-* Seguridad
+* Seguridad :point_right: *2 horas*
   * Riesgos eléctricos.
   * Normas de seguridad.
-  * Primeros auxilios.	2 hs
+  * Primeros auxilios.
 
-* Corriente alterna	Valores característicos.
+* Corriente alterna :point_right: *2 horas*
+  * Valores característicos.
   * Valores eficaces.
   * Aplicaciones.
-  * Mediciones.	2hs
+  * Mediciones.
 
-* Potencia
+* Potencia :point_right: *4 horas*
   * Circuitos resistivos.
   * Potencia Aparente.
   * Circuitos inductivos.
   * Potencia activa y reactiva.
   * Factor de potencia.
-  * Mediciones.	4hs
+  * Mediciones.
 
-* Sistemas trifásicos
+* Sistemas trifásicos :point_right: *4 horas*
   * Generación trifásica.
   * Sistema estrella-triángulo.
   * Secuencias de fases.
   * Potencia.
   * Método de los tres vatímetros.
-  * Método de los dos vatímetros.	4hs
-* Motores
+  * Método de los dos vatímetros.
+* Motores :point_right: *4 horas*
   * Funcionamiento
   * Clasificación
   * Circuitos
-  * Diagnóstico	4hs
+  * Diagnóstico
 
-* Transformadores
+* Transformadores :point_right: *2 horas*
   * Funcionamiento
   * Clasificación
   * Diagnóstico
-  * Mediciones	2hs
-* Distribución de corriente eléctrica
+  * Mediciones
+* Distribución de corriente eléctrica :point_right: *2 horas*
   * Generación de corriente alterna.
-  * Clasificación AT-MT-BT-MBT. 	2hs.
+  * Clasificación AT-MT-BT-MBT.
 
-* Sistemas T-T
+* Sistemas T-T :point_right: *2 horas*
   * Conceptualización.
   * Ejemplos.
-  * Mediciones.	2hs.
+  * Mediciones.
 
-* Diagnóstico de fallas
-  * Circuitos abiertos
-  * Cortocircuitos
-  * Contactos a masa
-  * Fallas en la tierra
-  * Fallas en la aislación
-  * Fallas mecánicas	6hs
+* Diagnóstico de fallas :point_right: *6 horas*
+  * Circuitos abiertos.
+  * Cortocircuitos.
+  * Contactos a masa.
+  * Fallas en la tierra.
+  * Fallas en la aislación.
+  * Fallas mecánicas.
 
 
 ## Introducción a las mediciones eléctricas
