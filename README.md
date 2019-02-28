@@ -1,2 +1,7 @@
-# mediciones-el-ctricas
-Material didáctico del curso de Mediciones eléctricas
+# Material didáctico del curso de Mediciones eléctricas
+
+## Temario
+
+## Introducción
+
+## Carga horaria
