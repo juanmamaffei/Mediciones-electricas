@@ -1,0 +1,25 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Sobre las mediciones}{3}
+\contentsline {section}{\numberline {1.1}Sistema Internacional de Unidades}{4}
+\contentsline {subsection}{\numberline {1.1.1}Unidades}{4}
+\contentsline {subsection}{\numberline {1.1.2}Prefijos}{4}
+\contentsline {subsection}{\numberline {1.1.3}Reglas}{4}
+\contentsline {section}{\numberline {1.2}Notación científica}{5}
+\contentsline {section}{\numberline {1.3}Instrumentos de medición}{5}
+\contentsline {chapter}{\numberline {2}Errores}{7}
+\contentsline {subsection}{\numberline {2.0.1}Error absoluto}{7}
+\contentsline {subsection}{\numberline {2.0.2}Tolerancia}{7}
+\contentsline {subsubsection}{Valor verdadero probable}{7}
+\contentsline {subsection}{\numberline {2.0.3}Error relativo}{8}
+\contentsline {subsubsection}{Error relativo porcentual}{8}
+\contentsline {section}{\numberline {2.1}Clasificación de los errores}{8}
+\contentsline {subsection}{\numberline {2.1.1}Errores groseros}{8}
+\contentsline {subsection}{\numberline {2.1.2}Errores sistemáticos}{9}
+\contentsline {section}{\numberline {2.2}Clase de un instrumento}{9}
+\contentsline {chapter}{\numberline {3}Magnitudes eléctricas}{11}
+\contentsline {section}{\numberline {3.1}El átomo}{11}
+\contentsline {subsection}{\numberline {3.1.1}Fuerza eléctrica}{12}
+\contentsline {section}{\numberline {3.2}Materiales conductores y aislantes}{13}
+\contentsline {section}{\numberline {3.3}Diferencia de potencial eléctrico o tensión}{13}
+\contentsline {section}{\numberline {3.4}Intensidad de corriente eléctrica}{14}
+\contentsline {section}{\numberline {3.5}Relación entre tensión y corriente: la resistencia}{15}
