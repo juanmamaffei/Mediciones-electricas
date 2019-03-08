@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  8 MAR 2019 05:02
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  8 MAR 2019 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -561,96 +561,46 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 Capítulo 1.
-! Undefined control sequence.
-l.22 \begin{tabular}{|c|c|}\renewcomand
-                                       {\arraystretch}{1.5}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.23 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.23 \hline
-           
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.23 \hline
-           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.23 \hline
-           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 65.
-
-) (./content/errores.tex
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
  [4]
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+
+[5]
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+ [6]) (./content/errores.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
- [5]
+ [7]
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
- [6
+ [8
 
 ]
 Capítulo 2.
-[7]
+[9]
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
- [8]
+ [10]
 File: images/volt_clase.jpg Graphic file (type QTm)
  <use  "images/volt_clase.jpg" >) (./content/magnitudes-electricas.tex
-Overfull \hbox (217.45131pt too wide) in paragraph at lines 97--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--1
-
- []
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[9]
+
+[11]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [10]
+ [12]
 Capítulo 3.
-[11
+[13
 
 ]
 Overfull \hbox (6.33289pt too wide) in paragraph at lines 27--28
@@ -660,10 +610,10 @@ Overfull \hbox (6.33289pt too wide) in paragraph at lines 27--28
 
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
-[12]
+[14]
 LaTeX Info: Redefining \. on input line 81.
 LaTeX Info: Redefining \% on input line 81.
- [13]
+ [15]
 Overfull \hbox (0.40685pt too wide) in paragraph at lines 121--121
 []\TU/lmr/m/n/10.95 Solución: \TU/lmr/m/it/10.95 De la ecuación 3.2[] se sabe q
 ue las unidades deberán ser Coulomb
@@ -671,26 +621,26 @@ ue las unidades deberán ser Coulomb
 
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
-[14])
+[16])
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
 
 Overfull \hbox (4.86615pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10.95 3.5.  RELACIÓN ENTRE TENSIÓN Y CORRIENTE: LA RESISTENCIA \TU
-/lmr/m/n/10.95 15
+/lmr/m/n/10.95 17
  []
 
-[15] (./main.aux
+[17] (./main.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 14621 strings out of 493068
- 261487 string characters out of 6137721
- 452960 words of memory out of 5000000
- 18262 multiletter control sequences out of 15000+600000
+ 14623 strings out of 493068
+ 261524 string characters out of 6137721
+ 449961 words of memory out of 5000000
+ 18264 multiletter control sequences out of 15000+600000
  8416 words of font info for 48 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 38i,10n,54p,545b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,54p,545b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (15 pages).
+Output written on main.pdf (17 pages).

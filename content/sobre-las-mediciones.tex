@@ -61,8 +61,8 @@ frecuencia & hertz (Hz) \\
 \hline
 \end{tabular} 
 
-\subsection{Prefijos}
-\begin{table}[]
+\subsection{Prefijos}\label{section:prefijos}
+
 \begin{tabular}{|c|c|c|}
 \hline 
 Factor de multiplicación & Nombre  & Sı́mbolo  \\
@@ -88,7 +88,7 @@ $10 ^{-18}$                   & atto    & a       \\
 $10 ^{-21}$                   & zepto   & z       \\
 $10 ^{-24}$                   & yocto   & y \\ \hline 
 \end{tabular}
-\end{table}
+
 \subsection{Reglas}
 \begin{enumerate}
 	\item Los sı́mbolos son siempre impresos en letra tipo romana, indistintamente del tipo de letra usado en el resto del texto.
@@ -100,7 +100,73 @@ $10 ^{-24}$                   & yocto   & y \\ \hline
 	\item Los sı́mbolos se usan en conjunto con números en lugar de escribir el nombre completo de la unidad; cuando no hay números, las unidades se escriben con su nombre propio.
 	
 \end{enumerate}
-\section{Notación científica}
+\section{Consideraciones para la lectura de mediciones}
+\subsection{Cifras significativas}
+Según el nivel de precisión que se requiera en una medición, será necesario utilizar una determinada cantidad de cifras significativas.
 
+Existen magnitudes continuas, que son aquellas que, entre dos valores poseen infinitas posibilidades, y magnitudes discretas, que entre dos valores cualesquiera poseen una cantidad numerable y finita de posibilidades.
+
+\begin{ejemplo}
+	\begin{itemize}
+		\item La cantidad de conductores dentro de una caja es una magnitud discreta (puede haber uno, dos, diez o incluso ningún cable, pero no 1,3 cables).
+		\item La longitud de un conductor es una magnitud continua (puede medir 0,5 m, o 0,554 m, o 0,5533223 m).
+	\end{itemize}
+\end{ejemplo}
+
+Las mediciones de magnitudes continuas siempre serán aproximadas, y las mediciones de magnitudes discretas, en muchos casos, pueden ser exactas.
+
+El número de cifras significativas determinan la precisión de una medición.
+
+Siempre que se opere con dos medidas, la precisión de ambas deberá ser consistente. Esto significa que si se suma una medición con precisión de decimales con otra con precisión de milésimos, el resultado será impreciso. En estos casos, el número con menor precisión determinará la precisión de la solución.
+\subsection{Redondeo}
+En muchos casos, será necesario redondear las mediciones. Para ello, se toma la lectura hasta el último dígito significativo que se esté considerando, sumando 1 al mismo si el próximo dígito es mayor o igual que 5, o dejándolo como está (truncar) si el próximo dígito es menor que 5.
+
+\begin{ejemplo}
+Si $V_1=3,25 V$, $V_2=2,4201 V$ y $V_3=3,245V$, 
+	\begin{itemize}
+		\item $V_1+V_2=3,25 V + 2,4201 V=5,6501 V=5,65 V$
+		\item $V_1+V_3=3,25 V + 3,245 V = 6,495 V $. Como el número con menor precisión tiene dos dígitos decimales, deberá redondearse, sumando una unidad a las centésimas (porque el dígito de las milésimas es 5) obteniendo $6,50 V$ o $6,5V$.
+	\end{itemize}
+\end{ejemplo}
+\subsection{Notación científica}
+En la sección \ref{section:prefijos}, se han usado, como factores de multiplicación, potencias de 10.
+
+A veces, cuando los valores con los que se trabaja son muy grandes o muy pequeños, suele ser cómodo utilizar potencias de 10. De ese modo, puede expresarse estos valores indicando sólo sus cifras significativas, multiplicadas por una potencia de 10.
+
+\begin{tabular}{|c|c|c|}
+\hline 
+Valor & Potencia & Operación \\ 
+\hline 
+$1$ & $10^0$ & $10/10$ \\ 
+\hline 
+$10$ & $10^1$ & $10$ \\ 
+\hline 
+$100$ & $10^2$ & $10 \times 10$ \\ 
+\hline 
+$1000$ & $10^3$ & $10 \times 10 \times 10$ \\ 
+\hline 
+... & ... & ... \\ 
+\hline 
+1 y $n$ ceros & $10^n$ & $10 \times 10 \times 10 ... n$ veces \\ 
+\hline 
+\end{tabular} 
+
+\begin{tabular}{|c|c|c|}
+\hline 
+Valor & Potencia & Operación \\ 
+\hline 
+$0,1$ & $10^{-1}$ & $1/10$ \\ 
+\hline 
+$0,01$ & $10^{-2}$ & $1/100$ \\ 
+\hline 
+$0,001$ & $10^{-3}$ & $1/1000$ \\ 
+\hline 
+$0,0001$ & $10^{-4}$ & $1/10000$ \\ 
+\hline 
+... & ... & ... \\ 
+\hline 
+$0,(n-1)$ ceros y $1$ & $10^{-n}$ & $1/1(n$ ceros $)$ \\ 
+\hline 
+\end{tabular}
 \section{Instrumentos de medición}
 
