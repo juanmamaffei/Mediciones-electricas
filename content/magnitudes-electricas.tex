@@ -26,7 +26,7 @@ Si bien la masa de un protón es mucho mayor a la de un electrón, ambos poseen 
 
 Aunque los átomos tengan carga neutra, a veces los electrones de un átomo son atraídos por el núcleo de otros átomos, provocando una "asociación" que da lugar a la formación de moléculas.
 
-\subsection{Fuerzas eléctricas}
+\subsection{Fuerza eléctrica}
 
 Según la cantidad de electrones que se encuentren atraídos al núcleo de un átomo, se organizarán en diferentes capas o niveles de energía. Mientras la distancia al núcleo sea mayor, la \textbf{fuerza eléctrica} será menor.
 
@@ -71,14 +71,76 @@ El electrón de la cuarta capa, se encuentra alejado del núcleo, y además, est
 
 Si hubiera, en las inmediaciones del átomo de cobre, una fuerza de atracción lo suficientemente fuerte, el electrón de la cuarta capa se liberaría del átomo padre, quedando el átomo con 29 protones y 28 electrones y carga positiva. Cuando esto ocurre, el átomo se convierte en un ion positivo.
 
+\section{Diferencia de potencial eléctrico o tensión}
+
 Algo similar ocurre en todas las baterías: una separación de cargas positivas y cargas negativas, a través de medios químicos.
 
 Una fuente de tensión no es más que un dispositivo con regiones de carga positiva y carga negativa. Mientras mayores sean estas cargas, mayor será la tensión o voltaje.
 
-Para efectuar este proceso de separación de cargas, es necesario gastar cierta energía. Así, el potencial eléctrico se define como el trabajo necesario para mover estas cargas.
+Para efectuar este proceso de separación de cargas, es necesario gastar cierta energía. Así, la \textbf{diferencia de potencial} se define como el trabajo necesario para mover estas cargas.
 
-$$ \text{Potencial eléctrico} = \frac{\text{energía potencial}}{\text{carga}} $$
+\begin{equation} \label{eq:1}
+  \text{Dif. de potencial eléctrico} = \frac{\text{energía potencial}}{\text{carga}}
+\end{equation}
+
 
 Si utilizamos las unidades del S.I., se dice que \textit{1 Volt de potencial equivale a 1 Joule de de energía por 1 Coulomb de carga}
 
 $$ 1 V = 1 \frac{J}{C} $$
+
+\begin{ejemplo}
+	Determinar la tensión entre dos puntos si se requieren 80 J de energía para mover 20 C de carga.
+	
+	\emph{Solución:} Aplicando la ecuación \ref{eq:1}, se tiene $$ \frac{80J}{20C}=4V $$.
+\end{ejemplo}
+
+\begin{ejemplo}
+	Determinar la energía consumida para mover una carga de 0,05 C entre dos puntos si la tensión entre los mismos es de 10 V.
+	
+	\emph{Solución:} De la ecuación \ref{eq:1}, se despeja $$ \text{Energía potencial} = \text{Potencial eléctrico} \times \text{carga} $$
+	
+	Luego $$ 0,05C \times 10V = 0,5 J $$
+\end{ejemplo}
+
+\section{Intensidad de corriente eléctrica}
+
+La corriente eléctrica o intensidad de corriente eléctrica, es el flujo de cargas eléctricas; es decir, el movimiento de electrones a lo largo del tiempo.
+
+\begin{equation}
+\label{eq:2}
+	I=\frac{Q}{t}
+\end{equation}
+
+La unidad que utilizamos para la corriente es el Ampere, y equivale a 1 Coulomb de carga fluyendo durante 1 segundo de tiempo:
+
+$$ 1A = \frac{1C}{1s} $$
+
+\begin{ejemplo}
+	Determinar la corriente eléctrica en Amperes si la carga que fluye es de 0,01 C durante 5 mS.
+	
+	\emph{Solución:} De la ecuación \ref{eq:2} se sabe que las unidades deberán ser Coulomb para las cargas y segundos para el tiempo. Por ello, debe realizarse la conversión $5mS=\frac{5}{1000} S =0,005 S$, y a continuación, aplicar la ecuación, obteniendo: $$ I= \frac{0,01 C}{0,005 S} = 2 A $$
+\end{ejemplo}
+
+\begin{ejemplo}
+	Calcular cuánto tiempo deberá pasar para que circule 1 C de carga si la corriente en un circuito es de 0,3 A.
+	
+	\emph{Solución:} De la ecuación \ref{eq:2} se despeja el tiempo, obteniendo: 
+	\begin{equation}
+		\label{eq:3}
+		t=\frac{Q}{I}
+	\end{equation}
+	Y luego, es inmediato que $$ t=\frac{1C}{0,3A}=(1/3)S \approx 0,333 S $$
+\end{ejemplo}
+
+\section{Relación entre tensión y corriente: la resistencia}
+
+Es común confundir tensión con corriente, pero son dos términos completamente diferentes.
+
+Aplicar una tensión a un material conductor hará que fluya corriente eléctrica por el mismo.
+
+La tensión es la causa, mientras que la corriente es la consecuencia.
+
+Sin tensión no puede haber corriente eléctrica, pero sí puede existir tensión entre dos puntos sin una corriente que circule entre los mismos (esto ocurre, por ejemplo, entre los bornes de una pila que no está conectada en un circuito, ya que existe tensión pero no hay corriente circulando entre los mismos).
+
+Si la tensión es la causa de la corriente, evidentemente una modificación de los valores de tensión alterará la corriente obtenida.
+
