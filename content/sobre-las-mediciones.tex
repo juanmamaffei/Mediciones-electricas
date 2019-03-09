@@ -128,10 +128,12 @@ Si $V_1=3,25 V$, $V_2=2,4201 V$ y $V_3=3,245V$,
 		\item $V_1+V_3=3,25 V + 3,245 V = 6,495 V $. Como el número con menor precisión tiene dos dígitos decimales, deberá redondearse, sumando una unidad a las centésimas (porque el dígito de las milésimas es 5) obteniendo $6,50 V$ o $6,5V$.
 	\end{itemize}
 \end{ejemplo}
-\subsection{Notación científica}
+\subsection{Notación científica y de ingeniería}
 En la sección \ref{section:prefijos}, se han usado, como factores de multiplicación, potencias de 10.
 
 A veces, cuando los valores con los que se trabaja son muy grandes o muy pequeños, suele ser cómodo utilizar potencias de 10. De ese modo, puede expresarse estos valores indicando sólo sus cifras significativas, multiplicadas por una potencia de 10.
+
+Si la potencia es positiva, el factor de multiplicación será un 1 y tantos ceros como indique el exponente:
 
 \begin{tabular}{|c|c|c|}
 \hline 
@@ -151,6 +153,12 @@ $1000$ & $10^3$ & $10 \times 10 \times 10$ \\
 \hline 
 \end{tabular} 
 
+Si la potencia es negativa, debe recordarse la siguiente propiedad de las potencias:
+
+$$ \frac{1}{10^{n}=10^{-n}} $$
+
+Esto da lugar al siguiente razonamiento:
+
 \begin{tabular}{|c|c|c|}
 \hline 
 Valor & Potencia & Operación \\ 
@@ -168,5 +176,29 @@ $0,0001$ & $10^{-4}$ & $1/10000$ \\
 $0,(n-1)$ ceros y $1$ & $10^{-n}$ & $1/1(n$ ceros $)$ \\ 
 \hline 
 \end{tabular}
-\section{Instrumentos de medición}
+
+\begin{ejemplo}
+	\begin{itemize}
+		\item $ 3 \times 10^{-3}=3\times \frac{1}{1000}=3\times 0,001 = 0,003 $
+		\item $ 12 \times 10^{4}= 12 \times 1000 = 12000 $
+		\item $ 3,25 \times 10^{6} = 3,25 \times 1000000 = 3250000 $
+		\item $ 3,25 \times 10^{-4}= 3,25 \times 0,0001 = 0,000325 $
+	\end{itemize}
+\end{ejemplo}
+
+En los ejemplos anteriores, se procedió a multiplicar un número por una potencia de 10, para obtener valores más pequeños o más grandes, y a simple vista resulta más legible.
+
+Es una convención en notación científica, que la mantisa o coeficiente por el cual se multiplique la potencia de 10, debe estar entre 1 y 10.
+
+La notación de ingeniería es similar, excepto que los exponentes de la potencia de 10 deben ser múltiplos de 3 y la mantisa debe estar entre 1 y 1000. Esto permite utilizar prefijos de magnitud como los que se enunciaron en la sección \ref{section:prefijos}.
+
+\begin{ejemplo}
+	\begin{itemize}
+	Convertir las siguientes medidas para eliminar los prefijos, según la tabla de la sección \ref{section:prefijos}.
+		\item $ 3 \mu F = 3\times 10^{-6} F=0,000003 F$
+		\item $ 1,2 mA = 1,2 \times 10^{-3} A= 0,0012 A$
+		\item $ 120 pF = 120 \times 10^{-12} F=0,000000000120 F$
+		\item $ 22 M\Omega = 22 \times 10^{6} \Omega = 22000000 \Omega $
+	\end{itemize}
+\end{ejemplo}
 

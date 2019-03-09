@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.2.1}Cifras significativas}{6}
 \contentsline {subsection}{\numberline {1.2.2}Redondeo}{6}
 \contentsline {subsection}{\numberline {1.2.3}Notación científica}{7}
-\contentsline {section}{\numberline {1.3}Instrumentos de medición}{7}
+\contentsline {section}{\numberline {1.3}Instrumentos de medición}{8}
 \contentsline {chapter}{\numberline {2}Errores}{9}
 \contentsline {subsection}{\numberline {2.0.1}Error absoluto}{9}
 \contentsline {subsection}{\numberline {2.0.2}Tolerancia}{9}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  8 MAR 2019 15:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  8 MAR 2019 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,17 +576,17 @@ LaTeX Info: Redefining \% on input line 107.
 [5]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [6]) (./content/errores.tex
+ [6]
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
+ [7]) (./content/errores.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
- [7]
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
- [8
+ [8]
+Capítulo 2.
+[9
 
 ]
-Capítulo 2.
-[9]
 LaTeX Info: Redefining \. on input line 64.
 LaTeX Info: Redefining \% on input line 64.
  [10]
