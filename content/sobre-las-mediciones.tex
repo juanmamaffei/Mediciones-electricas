@@ -1,21 +1,33 @@
 \chapter{Sobre las mediciones}
+\section{Magnitudes}
 Medir es \textbf{comparar el valor de una magnitud con otro}, al que se consideró \textbf{la unidad} de dicha magnitud, a través de un experimento físico.
 
 Una \textbf{magnitud} es toda aquella propiedad de un cuerpo que pueda ser medida.
 
+La \textbf{cantidad} es el valor numérico que toma la medida dentro de un sistema de mediciones.
+
+La \textbf{unidad} es la cantidad física que se toma como referencia para hacer las mediciones
+
 \begin{ejemplo}
-	Dada la expresión: Altura = 80 metros,
+	Dada la expresión: Altura del edificio = 80 metros,
 	\begin{itemize}
 		\item Altura es la magnitud.
-		\item 80 es el valor.
+		\item 80 es la cantidad.
 		\item metro es la unidad.
 	\end{itemize}
+	
+	Quiere decir que la altura del edificio (magnitud: longitud) es 80 veces (cantidad) la longitud de referencia denominada metro (unidad).
 \end{ejemplo}
 
 Las unidades se fijan según acuerdos internacionales por el Comité Internacional de Pesos y Medidas. Recientemente, en noviembre de 2018, se votó la redefinición de algunas de las unidades fundamentales, incluida el Ampere (para medir corriente eléctrica).
 
 Durante este curso, usaremos el \textbf{Sistema Internacional de Unidades}, pero es posible que en otros contextos se utilicen otros, como el sistema inglés o el CGS.
-
+\subsection{Precisión y exactitud}
+	Es común utilizar los términos \textbf{precisión} y \textbf{exactitud} como sinónimos, pero en el ámbito de la metrología, existe una diferencia:
+	\begin{itemize}
+		\item Precisión se refiere al grado de dispersión del conjunto de valores obtenidos en la medición repetida de una magnitud.
+		\item Exactitud se refiere al grado de concordancia entre lo medido y su valor verdadero.
+	\end{itemize}
 \section{Sistema Internacional de Unidades}
 \subsection{Unidades}
 
@@ -104,7 +116,7 @@ $10 ^{-24}$                   & yocto   & y \\ \hline
 \subsection{Cifras significativas}
 Según el nivel de precisión que se requiera en una medición, será necesario utilizar una determinada cantidad de cifras significativas.
 
-Existen magnitudes continuas, que son aquellas que, entre dos valores poseen infinitas posibilidades, y magnitudes discretas, que entre dos valores cualesquiera poseen una cantidad numerable y finita de posibilidades.
+Existen magnitudes continuas, que son aquellas que entre dos valores poseen infinitas posibilidades, y magnitudes discretas, que entre dos valores cualesquiera poseen una cantidad numerable y finita de posibilidades.
 
 \begin{ejemplo}
 	\begin{itemize}
@@ -202,3 +214,50 @@ La notación de ingeniería es similar, excepto que los exponentes de la potenci
 	\end{itemize}
 \end{ejemplo}
 
+\section{Mediciones directas e indirectas}
+
+Una medición directa es la que se realiza con un instrumento sobre un determinado elemento, mientras que una medición indirecta involucrará, además, algún paso adicional mediante el cálculo.
+\begin{ejemplo}
+	
+	\begin{itemize}
+		\item Medir la tensión de un tomacorriente con un voltímetro es una medición directa.
+		\item Con un voltímetro se mide la tensión en una rama de un circuito de CC. Luego se mide la corriente con un amperímetro en serie. Finalmente, se multiplican ambos resultados y con ello se obtiene la medición indirecta de la potencia.
+	\end{itemize}		
+\section{Generalidades de instrumentos de medición eléctrica}
+
+\subsection{Instrumentos analógicos}
+
+Los instrumentos de medición analógicos utilizan una aguja para visualizar las lecturas mediante una aguja, que se mueve de manera continua, al igual que la magnitud que se intenta medir.
+
+En muchos casos, no requieren de alimentación externa, se visualiza de forma más sencilla la variación (crecimiento o decrecimiento) y no son muy sofisticados. 
+
+Por otra parte, son más tendenciosos a errores de lectura groseros (por las confusiones en cuanto a las escalas), y tienen poca resolución.
+
+Los instrumentos de medición analógica poseen un \textbf{alcance}, que es el valor máximo que puede medir dicho instrumento y una cantidad de divisiones denominadas \textbf{deflexiones}, que serán las que indiquen el valor medido según la posición de la aguja.
+
+A partir de estas medidas, puede calcularse la \textbf{constante de lectura K}, que es la relación entre el alcance y la máxima cantidad de deflexiones. Esta medida indica la mínima unidad de variación legible.
+$$ K = \frac{Alcance}{\alpha MAX} $$
+
+El \textbf{rango de medida} es el tramo de la escala en el cual las lecturas son confiables mientras que el \textbf{rango de indicación} corresponde a toda la escala del instrumento.
+
+\subsection{Instrumentos digitales}
+	
+Los instrumentos digitales muestran un número de varias cifras en vez de una escala continua. Lo hacen mediante un display digital de varios dígitos, y a veces con alertas sonoras o lumínicas.
+
+Si bien su construcción es más compleja que la de los instrumentos analógicos y requieren una alimentación externa en todos los casos, tienen una alta resolución, evitan los errores de lectura, modifican muy poco el circuito en el que se conectan (impedancia de entrada muy alta) y son muy rápidos.
+
+En algunos casos, se incluye la selección automática de escalas y permiten introducir sus datos directamente en otro sistema (computadoras) para poder procesarlos.
+
+Los instrumentos digitales poseen una determinada \textbf{cantidad de dígitos}, que pueden ir de 0 a 9 y un \textbf{dígito de sobrerrango}, que sólo puede mostrar 0 ó 1.
+
+La \textbf{sensibilidad}, en un instrumento digital, corresponde a el dígito menos significativo del rango.
+
+La \textbf{resolución}, por otra parte, no tiene unidad. Para calcularla, se debe pensar en la máxima lectura posible y dividir el valor mínimo que puede medir el último dígito sobre esta lectura máxima.
+
+$$ \textit{Resolución} = \frac{1}{10^{d}} \textit{siendo $d$ la cantidad de dígitos}$$
+
+La resolución también se suele expresar como porcentaje.
+
+Con estos datos, se puede hallar la sensibilidad en función de la resolución del instrumento:
+$$ Sensibilidad = \frac{\textit{Resolución x Valor a plena escala}}{100} $$
+\end{ejemplo}

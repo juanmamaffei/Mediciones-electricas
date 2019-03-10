@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  8 MAR 2019 00:26
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  10 MAR 2019 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2407,7 +2407,8 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ` in font nullfont!
+Missing character: There is no ` in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -4140,7 +4141,8 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ` in font nullfont!
+Missing character: There is no ` in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -4824,8 +4826,13 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
  []
 
 
-Overfull \hbox (27.81946pt too wide) in paragraph at lines 70--71
-\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 4[] =
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 70--71
+\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^B
+ []
+
+
+Overfull \hbox (20.04166pt too wide) in paragraph at lines 70--71
+\OT1/cmr/m/n/10 4[] =
  []
 
 
@@ -6948,11 +6955,6 @@ Overfull \hbox (10.86pt too wide) in paragraph at lines 127--128
  []
 
 
-Overfull \hbox (27.24988pt too wide) detected at line 131
-[]\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 = []
- []
-
-
 ! LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
@@ -6960,8 +6962,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 ^^I\end{equation}
-                       
+l.128 ^^I\begin{equation}
+                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -6970,8 +6972,8 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{eq:1}{{1}{\thepage 
                                      }}
-l.131 ^^I\end{equation}
-                       
+l.128 ^^I\begin{equation}
+                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6982,8 +6984,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{eq:2}{{2}{\thepage 
                                      }}
-l.131 ^^I\end{equation}
-                       
+l.128 ^^I\begin{equation}
+                         
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6992,6 +6994,10 @@ and I'll forget about whatever was undefined.
 
 \newlabel{eq:2}{{2}{}}
 ]
+Overfull \hbox (27.24988pt too wide) detected at line 131
+[]\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 = []
+ []
+
 Missing character: There is no Y in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -7713,5 +7719,5 @@ Here is how much of TeX's memory you used:
  4037 multiletter control sequences out of 15000+600000
  3664 words of font info for 17 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 17i,5n,14p,516b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 17i,5n,14p,516b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on magnitudes-electricas.pdf (1 page).
