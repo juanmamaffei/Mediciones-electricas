@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  10 MAR 2019 20:31
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.3.7)  12 MAR 2019 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,8 +614,8 @@ Capítulo 3.
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
  [16]
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
  [17]
 Overfull \hbox (0.40685pt too wide) in paragraph at lines 121--121
 []\TU/lmr/m/n/10.95 Solución: \TU/lmr/m/it/10.95 De la ecuación 3.2[] se sabe q
@@ -624,40 +624,53 @@ ue las unidades deberán ser Coulomb
 
 LaTeX Info: Redefining \. on input line 121.
 LaTeX Info: Redefining \% on input line 121.
-[18]) (./content/instrumentos.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+[18]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
 
 Overfull \hbox (4.86615pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10.95 3.5.  RELACIÓN ENTRE TENSIÓN Y CORRIENTE: LA RESISTENCIA \TU
+\TU/lmr/m/sl/10.95 3.4.  RELACIÓN ENTRE TENSIÓN Y CORRIENTE: LA RESISTENCIA \TU
 /lmr/m/n/10.95 19
  []
 
 [19]
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [20]) (./content/instrumentos.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [20
+ [21]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [22
 
 ]
 Capítulo 4.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 
-[22] (./main.aux
+[24] (./main.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
-Here is how much of TeX's memory you used:
- 14634 strings out of 493068
- 261730 string characters out of 6137721
- 450961 words of memory out of 5000000
- 18268 multiletter control sequences out of 15000+600000
- 9069 words of font info for 52 fonts, out of 8000000 for 9000
- 1347 hyphenation exceptions out of 8191
- 38i,8n,54p,545b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
+)
 
-Output written on main.pdf (22 pages).
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14652 strings out of 493068
+ 262006 string characters out of 6137721
+ 474639 words of memory out of 5000000
+ 18282 multiletter control sequences out of 15000+600000
+ 9085 words of font info for 54 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 38i,8n,54p,545b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (24 pages).

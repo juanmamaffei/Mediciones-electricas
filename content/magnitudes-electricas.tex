@@ -47,7 +47,7 @@ $$ F = k \times \frac{q_1 \times q_2}{d^{2}} $$
 
 Con respecto a la unidad de carga, \textit{1 Coulomb} equivale a aproximadamente $6,241509\times 10^{18}$ electrones, o $6,24$ millones de billones de electrones... que si bien es una cantidad enorme, sólo representa a la carga que pasa por un cargador de teléfono celular durante unos pocos segundos.
 
-\section{Materiales conductores y aislantes}
+\subsection{Materiales conductores y aislantes}
 
 Aplicando esta Ley, puede deducirse que los electrones de un átomo pueden estar fuerte o débilmente atraídos por el núcleo según la distancia que mantengan con respecto al núcleo.
 
@@ -80,7 +80,7 @@ Una fuente de tensión no es más que un dispositivo con regiones de carga posit
 Para efectuar este proceso de separación de cargas, es necesario gastar cierta energía. Así, la \textbf{diferencia de potencial} se define como el trabajo necesario para mover estas cargas.
 
 \begin{equation} \label{eq:1}
-  \text{Dif. de potencial eléctrico} = \frac{\text{energía potencial}}{\text{carga}}
+  \text{Dif. de potencial eléctrico} \textbf{V} = \frac{\text{energía potencial}\textbf{W}}{\text{carga}\textbf{Q}}
 \end{equation}
 
 
@@ -144,3 +144,120 @@ Sin tensión no puede haber corriente eléctrica, pero sí puede existir tensió
 
 Si la tensión es la causa de la corriente, evidentemente una modificación de los valores de tensión alterará la corriente obtenida.
 
+La \textbf{resistencia} es la medida de la oposición que presenta un determinado material al paso de la corriente eléctrica. Para medirla, se utiliza como unidad el \textbf{Ohmio}, que se simboliza con la letra griega $\Omega$ .
+\subsection{Ley de Ohm}
+Si se piensa en una definición del tipo $Efecto=\frac{Causa}{\textit{Oposición}}$, se puede definir la \textbf{Ley de Ohm} como sigue:
+
+\begin{equation}
+	\label{eq:ohm_i}
+	I=\frac{V}{R}
+\end{equation}
+donde $V$ es la tensión en Voltios, $I$ es la intensidad de corriente en Amperes y $R$ es la resistencia en ohmios.
+\begin{figure}[h]
+	\label{gr:ohm}
+	\caption{Circuito básico}
+	\begin{pspicture}(0,0)(6,5)
+
+		\pnodes(1,1){A}(1,4){B}(5,1){C}(5,4){D}
+		\vdc(B)(A){$V$}
+		\resistor[dipolestyle=zigzag, tensionlabel=$I$](C)(D){$R$}
+
+		\wire(A)(C)
+		\wire(B)(D)
+	\end{pspicture}
+
+\end{figure}
+
+De la ecuación \ref{eq:ohm_i} se pueden despejar:
+\begin{equation}
+	\label{eq:ohm_v}
+	V=I \times R
+\end{equation}
+\begin{equation}
+	\label{eq:ohm_r}
+	R=\frac{V}{I}
+\end{equation}
+\section{Potencia (para corriente continua)}
+La \textbf{potencia} es la cantidad de trabajo que puede realizarse en una cantidad de tiempo. En otras palabras, es \textit{la velocidad a la que se realiza un trabajo}.
+
+\begin{ejemplo}
+	Un motor GRANDE posee más potencia que un motor PEQUEÑO porque puede realizar más trabajo en la misma cantidad de tiempo.
+\end{ejemplo}
+
+En términos analíticos, la potencia (en Watts o vatios) es la relación entre trabajo (en Joules) y tiempo (en segundos).
+
+\begin{equation}
+	\label{eq:pot}
+	P = \frac{W}{t}
+\end{equation}
+
+Despejando $W$ en la ecuación \ref{eq:1}, se obtiene $ W=QV $. Esto puede aplicarse en la ecuación \ref{eq:pot}, obteniendo:
+
+$$ P =\frac{QV}{t}=V\frac{Q}{t} $$
+
+Finalmente, reemplazando la ecuación de corriente \ref{eq:2} en ésta última, se obtiene:
+\begin{equation}
+	\label{eq:pot_cc1}
+	P = V \times I
+\end{equation}
+
+También puede reemplazarse esta última ecuación en la Ley de Ohm, obteniendo:
+
+\begin{equation}
+	\label{eq:pot_cc2}
+	P = \frac{V^{2}}{R}
+\end{equation}
+
+\begin{equation}
+	\label{eq:pot_cc3}
+	P = I^{2}R
+\end{equation}
+
+\subsection{Energía}
+
+Para que la potencia convierta energía de cualquier forma, se debe utilizar durante un tiempo. Cuanto más tiempo se consuma la potencia, mayor será la energía consumida.
+
+\begin{equation}
+	\label{eq:w}
+	W=P\times t \text{ energía en Watts/hora}
+\end{equation}
+
+\begin{equation}
+	\label{eq:w_kwh}
+	W=P\times t \times 1/1000 \text{ energía en kiloWatts/hora}
+\end{equation}
+La energía $W$ se medirá en $Wh$ (watts/hora) o $kWh$ (kilowatts/hora) según convenga.
+
+Nótese que la unidad para el tiempo establecida por el SI es el segundo, pero en este caso resulta muy pequeño (y por lo tanto los valores medidos usando esta unidad serían muy grandes), y debe tenerse especial cuidado al operar con estas magnitudes, ya que puede ser necesario realizar conversiones.
+
+\subsection{Eficiencia}
+
+La eficiencia $\eta$ (eta) se define como la relación entre la \textbf{potencia de entrada} y la \textbf{potencia de salida} del sistema.
+\begin{equation}
+	\label{eq:efi}
+	\eta = \frac{P_{salida}}{P_{entrada}}
+\end{equation}
+
+Este es un valor decimal que varía entre 0 y 1. Habitualmente, se lo suele expresar en porcentaje (por lo que se debería multiplicar la expresión anterior por 100)
+
+\begin{equation}
+	\label{eq:efiporc}
+	\eta \% = \frac{P_{salida}}{P_{entrada}} \times 100
+\end{equation}
+
+Si la eficiencia de un sistema fuera del 100$\%$, esto significaría que su potencia de entrada es igual a la potencia de entrada. En la práctica, sabemos que esto no es posible, porque todo sistema tendrá pérdidas por transformación de energía, y esto implica una diferencia entre las potencias: $$ P_{entrada} = P_{salida} + P_{perdida} $$ 
+
+\section{Campos eléctricos}
+densidad de flujo eléctrico
+\subsection{Capacitores}
+\subsubsection{Construcción y principio de funcionamiento}
+\subsubsection{Capacitancia}
+\subsubsection{Tipos de capacitores}
+\section{Campos magnéticos}
+imán permanente, líneas de flujo magnético
+densidad de flujo magnético
+\subsection{Inductores}
+\subsubsection{Construcción}
+\subsubsection{Inductancia}
+\subsubsection{Tensión inducida}
+\subsubsection{Tipos de inductores}
