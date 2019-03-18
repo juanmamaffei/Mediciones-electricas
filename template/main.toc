@@ -1,0 +1,11 @@
+\select@language {brazilian}
+\contentsline {chapter}{\numberline {1}Errores}{5}{chapter.1}
+\contentsline {subsection}{\numberline {1.0.1}Error absoluto}{5}{subsection.1.0.1}
+\contentsline {subsection}{\numberline {1.0.2}Tolerancia}{5}{subsection.1.0.2}
+\contentsline {subsubsection}{Valor verdadero probable}{5}{section*.1}
+\contentsline {subsection}{\numberline {1.0.3}Error relativo}{6}{subsection.1.0.3}
+\contentsline {subsubsection}{Error relativo porcentual}{6}{section*.2}
+\contentsline {section}{\numberline {1.1}Clasificación de los errores}{6}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Errores groseros}{6}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Errores sistemáticos}{6}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Clase de un instrumento}{7}{section.1.2}

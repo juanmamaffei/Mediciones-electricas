@@ -1,55 +1,47 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Sobre las mediciones}{3}
-\contentsline {section}{\numberline {1.1}Magnitudes}{3}
-\contentsline {subsection}{\numberline {1.1.1}Precisión y exactitud}{4}
-\contentsline {section}{\numberline {1.2}Sistema Internacional de Unidades}{4}
-\contentsline {subsection}{\numberline {1.2.1}Unidades}{4}
-\contentsline {subsection}{\numberline {1.2.2}Prefijos}{5}
-\contentsline {subsection}{\numberline {1.2.3}Reglas}{5}
-\contentsline {section}{\numberline {1.3}Consideraciones para la lectura de mediciones}{6}
-\contentsline {subsection}{\numberline {1.3.1}Cifras significativas}{6}
-\contentsline {subsection}{\numberline {1.3.2}Redondeo}{6}
-\contentsline {subsection}{\numberline {1.3.3}Notación científica y de ingeniería}{7}
-\contentsline {section}{\numberline {1.4}Mediciones directas e indirectas}{8}
-\contentsline {section}{\numberline {1.5}Generalidades de instrumentos de medición eléctrica}{8}
-\contentsline {subsection}{\numberline {1.5.1}Instrumentos analógicos}{8}
-\contentsline {subsection}{\numberline {1.5.2}Instrumentos digitales}{9}
-\contentsline {chapter}{\numberline {2}Errores}{11}
-\contentsline {subsection}{\numberline {2.0.1}Error absoluto}{11}
-\contentsline {subsection}{\numberline {2.0.2}Tolerancia}{11}
-\contentsline {subsubsection}{Valor verdadero probable}{11}
-\contentsline {subsection}{\numberline {2.0.3}Error relativo}{12}
-\contentsline {subsubsection}{Error relativo porcentual}{12}
-\contentsline {section}{\numberline {2.1}Clasificación de los errores}{12}
-\contentsline {subsection}{\numberline {2.1.1}Errores groseros}{12}
-\contentsline {subsection}{\numberline {2.1.2}Errores sistemáticos}{13}
-\contentsline {section}{\numberline {2.2}Clase de un instrumento}{13}
-\contentsline {chapter}{\numberline {3}Magnitudes eléctricas}{15}
-\contentsline {section}{\numberline {3.1}El átomo}{15}
-\contentsline {subsection}{\numberline {3.1.1}Fuerza eléctrica}{16}
-\contentsline {subsection}{\numberline {3.1.2}Materiales conductores y aislantes}{17}
-\contentsline {section}{\numberline {3.2}Diferencia de potencial eléctrico o tensión}{17}
-\contentsline {section}{\numberline {3.3}Intensidad de corriente eléctrica}{18}
-\contentsline {section}{\numberline {3.4}Relación entre tensión y corriente: la resistencia}{19}
-\contentsline {subsection}{\numberline {3.4.1}Ley de Ohm}{19}
-\contentsline {section}{\numberline {3.5}Potencia (para corriente continua)}{20}
-\contentsline {subsection}{\numberline {3.5.1}Energía}{21}
-\contentsline {subsection}{\numberline {3.5.2}Eficiencia}{21}
-\contentsline {chapter}{\numberline {4}Instrumentos de medición}{23}
-\contentsline {section}{\numberline {4.1}Multímetro}{24}
-\contentsline {subsection}{\numberline {4.1.1}Voltímetro}{24}
-\contentsline {subsection}{\numberline {4.1.2}Amperímetro}{24}
-\contentsline {subsection}{\numberline {4.1.3}Óhmetro}{24}
-\contentsline {section}{\numberline {4.2}Vatímetro}{24}
-\contentsline {section}{\numberline {4.3}Capacímetro}{24}
-\contentsline {section}{\numberline {4.4}Frecuencímetro}{24}
-\contentsline {section}{\numberline {4.5}Pinza amperométrica}{24}
-\contentsline {section}{\numberline {4.6}Megóhmetro}{24}
-\contentsline {section}{\numberline {4.7}Telurímetro}{24}
-\contentsline {section}{\numberline {4.8}Osciloscopio}{24}
-\contentsline {section}{\numberline {4.9}Comprobadores de tensión}{24}
-\contentsline {subsection}{\numberline {4.9.1}Buscapolo}{24}
-\contentsline {subsection}{\numberline {4.9.2}Medidor inductivo}{24}
-\contentsline {section}{\numberline {4.10}Cofímetro}{24}
-\contentsline {section}{\numberline {4.11}Medidor de energía}{24}
-\contentsline {section}{\numberline {4.12}Medidor de campo electromagnético}{24}
+\contentsline {chapter}{\numberline {1}Sobre las mediciones}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Magnitudes}{5}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Precisión y exactitud}{6}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Sistema Internacional de Unidades}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Unidades}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Prefijos}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Reglas}{7}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Consideraciones para la lectura de mediciones}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Cifras significativas}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Redondeo}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Notación científica y de ingeniería}{9}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Mediciones directas e indirectas}{10}{section.1.4}
+\contentsline {section}{\numberline {1.5}Generalidades de instrumentos de medición eléctrica}{11}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Instrumentos analógicos}{11}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Instrumentos digitales}{11}{subsection.1.5.2}
+\contentsline {chapter}{\numberline {2}Errores}{13}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}Error absoluto}{13}{subsection.2.0.1}
+\contentsline {subsection}{\numberline {2.0.2}Tolerancia}{13}{subsection.2.0.2}
+\contentsline {subsubsection}{Valor verdadero probable}{14}{section*.1}
+\contentsline {subsection}{\numberline {2.0.3}Error relativo}{14}{subsection.2.0.3}
+\contentsline {subsubsection}{Error relativo porcentual}{14}{section*.2}
+\contentsline {section}{\numberline {2.1}Clasificación de los errores}{15}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Errores groseros}{15}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Errores sistemáticos}{15}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Clase de un instrumento}{16}{section.2.2}
+\contentsline {chapter}{\numberline {3}Magnitudes eléctricas}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}El átomo}{19}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Fuerza eléctrica}{20}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Materiales conductores y aislantes}{21}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Diferencia de potencial eléctrico o tensión}{21}{section.3.2}
+\contentsline {section}{\numberline {3.3}Intensidad de corriente eléctrica}{22}{section.3.3}
+\contentsline {section}{\numberline {3.4}Relación entre tensión y corriente: la resistencia}{23}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Ley de Ohm}{24}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Potencia (para corriente continua)}{24}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Energía}{25}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Eficiencia}{25}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Campos eléctricos}{26}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Capacitores}{26}{subsection.3.6.1}
+\contentsline {subsubsection}{Construcción y principio de funcionamiento}{26}{section*.5}
+\contentsline {subsubsection}{Capacitancia}{27}{section*.8}
+\contentsline {section}{\numberline {3.7}Campos magnéticos}{29}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Inductores}{29}{subsection.3.7.1}
+\contentsline {subsubsection}{Construcción}{29}{section*.9}
+\contentsline {subsubsection}{Inductancia}{29}{section*.10}
+\contentsline {subsubsection}{Tensión inducida}{29}{section*.11}
+\contentsline {subsubsection}{Tipos de inductores}{29}{section*.12}

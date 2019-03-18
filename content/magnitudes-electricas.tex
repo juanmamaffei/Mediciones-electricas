@@ -14,17 +14,19 @@ Imaginemos por un segundo que en el Universo, todas las partículas se atrayeran
 
 Si, por el contrario, todas las partículas se repelieran, el Universo sería un gas en permanente expansión.
 
-Es deducible entonces, que estos tres tipos de partículas (protones, neutrones y electrones), se encuentran atraídas o repelidas entre sí de manera equilibrada para que el Universo pueda subsistir tal y como lo conocemos.
+Es lógico pensar entonces, que estos tres tipos de partículas (protones, neutrones y electrones), se encuentren atraídas o repelidas entre sí de manera equilibrada para que el Universo pueda subsistir tal y como lo conocemos.
 
 Se dice que los protones tienen carga eléctrica positiva, que repele cargas positivas pero que atrae cargas negativas. Entonces, estos protones positivos en el núcleo, atraen a una nube de electrones negativos a su alrededor para constituir el átomo.
 
 Los electrones, con carga negativa, son atraídos por el núcleo positivo de protones, pero se rechazan entre sí. Son muy ligeros y se mueven muy rápido. 
 
-Debido a este rechazo entre los electrones, no atravesamos una pared al tocarla.
+Debido a este rechazo entre los electrones, no atravesamos una pared al tocarla, ya que los electrones de nuestra mano rechazan a los electrones de la pared.
 
-Si bien la masa de un protón es mucho mayor a la de un electrón, ambos poseen la misma carga eléctrica (es decir que un electrón es tan negativo como positivo es un protón). Por este motivo, las fuerzas eléctricas de atracción y repulsión, harán que las cargas de un átomo se encuentren balanceadas. En otras palabras: un átomo tendrá la misma cantidad de protones que de electrones, y entonces es eléctricamente neutro.
+Si bien la masa de un protón es mucho mayor a la de un electrón, ambos poseen la misma cantidad de carga eléctrica (es decir que un electrón es tan negativo como positivo es un protón). 
 
-Aunque los átomos tengan carga neutra, a veces los electrones de un átomo son atraídos por el núcleo de otros átomos, provocando una ``asociación" que da lugar a la formación de moléculas.
+Las fuerzas eléctricas de atracción y repulsión, harán que las cargas de un átomo se encuentren balanceadas. En otras palabras: un átomo tendrá la misma cantidad de protones que de electrones, y entonces es eléctricamente neutro.
+
+Aunque los átomos tengan carga neutra, es posible que los electrones de sus capas externas, sean atraídos por el núcleo de otros átomos, provocando una ``asociación" que da lugar a la formación de moléculas.
 
 \subsection{Fuerza eléctrica}
 
@@ -80,7 +82,7 @@ Una fuente de tensión no es más que un dispositivo con regiones de carga posit
 Para efectuar este proceso de separación de cargas, es necesario gastar cierta energía. Así, la \textbf{diferencia de potencial} se define como el trabajo necesario para mover estas cargas.
 
 \begin{equation} \label{eq:1}
-  \text{Dif. de potencial eléctrico} \textbf{V} = \frac{\text{energía potencial}\textbf{W}}{\text{carga}\textbf{Q}}
+  \text{Dif. de potencial eléctrico } \textbf{ V} = \frac{\text{energía potencial }\textbf{ W}}{\text{carga }\textbf{ Q}}
 \end{equation}
 
 
@@ -146,25 +148,27 @@ Si la tensión es la causa de la corriente, evidentemente una modificación de l
 
 La \textbf{resistencia} es la medida de la oposición que presenta un determinado material al paso de la corriente eléctrica. Para medirla, se utiliza como unidad el \textbf{Ohmio}, que se simboliza con la letra griega $\Omega$ .
 \subsection{Ley de Ohm}
-Si se piensa en una definición del tipo $Efecto=\frac{Causa}{\textit{Oposición}}$, se puede definir la \textbf{Ley de Ohm} como sigue:
+Si se piensa en una definición del tipo $ \textit{Efecto} = \frac{\textit{Causa}}{\textit{Oposición}}$, se puede definir la \textbf{Ley de Ohm} como sigue:
 
 \begin{equation}
 	\label{eq:ohm_i}
 	I=\frac{V}{R}
 \end{equation}
 donde $V$ es la tensión en Voltios, $I$ es la intensidad de corriente en Amperes y $R$ es la resistencia en ohmios.
+
 \begin{figure}[h]
 	\label{gr:ohm}
 	\caption{Circuito básico}
-	\begin{pspicture}(0,0)(6,5)
-
-		\pnodes(1,1){A}(1,4){B}(5,1){C}(5,4){D}
-		\vdc(B)(A){$V$}
-		\resistor[dipolestyle=zigzag, tensionlabel=$I$](C)(D){$R$}
-
-		\wire(A)(C)
-		\wire(B)(D)
-	\end{pspicture}
+	
+%	\begin{pspicture}(0,0)(6,5)
+%
+%		\pnodes(1,1){A}(1,4){B}(5,1){C}(5,4){D}
+%		\vdc(B)(A){$V$}
+%		\resistor[dipolestyle=zigzag, tensionlabel=$I$](C)(D){$R$}
+%
+%		\wire(A)(C)
+%		\wire(B)(D)
+%	\end{pspicture}
 
 \end{figure}
 
@@ -248,11 +252,109 @@ Este es un valor decimal que varía entre 0 y 1. Habitualmente, se lo suele expr
 Si la eficiencia de un sistema fuera del 100$\%$, esto significaría que su potencia de entrada es igual a la potencia de entrada. En la práctica, sabemos que esto no es posible, porque todo sistema tendrá pérdidas por transformación de energía, y esto implica una diferencia entre las potencias: $$ P_{entrada} = P_{salida} + P_{perdida} $$ 
 
 \section{Campos eléctricos}
-densidad de flujo eléctrico
+
+Alrededor de un cuerpo cargado, existirá un \textbf{campo eléctrico}. A medida que la distancia al cuerpo sea menor, la \textbf{densidad del campo eléctrico} será mayor.
+
+La \textbf{densidad de flujo } se define como la relación entre las líneas de flujo y el área que se está evaluando. Como la densidad de carga aumenta consecuentemente con la carga eléctrica, ambas magnitudes (carga y flujo) pueden igualarse. $$ \text{Densidad} = \frac{\text{Carga}}{\text{Área}} $$
+
+La \textbf{fuerza del campo eléctrico} $F_{ce}$ es la fuerza que actúa sobre una carga Q en un punto:
+$$ F_{ce} = \frac{F}{Q} $$
+
+Reemplazando la fuerza en la ecuación anterior según la \textit{Ley de Coulomb}, se obtiene: 
+\begin{equation}
+	\label{eq:fuerza_electrica_capacitor}
+	F_{ce} = \frac{kQ}{r^{2}}
+\end{equation}
+
+
+Esto quiere decir, que la fuerza del campo eléctrico está relacionada con el tamaño de la carga y la distancia que se mantenga con ésta. A medida que la distancia sea mayor, la fuerza eléctrica será \textit{mucho menor} (dado que el término en el denominador está elevado al cuadrado).
+
 \subsection{Capacitores}
+
+Existe un componente electrico cuyo principio de funcionamiento está directamente relacionado con los campos eléctricos: \textbf{el capacitor}.
+
 \subsubsection{Construcción y principio de funcionamiento}
+
+Un capacitor está constituido por dos placas conductoras paralelas separadas a una distancia mínima, por un material \textbf{dieléctrico} (aislante), que puede ser aire, mica, cerámica, poliéster, entre otros.
+
+\begin{figure}[htbp]
+  \includegraphics[scale=1]{images/capacitor_circuito_carga}
+  \caption{Circuito de carga básico de un capacitor}
+  \label{fig:cap_carga}
+\end{figure}
+
+Dado el circuito de la figura \ref{fig:cap_carga}, al cerrar el interruptor y por ahora omitiendo la resistencia (o suponiendo que posee una resistencia de $0 \Omega$), la placa inferior se comenzará a cargar con electrones libres, y la placa superior con cargas positivas.
+
+Entre las placas, se alcanzará la tensión de la fuente $E$.
+
+Como la distancia entre ambas es muy pequeña, las cargas se verán atraídas por una fuerza eléctrica (que recordando la ecuación \ref{eq:fuerza_electrica_capacitor}, será mayor si la distancia entre ambas es menor), y permanecerán atraídas incluso si se elimina la fuente de alimentación (o si se abre el circuito con el interruptor).
+
+\begin{figure}[htbp]
+  \includegraphics[scale=1]{images/capacitor_simbolo}
+  \caption{Símbolos del capacitor: (a) No polarizado, (b) y (c) Polarizado}
+  \label{fig:cap_simbolos}
+\end{figure}
+
 \subsubsection{Capacitancia}
-\subsubsection{Tipos de capacitores}
+
+La \textbf{capacitancia} de un capacitor es la cantidad de cargas que puede almacenar en él, cuando está completamente cargado.
+
+\begin{equation}
+	\label{eq:capacitancia}
+	C = \frac{Q}{V}
+\end{equation}
+
+La unidad utilizada para medir la capacidad es el \textbf{Farad}, y 1 Farad de carga equivale a una carga de 1 Coulomb a una diferencia de potencial de 1 volt.
+$$ 1 \text{Farad} = \frac{1 C}{1 V}$$
+
+Redefiniendo la ecuación \ref{eq:fuerza_electrica_capacitor} para el caso del capacitor, resulta
+\begin{equation}
+	F_{ce} = \frac{V}{d}
+\end{equation}
+
+considerando la fuerza eléctrica en $Voltios/metro$, la tensión en $voltios$ y la distancia en $metros$.
+
+El campo eléctrico también es afectado por la \textbf{permitividad} del material que se utiliza como dieléctrico. Un aumento en la permitividad del material, permitirá que la misma carga se almacene con un campo eléctrico menor; es decir, con un potencial eléctrico menor. Analizando la ecuación \ref{eq:capacitancia}, si la tensión disminuye, la capacitancia aumentará. En otras palabras, \textit{si la permitividad del dieléctrico es mayor, la capacidad será mayor}.
+
+La permitividad $\epsilon $ se define como $ \epsilon = \frac{\epsilon_r}{\epsilon_0}$, donde $\epsilon_r$ es la permitividad relativa del material y $\epsilon_0 $ es la permitividad del vacío.
+
+En la siguiente tabla, se recopilan los valores de algunos materiales utilizados para la construcción de dieléctricos de capacitores.
+
+\begin{tabular}{|c|c|}
+\hline 
+Material & Permitividad relativa \\ 
+\hline 
+Aire & 1,0006 \\ 
+\hline 
+Papel & 1,5 \\ 
+\hline 
+Aceite & 2,8 \\ 
+\hline 
+Mica & 4 \\ 
+\hline 
+Cuarzo & 4,5 \\ 
+\hline 
+Baquelita & 5 \\ 
+\hline 
+PVC & 30 a 40 \\ 
+\hline 
+Agua destilada & 80 \\ 
+\hline 
+Acetona & 191 \\ 
+\hline 
+\end{tabular} 
+
+Si se desea calcular la capacitancia teniendo en cuenta los valores de permitividad eléctrica, la ecuación es la siguiente,
+
+\begin{equation}
+	\label{eq:capacitancia_permitividad}
+	C = \epsilon \frac{A}{d}
+\end{equation}
+
+considerando $\epsilon $ en $Farad/metro$, el área en metros cuadrados, la distancia en metros y la capacidad en Farads.
+
+Debe tenerse en cuenta que los capacitores poseen un \textbf{voltaje de trabajo máximo}, que representa la máxima tensión que puede aplicarse en forma continua sin dañar el dispositivo. Si se excede, se puede dañar el dieléctrico.
+
 \section{Campos magnéticos}
 imán permanente, líneas de flujo magnético
 densidad de flujo magnético

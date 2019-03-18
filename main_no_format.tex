@@ -1,0 +1,30 @@
+\documentclass[11pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\usepackage[pdf]{pstricks}
+\usepackage{pst-node,pst-circ,pst-plot,pst-3dplot,pst-all}
+
+\author{Prof. Juan Manuel Maffei}
+\title{Curso de mediciones eléctricas}
+\begin{document}
+
+	\newtheorem{ejemplo}{Ejemplo}[chapter]
+	\tableofcontents
+	\input{content/sobre-las-mediciones.tex}	
+	\input{content/errores.tex}
+	\input{content/magnitudes-electricas.tex}
+	% Sistemas de puesta a tierra
+	% Grados de electrificación
+		% Potencia máxima, coeficiente de simultaneidad.
+		% Mediciones de puesta a tierra
+		% Resistencia de electrodos
+	% Seguridad
+	\input{content/instrumentos.tex}	
+	
+	\input{content/bibliografia.tex}
+\end{document}
