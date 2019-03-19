@@ -357,30 +357,84 @@ Debe tenerse en cuenta que los capacitores poseen un \textbf{voltaje de trabajo 
 
 \section{Campos magnéticos}
 
+Alrededor de un imán permanente existe un campo magnético. Así como se usaron líneas de campo eléctrico para representar los efectos de un campo eléctrico, se usarán \textbf{líneas de flujo magnético} para describir el comportamiento de los campos magnéticos.
+
+Las líneas de flujo irradian del polo norte al polo sur del imán, y regresan al norte por el interior del mismo.
+
+Si el imán se divide, aparecerán nuevos polos norte y sur en cada material.
+
+Como se sabe popularmente, los polos opuestos de los imanes generan una fuerza de atracción, mientras que los polos semejantes se repelerán.
+
+Los materiales en los cuales es posible establecer con facilidad líneas de flujo magnético son \textbf{ferromagnéticos}, mientras que aquellos que provocan más dificultad para esta tarea son \textbf{diamagnéticos}. La magnitud que distingue esta propiedad (el magnetismo) de un material, es la \textbf{permeabilidad} y se simboliza con $\mu$.
+
+Si un material \textbf{diamagnético} se interpone en un campo magnético, no le provocará una interferencia demasiado grande, y el campo lo atravesará, casi como si este material no estuviera. Si, por el contrario, se interpone un material \textbf{ferromagnético}, el campo pasará por el material en vez de por el aire, modificando la trayectoria de las líneas de flujo.
+
+Alrededor de todo conductor por el que circule una corriente, existirá un campo magnético.
+
 \begin{figure}
+	
 	\centering
 		\includegraphics[scale=0.5]{images/electroiman-un-hilo}
-	\label{fig:electroiman-hilo}
-	\caption{Sentido de la corriente y del campo magnético en conductor de un hilo}
+
+	\caption{\label{fig:electroiman-hilo} Sentido de la corriente y del campo magnético en conductor de un hilo}
 \end{figure}
+
+Si es un conductor como el de la figura \ref{fig:electroiman-hilo}, aparecerá un campo magnético, con líneas de flujo en el sentido mostrado por las líneas azules.
 
 \begin{figure}
 	\centering
 		\includegraphics[scale=0.5]{images/electroiman-espira}
-	\label{fig:electroiman-espira}
-	\caption{Sentido de la corriente y del campo magnético en una espira}
+	
+	\caption{\label{fig:electroiman-espira} Sentido de la corriente y del campo magnético en una espira}
 \end{figure}
+Si, en cambio, el conductor es una espira como la de la figura~\ref{fig:electroiman-espira}, el campo resultará en una dirección común, como muestra la flecha azul gruesa.
 
 \begin{figure}
 	\centering
 		\includegraphics[scale=0.5]{images/electroiman-bobina}
-	\label{fig:electroiman-bobina}
-	\caption{Sentido de la corriente y del campo magnético en una bobina}
+	\caption{\label{fig:electroiman-bobina} Sentido de la corriente y del campo magnético en una bobina}
 \end{figure}
-imán permanente, líneas de flujo magnético
-densidad de flujo magnético
+Finalmente, por un bobinado (más de una vuelta), como el de la figura ~\ref{fig:electroiman-bobina}, se producirá un campo magnético de trayectoria continua, muy parecida a la de un imán permanente.
+Este es el principio de funcionamiento del electroimán.
+
+La cantidad de líneas de flujo por área unitaria se denomina \textbf{densidad de flujo},
+
+\begin{equation}
+	\label{eq:densidad_flujo}
+	B = \frac{\Phi}{A}
+\end{equation}
+
+Siendo las unidades utilizadas en el Sistema Internacional:
+\begin{itemize}
+	\item Teslas ($T$) para la densidad,
+	\item Weber ($Wb$) para el flujo magnético y
+	\item Metros cuadrados ($m^{2}$) para el área.
+\end{itemize}
+
+La densidad de flujo en un electroimán se relaciona de manera directa con el número de vueltas del bobinado ($N$) y la corriente que lo atraviesa ($I$). Estas dos magnitudes se relacionan dando lugar a la \textbf{fuerza magnetomotriz}:
+\begin{equation}
+	\label{eq:fuerza_magnetomotriz}
+	F_{m} = N \times I
+\end{equation}
+
 \subsection{Inductores}
-\subsubsection{Construcción}
-\subsubsection{Inductancia}
-\subsubsection{Tensión inducida}
-\subsubsection{Tipos de inductores}
+
+El dispositivo descrito en la sección anterior se llama \textbf{inductor}, y consiste simplemente en un bobinado por el cual se hace circular una corriente eléctrica.
+
+La fuerza del campo magnético es determinada por la \textbf{inductancia} del inductor.
+
+La inductancia es la medida de la oposición a un cambio de corriente en el inductor y se mide en Henries ($H$).
+
+Existen varios factores que intervienen en los valores de inductancia:
+\begin{itemize}
+	\item Permeabilidad del material del núcleo $/mu$ ($Wb/A\times m$).
+	\item Cantidad de vueltas del devanado N.
+	\item Área A ($m^{2}$).
+	\item Longitud l ($m$).
+\end{itemize}
+
+Todos estos valores se relacionan en la siguiente ecuación:
+\begin{equation}
+	\label{eq:inductancia}
+	L= \frac{\mu N^{2}A}{l}
+\end{equation}

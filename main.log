@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2019.3.7)  18 MAR 2019 22:45
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2019.3.7)  19 MAR 2019 01:12
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.085 seconds
+luaotfload | main : initialization completed in 0.089 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -1254,6 +1254,46 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 Writing index file main.idx
 ) (./config/figuras.tex
+(/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count274
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count275
+\c@qr@j=\count276
+\qr@a=\count277
+\qr@b=\count278
+\qr@c=\count279
+\qr@for@depth=\count280
+\qr@for@maxdepth=\count281
+\qr@for@start=\count282
+\qr@for@end=\count283
+\qr@for@step=\count284
+\qr@newforcount=\count285
+\qr@newforcount=\count286
+\qr@desiredheight=\skip130
+\qr@modulesize=\skip131
+\qr@minipagewidth=\skip132
+\c@maski=\count287
+\c@maskj=\count288
+\c@totalones=\count289
+\c@penaltyi=\count290
+\c@penaltyii=\count291
+\c@penaltyiii=\count292
+\c@penaltyiv=\count293
+\c@qr@hexchars=\count294
+\qr@newforcount=\count295
+\c@qr@divisionsremaining=\count296
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
 Package: xcoffins 2014/05/04 v4728 L3 Experimental design-level coffins
 \l__coffin_hoffset_dim=\dimen273
@@ -1356,16 +1396,16 @@ Package: xcoffins 2014/05/04 v4728 L3 Experimental design-level coffins
 Package: luamplib 2016/03/31 v2.11.3 mplib package for LuaTeX
 Lua module: luamplib 2016/03/31 2.11.3 Lua package to typeset Metapost with LuaT
 eX's MPLib.
-\mplibstartlineno=\count274
-\everymplibtoks=\toks36
-\everyendmplibtoks=\toks37
+\mplibstartlineno=\count297
+\everymplibtoks=\toks38
+\everyendmplibtoks=\toks39
 \mplibscratchbox=\box84
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks38
+\pgfutil@everybye=\toks40
 \pgfutil@tempdima=\dimen279
 \pgfutil@tempdimb=\dimen280
 
@@ -1386,12 +1426,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks43
 ))
 \pgf@x=\dimen281
 \pgf@y=\dimen282
@@ -1403,13 +1443,13 @@ ex
 \pgf@yc=\dimen288
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count275
-\c@pgf@countb=\count276
-\c@pgf@countc=\count277
-\c@pgf@countd=\count278
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1425,8 +1465,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count279
-\pgfsyssoftpath@bigbuffer@items=\count280
+\pgfsyssoftpath@smallbuffer@items=\count302
+\pgfsyssoftpath@bigbuffer@items=\count303
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1440,11 +1480,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen289
-\pgfmath@count=\count281
+\pgfmath@count=\count304
 \pgfmath@box=\box86
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1464,7 +1504,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count282
+\c@pgfmathroundto@lastzeros=\count305
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -1502,7 +1542,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box87
 \pgf@hbox=\box88
 \pgf@layerbox@main=\box89
-\pgf@picture@serial@count=\count283
+\pgf@picture@serial@count=\count306
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1535,7 +1575,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen313
-\pgf@sys@shading@range@num=\count284
+\pgf@sys@shading@range@num=\count307
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1583,8 +1623,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen316
 \pgffor@skip=\dimen317
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1592,7 +1632,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count285
+\pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen318
 )
 \tikz@lastx=\dimen319
@@ -1605,18 +1645,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box93
 \tikz@tempbox=\box94
 \tikz@tempbox@bg=\box95
-\tikztreelevel=\count286
-\tikznumberofchildren=\count287
-\tikznumberofcurrentchild=\count288
-\tikz@fig@count=\count289
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count290
-\pgfmatrixcurrentcolumn=\count291
-\pgf@matrix@numberofcolumns=\count292
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count293
+\tikz@expandcount=\count316
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1644,7 +1684,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count294
+\@catcodetablestackcnt=\count317
 )
 \CatcodeTableOther=\catcodetable6
 \CatcodeTableExpl=\catcodetable7
@@ -1653,12 +1693,12 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
 \pgfplots@luabackend@table=\catcodetable8
-\t@pgfplots@toka=\toks50
-\t@pgfplots@tokb=\toks51
-\t@pgfplots@tokc=\toks52
+\t@pgfplots@toka=\toks52
+\t@pgfplots@tokb=\toks53
+\t@pgfplots@tokc=\toks54
 \pgfplots@tmpa=\dimen325
-\c@pgfplots@coordindex=\count295
-\c@pgfplots@scanlineindex=\count296
+\c@pgfplots@coordindex=\count318
+\c@pgfplots@scanlineindex=\count319
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -1674,7 +1714,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count297
+\c@pgfmathroundto@lastzeros=\count320
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/luamath/pgflibraryluam
 ath.code.tex)
@@ -1691,14 +1731,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count298
+\c@pgfplotsarray@tmp=\count321
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count299
-\t@pgfplotstable@a=\toks53
+\c@pgfplotstable@counta=\count322
+\t@pgfplotstable@a=\toks55
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1710,7 +1750,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count300
+\c@pgfplotslibrarysurf@no=\count323
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-luatex.def)))
@@ -1742,7 +1782,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen328
 \pgfdecoratedinputsegmentremainingdistance=\dimen329
 \pgf@decorate@distancetomove=\dimen330
-\pgf@decorate@repeatstate=\count301
+\pgf@decorate@repeatstate=\count324
 \pgfdecorationsegmentamplitude=\dimen331
 \pgfdecorationsegmentlength=\dimen332
 )
@@ -1756,7 +1796,7 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count302
+\pgfplots@numplots=\count325
 \pgfplots@xmin@reg=\dimen333
 \pgfplots@xmax@reg=\dimen334
 \pgfplots@ymin@reg=\dimen335
@@ -1777,29 +1817,18 @@ Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks54
-\XKV@tempa@toks=\toks55
 )
-\XKV@depth=\count303
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count304
-\pstFP@xia=\count305
-\pstFP@xib=\count306
-\pstFP@xfa=\count307
-\pstFP@xfb=\count308
-\pstFP@rega=\count309
-\pstFP@regb=\count310
-\pstFP@regs=\count311
-\pstFP@times=\count312
+\pstFP@xs=\count326
+\pstFP@xia=\count327
+\pstFP@xib=\count328
+\pstFP@xfa=\count329
+\pstFP@xfb=\count330
+\pstFP@rega=\count331
+\pstFP@regb=\count332
+\pstFP@regs=\count333
+\pstFP@times=\count334
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks56
@@ -1814,7 +1843,7 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex) 
 \pgffor@stack=\toks57
 \pgffor@toks=\toks58
 )
-\psLoopIndex=\count313
+\psLoopIndex=\count335
 
 `PSTricks' v2.71  <2016/12/23> (tvz)
 \pst@dima=\dimen343
@@ -1830,23 +1859,23 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex) 
 \pst@hbox=\box99
 \pst@ibox=\box100
 \pst@boxg=\box101
-\pst@cnta=\count314
-\pst@cntb=\count315
-\pst@cntc=\count316
-\pst@cntd=\count317
-\pst@cntg=\count318
-\pst@cnth=\count319
-\pst@cntm=\count320
-\pst@cntn=\count321
-\pst@cnto=\count322
-\pst@cntp=\count323
-\@zero=\count324
+\pst@cnta=\count336
+\pst@cntb=\count337
+\pst@cntc=\count338
+\pst@cntd=\count339
+\pst@cntg=\count340
+\pst@cnth=\count341
+\pst@cntm=\count342
+\pst@cntn=\count343
+\pst@cnto=\count344
+\pst@cntp=\count345
+\@zero=\count346
 \pst@toks=\toks59
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen353
 \psxunit=\dimen354
 \psyunit=\dimen355
-\pst@C@@rType=\count325
+\pst@C@@rType=\count347
 \pslinewidth=\dimen356
 \psk@startLW=\dimen357
 \psk@endLW=\dimen358
@@ -1873,14 +1902,14 @@ Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
  v1.39, 2017/01/20
-\psrow=\count326
-\pscol=\count327
-\psmatrixcnt=\count328
-\psrowsep=\skip130
-\pscolsep=\skip131
-\pst@args=\count329
-\num@pts=\count330
-\pst@argcnt=\count331
+\psrow=\count348
+\pscol=\count349
+\psmatrixcnt=\count350
+\psrowsep=\skip133
+\pscolsep=\skip134
+\pst@args=\count351
+\num@pts=\count352
+\pst@argcnt=\count353
 )
 File: pst-node.tex 2017/01/20 1.39 `pst-node' (tvz,hv)
 )
@@ -1891,14 +1920,14 @@ Package: pst-circ 2007/12/23 package wrapper for pst-circ.tex (hv)
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
  v1.42, 2010/05/14 <tvz>
-\multido@count=\count332
-\multidocount=\count333
+\multido@count=\count354
+\multidocount=\count355
 \multido@stuff=\toks62
 ) `pst-circ' v2.14(hv)
 \Pst@position=\dimen368
-\pst@count@i=\count334
-\pst@count@ii=\count335
-\pst@count@iii=\count336
+\pst@count@i=\count356
+\pst@count@ii=\count357
+\pst@count@iii=\count358
 \Pst@basesep=\dimen369
 )
 File: pst-circ.tex 2016/08/21 v2.14 `PST-circ' (CJ,hv)
@@ -1928,19 +1957,19 @@ Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
 (/usr/share/texlive/texmf-dist/tex/generic/pst-math/pst-math.tex
 `pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.82, 2016/09/01 (dr,hv)
 \psparallelogramsep=\dimen372
-\pst@cntC=\count337
+\pst@cntC=\count359
 \chart@ColorIndex=\dimen373
 \chart@ColorStep=\dimen374
 \pst@chartHeight=\dimen375
 \pst@chartStackDepth=\dimen376
 \pst@chartStackWidth=\dimen377
-\chart@Toggle=\count338
-\psVectorCtr=\count339
+\chart@Toggle=\count360
+\psVectorCtr=\count361
 )
  v1.76, 2017/01/18 (tvz,hv)
 \pstRadUnit=\dimen378
 \pstRadUnitInv=\dimen379
-\pst@linecnt=\count340
+\pst@linecnt=\count362
 \RCD@file=\read4
 \psxlabelsep=\dimen380
 \psylabelsep=\dimen381
@@ -1951,7 +1980,7 @@ Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
 \pst@yticksizeA=\dimen386
 \pst@yticksizeB=\dimen387
 \pst@yticksizeC=\dimen388
-\@digitcounter=\count341
+\@digitcounter=\count363
 \psk@llx=\dimen389
 \psk@lly=\dimen390
 \psk@urx=\dimen391
@@ -1975,9 +2004,9 @@ Package: pst-3dplot 2010/01/01 package wrapper for pst-3dplot.tex (hv)
 (/usr/share/texlive/texmf-dist/tex/generic/multido/multido.tex
  v1.42, 2010/05/14 <tvz>) `PST-3dplot' v2.01, 2014/08/25 (HV,DL)
 \pst@dimf=\dimen395
-\pst@cntx=\count342
-\pst@cnty=\count343
-\pst@cntz=\count344
+\pst@cntx=\count364
+\pst@cnty=\count365
+\pst@cntz=\count366
 \pst@dimx=\dimen396
 \pst@dimy=\dimen397
 \pst@dimz=\dimen398
@@ -1997,11 +2026,11 @@ Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
  v1.12, 2011/02/28(tvz,dg,hv)
 \pstree@rootbox=\box102
 \pstree@box=\box103
-\psnodecnt=\count345
-\pstreelevel=\count346
-\pstreecnt=\count347
-\pstree@cnt=\count348
-\pstree@stop=\count349
+\psnodecnt=\count367
+\pstreelevel=\count368
+\pstreecnt=\count369
+\pstree@cnt=\count370
+\pstree@stop=\count371
 )
 File: pst-tree.tex 2011/02/28 1.12 `pst-tree' (tvz,hv)
 )
@@ -2071,23 +2100,23 @@ Package: threeparttable 2003/06/13  v 3.0
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen402
 \WF@size=\dimen403
-\c@WF@wrappedlines=\count350
+\c@WF@wrappedlines=\count372
 \WF@box=\box106
 \WF@everypar=\toks63
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/picinpar/picinpar.sty
 Pictures in Paragraphs. Version 1.2a, July 13, 1993
-\br=\count351
-\bl=\count352
-\na=\count353
-\nb=\count354
-\tcdsav=\count355
-\tcl=\count356
-\tcd=\count357
-\tcn=\count358
-\cumtcl=\count359
-\cumpartcl=\count360
+\br=\count373
+\bl=\count374
+\na=\count375
+\nb=\count376
+\tcdsav=\count377
+\tcl=\count378
+\tcd=\count379
+\tcn=\count380
+\cumtcl=\count381
+\cumpartcl=\count382
 \lftside=\dimen404
 \rtside=\dimen405
 \hpic=\dimen406
@@ -2132,7 +2161,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen421
 \caption@hangindent=\dimen422
 )
-\c@ContinuedFloat=\count361
+\c@ContinuedFloat=\count383
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -2152,9 +2181,9 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headfont=\toks71
 \thm@notefont=\toks72
 \thm@headpunct=\toks73
-\thm@preskip=\skip132
-\thm@postskip=\skip133
-\thm@headsep=\skip134
+\thm@preskip=\skip135
+\thm@postskip=\skip136
+\thm@headsep=\skip137
 \dth@everypar=\toks74
 )
 (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty
@@ -2170,9 +2199,9 @@ Package: l3keys2e 2016/11/21 v6760 LaTeX2e option processing using LaTeX3 keys
 (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )
-\g__um_fam_int=\count362
+\g__um_fam_int=\count384
 \g__um_primekern_muskip=\muskip18
-\l__um_primecount_int=\count363
+\l__um_primecount_int=\count385
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2279,7 +2308,7 @@ Package: yfonts 2003/01/08 v1.3 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count364
+\c@float@type=\count386
 \float@exts=\toks75
 \float@box=\box120
 \@float@everytoks=\toks76
@@ -2297,18 +2326,18 @@ Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks77
-\MT@count=\count365
+\MT@count=\count387
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen423
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count366
+\MT@listname@count=\count388
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2016/05/14 v2.6a Definitions specific to luatex (RS)
 Lua module: microtype 2016/05/14 2.6a microtype module.
 LaTeX Info: Redefining \lsstyle on input line 674.
 LaTeX Info: Redefining \lslig on input line 674.
-\MT@outer@space=\skip135
+\MT@outer@space=\skip138
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -2322,29 +2351,29 @@ LaTeX Font Info:    Redeclaring math symbol \varOmega on input line 73.
 Package: siunitx 2017/01/01 v2.7a A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box122
 \l__siunitx_tmp_dim=\dimen424
-\l__siunitx_tmp_int=\count367
-\l__siunitx_number_mantissa_length_int=\count368
-\l__siunitx_number_uncert_length_int=\count369
-\l__siunitx_round_int=\count370
-\l__siunitx_process_decimal_int=\count371
-\l__siunitx_process_uncertainty_int=\count372
-\l__siunitx_process_fixed_int=\count373
-\l__siunitx_process_integer_min_int=\count374
-\l__siunitx_process_precision_int=\count375
-\l__siunitx_group_min_int=\count376
+\l__siunitx_tmp_int=\count389
+\l__siunitx_number_mantissa_length_int=\count390
+\l__siunitx_number_uncert_length_int=\count391
+\l__siunitx_round_int=\count392
+\l__siunitx_process_decimal_int=\count393
+\l__siunitx_process_uncertainty_int=\count394
+\l__siunitx_process_fixed_int=\count395
+\l__siunitx_process_integer_min_int=\count396
+\l__siunitx_process_precision_int=\count397
+\l__siunitx_group_min_int=\count398
 \l__siunitx_angle_marker_box=\box123
 \l__siunitx_angle_unit_box=\box124
 \l__siunitx_angle_marker_dim=\dimen425
 \l__siunitx_angle_unit_dim=\dimen426
-\l__siunitx_unit_int=\count377
-\l__siunitx_unit_denominator_int=\count378
-\l__siunitx_unit_numerator_int=\count379
-\l__siunitx_unit_prefix_int=\count380
-\l__siunitx_unit_prefix_base_int=\count381
-\l__siunitx_unit_prefix_gram_int=\count382
-\l__siunitx_number_product_int=\count383
-\c__siunitx_one_fill_skip=\skip136
-\l__siunitx_table_unit_align_skip=\skip137
+\l__siunitx_unit_int=\count399
+\l__siunitx_unit_denominator_int=\count400
+\l__siunitx_unit_numerator_int=\count401
+\l__siunitx_unit_prefix_int=\count402
+\l__siunitx_unit_prefix_base_int=\count403
+\l__siunitx_unit_prefix_gram_int=\count404
+\l__siunitx_number_product_int=\count405
+\c__siunitx_one_fill_skip=\skip139
+\l__siunitx_table_unit_align_skip=\skip140
 \l__siunitx_table_exponent_dim=\dimen427
 \l__siunitx_table_integer_dim=\dimen428
 \l__siunitx_table_mantissa_dim=\dimen429
@@ -2358,8 +2387,8 @@ Package: siunitx 2017/01/01 v2.7a A comprehensive (SI) units package
 \l__siunitx_table_post_box=\box126
 \l__siunitx_table_mantissa_box=\box127
 \l__siunitx_table_result_box=\box128
-\l__siunitx_table_number_align_skip=\skip138
-\l__siunitx_table_text_align_skip=\skip139
+\l__siunitx_table_number_align_skip=\skip141
+\l__siunitx_table_text_align_skip=\skip142
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2544,50 +2573,50 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count384
+\c@abspage=\count406
 Package zref Info: New property: abspage on input line 62.
 )
-\mdf@templength=\skip140
-\c@mdf@globalstyle@cnt=\count385
-\mdf@skipabove@length=\skip141
-\mdf@skipbelow@length=\skip142
-\mdf@leftmargin@length=\skip143
-\mdf@rightmargin@length=\skip144
-\mdf@innerleftmargin@length=\skip145
-\mdf@innerrightmargin@length=\skip146
-\mdf@innertopmargin@length=\skip147
-\mdf@innerbottommargin@length=\skip148
-\mdf@splittopskip@length=\skip149
-\mdf@splitbottomskip@length=\skip150
-\mdf@outermargin@length=\skip151
-\mdf@innermargin@length=\skip152
-\mdf@linewidth@length=\skip153
-\mdf@innerlinewidth@length=\skip154
-\mdf@middlelinewidth@length=\skip155
-\mdf@outerlinewidth@length=\skip156
-\mdf@roundcorner@length=\skip157
-\mdf@footenotedistance@length=\skip158
-\mdf@userdefinedwidth@length=\skip159
-\mdf@needspace@length=\skip160
-\mdf@frametitleaboveskip@length=\skip161
-\mdf@frametitlebelowskip@length=\skip162
-\mdf@frametitlerulewidth@length=\skip163
-\mdf@frametitleleftmargin@length=\skip164
-\mdf@frametitlerightmargin@length=\skip165
-\mdf@shadowsize@length=\skip166
-\mdf@extratopheight@length=\skip167
-\mdf@subtitleabovelinewidth@length=\skip168
-\mdf@subtitlebelowlinewidth@length=\skip169
-\mdf@subtitleaboveskip@length=\skip170
-\mdf@subtitlebelowskip@length=\skip171
-\mdf@subtitleinneraboveskip@length=\skip172
-\mdf@subtitleinnerbelowskip@length=\skip173
-\mdf@subsubtitleabovelinewidth@length=\skip174
-\mdf@subsubtitlebelowlinewidth@length=\skip175
-\mdf@subsubtitleaboveskip@length=\skip176
-\mdf@subsubtitlebelowskip@length=\skip177
-\mdf@subsubtitleinneraboveskip@length=\skip178
-\mdf@subsubtitleinnerbelowskip@length=\skip179
+\mdf@templength=\skip143
+\c@mdf@globalstyle@cnt=\count407
+\mdf@skipabove@length=\skip144
+\mdf@skipbelow@length=\skip145
+\mdf@leftmargin@length=\skip146
+\mdf@rightmargin@length=\skip147
+\mdf@innerleftmargin@length=\skip148
+\mdf@innerrightmargin@length=\skip149
+\mdf@innertopmargin@length=\skip150
+\mdf@innerbottommargin@length=\skip151
+\mdf@splittopskip@length=\skip152
+\mdf@splitbottomskip@length=\skip153
+\mdf@outermargin@length=\skip154
+\mdf@innermargin@length=\skip155
+\mdf@linewidth@length=\skip156
+\mdf@innerlinewidth@length=\skip157
+\mdf@middlelinewidth@length=\skip158
+\mdf@outerlinewidth@length=\skip159
+\mdf@roundcorner@length=\skip160
+\mdf@footenotedistance@length=\skip161
+\mdf@userdefinedwidth@length=\skip162
+\mdf@needspace@length=\skip163
+\mdf@frametitleaboveskip@length=\skip164
+\mdf@frametitlebelowskip@length=\skip165
+\mdf@frametitlerulewidth@length=\skip166
+\mdf@frametitleleftmargin@length=\skip167
+\mdf@frametitlerightmargin@length=\skip168
+\mdf@shadowsize@length=\skip169
+\mdf@extratopheight@length=\skip170
+\mdf@subtitleabovelinewidth@length=\skip171
+\mdf@subtitlebelowlinewidth@length=\skip172
+\mdf@subtitleaboveskip@length=\skip173
+\mdf@subtitlebelowskip@length=\skip174
+\mdf@subtitleinneraboveskip@length=\skip175
+\mdf@subtitleinnerbelowskip@length=\skip176
+\mdf@subsubtitleabovelinewidth@length=\skip177
+\mdf@subsubtitlebelowlinewidth@length=\skip178
+\mdf@subsubtitleaboveskip@length=\skip179
+\mdf@subsubtitlebelowskip@length=\skip180
+\mdf@subsubtitleinneraboveskip@length=\skip181
+\mdf@subsubtitleinnerbelowskip@length=\skip182
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
@@ -2597,34 +2626,34 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@splitbox@one=\box131
 \mdf@splitbox@two=\box132
 \mdf@splitbox@save=\box133
-\mdfsplitboxwidth=\skip180
-\mdfsplitboxtotalwidth=\skip181
-\mdfsplitboxheight=\skip182
-\mdfsplitboxdepth=\skip183
-\mdfsplitboxtotalheight=\skip184
-\mdfframetitleboxwidth=\skip185
-\mdfframetitleboxtotalwidth=\skip186
-\mdfframetitleboxheight=\skip187
-\mdfframetitleboxdepth=\skip188
-\mdfframetitleboxtotalheight=\skip189
-\mdffootnoteboxwidth=\skip190
-\mdffootnoteboxtotalwidth=\skip191
-\mdffootnoteboxheight=\skip192
-\mdffootnoteboxdepth=\skip193
-\mdffootnoteboxtotalheight=\skip194
-\mdftotallinewidth=\skip195
-\mdfboundingboxwidth=\skip196
-\mdfboundingboxtotalwidth=\skip197
-\mdfboundingboxheight=\skip198
-\mdfboundingboxdepth=\skip199
-\mdfboundingboxtotalheight=\skip256
-\mdf@freevspace@length=\skip257
-\mdf@horizontalwidthofbox@length=\skip258
-\mdf@verticalmarginwhole@length=\skip259
-\mdf@horizontalspaceofbox=\skip260
-\mdfsubtitleheight=\skip261
-\mdfsubsubtitleheight=\skip262
-\c@mdfcountframes=\count386
+\mdfsplitboxwidth=\skip183
+\mdfsplitboxtotalwidth=\skip184
+\mdfsplitboxheight=\skip185
+\mdfsplitboxdepth=\skip186
+\mdfsplitboxtotalheight=\skip187
+\mdfframetitleboxwidth=\skip188
+\mdfframetitleboxtotalwidth=\skip189
+\mdfframetitleboxheight=\skip190
+\mdfframetitleboxdepth=\skip191
+\mdfframetitleboxtotalheight=\skip192
+\mdffootnoteboxwidth=\skip193
+\mdffootnoteboxtotalwidth=\skip194
+\mdffootnoteboxheight=\skip195
+\mdffootnoteboxdepth=\skip196
+\mdffootnoteboxtotalheight=\skip197
+\mdftotallinewidth=\skip198
+\mdfboundingboxwidth=\skip199
+\mdfboundingboxtotalwidth=\skip256
+\mdfboundingboxheight=\skip257
+\mdfboundingboxdepth=\skip258
+\mdfboundingboxtotalheight=\skip259
+\mdf@freevspace@length=\skip260
+\mdf@horizontalwidthofbox@length=\skip261
+\mdf@verticalmarginwhole@length=\skip262
+\mdf@horizontalspaceofbox=\skip263
+\mdfsubtitleheight=\skip264
+\mdfsubsubtitleheight=\skip265
+\c@mdfcountframes=\count408
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -2640,10 +2669,10 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count387
-\c@mdf@env@i=\count388
-\c@mdf@env@ii=\count389
-\c@mdf@zref@counter=\count390
+\mdf@envdepth=\count409
+\c@mdf@env@i=\count410
+\c@mdf@env@ii=\count411
+\c@mdf@zref@counter=\count412
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -2655,12 +2684,12 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 (/usr/share/texlive/texmf-dist/tex/latex/exsheets/exsheets.sty
 Package: exsheets 2016/09/07 v0.21e Yet another package for the creation of exer
 cise sheets and exams.
-\l__exsheets_tmpa_int=\count391
-\l__exsheets_tmpb_int=\count392
-\l__exsheets_tmpc_int=\count393
-\l__exsheets_tmpd_int=\count394
-\l__exsheets_tmpe_int=\count395
-\g__exsheets_tmpa_int=\count396
+\l__exsheets_tmpa_int=\count413
+\l__exsheets_tmpb_int=\count414
+\l__exsheets_tmpc_int=\count415
+\l__exsheets_tmpd_int=\count416
+\l__exsheets_tmpe_int=\count417
+\g__exsheets_tmpa_int=\count418
 \l__exsheets_tmpa_dim=\dimen436
 \l__exsheets_tmpb_dim=\dimen437
 
@@ -2668,32 +2697,32 @@ cise sheets and exams.
 Package: xtemplate 2016/11/21 v6760 L3 Experimental prototype document functions
 
 \l__xtemplate_tmp_dim=\dimen438
-\l__xtemplate_tmp_int=\count397
+\l__xtemplate_tmp_int=\count419
 \l__xtemplate_tmp_muskip=\muskip19
-\l__xtemplate_tmp_skip=\skip263
+\l__xtemplate_tmp_skip=\skip266
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 Package: l3sort 2016/11/21 v6760 L3 Experimental sorting functions
-\l__sort_length_int=\count398
-\l__sort_block_int=\count399
-\l__sort_begin_int=\count400
-\l__sort_end_int=\count401
-\l__sort_A_int=\count402
-\l__sort_B_int=\count403
-\l__sort_C_int=\count404
+\l__sort_length_int=\count420
+\l__sort_block_int=\count421
+\l__sort_begin_int=\count422
+\l__sort_end_int=\count423
+\l__sort_A_int=\count424
+\l__sort_B_int=\count425
+\l__sort_C_int=\count426
 )
-\l__exsheets_variations_int=\count405
-\g__exsheets_questions_id_int=\count406
-\g__exsheets_questions_used_int=\count407
-\l__exsheets_include_random_int=\count408
-\l__exsheets_questions_set_int=\count409
-\g__exsheets_select_random_int=\count410
-\g__exsheets_selection_number_int=\count411
-\l__exsheets_counter_ch_int=\count412
-\l__exsheets_current_ch_int=\count413
-\l__exsheets_counter_sec_int=\count414
-\l__exsheets_current_sec_int=\count415
-\l_exsheets_counter_qu_int=\count416
+\l__exsheets_variations_int=\count427
+\g__exsheets_questions_id_int=\count428
+\g__exsheets_questions_used_int=\count429
+\l__exsheets_include_random_int=\count430
+\l__exsheets_questions_set_int=\count431
+\g__exsheets_select_random_int=\count432
+\g__exsheets_selection_number_int=\count433
+\l__exsheets_counter_ch_int=\count434
+\l__exsheets_current_ch_int=\count435
+\l__exsheets_counter_sec_int=\count436
+\l__exsheets_current_sec_int=\count437
+\l_exsheets_counter_qu_int=\count438
 \l__exsheets_questions_skip_below_dim=\dimen439
 \l__exsheets_solutions_skip_below_dim=\dimen440
 \l__exsheets_blank_dim=\dimen441
@@ -2711,14 +2740,14 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks78
 \pgfopts@list@add@b@toks=\toks79
 )
-\c@cnltx@tmpa=\count417
-\c@cnltx@tmpb=\count418
-\c@cnltx@tmpc=\count419
-\cnltx@tmpa@length=\skip264
-\cnltx@tmpb@length=\skip265
-\cnltx@tmpc@length=\skip266
+\c@cnltx@tmpa=\count439
+\c@cnltx@tmpb=\count440
+\c@cnltx@tmpc=\count441
+\cnltx@tmpa@length=\skip267
+\cnltx@tmpb@length=\skip268
+\cnltx@tmpc@length=\skip269
 ))
-\c@question=\count420
+\c@question=\count442
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2925,32 +2954,32 @@ File: exsheets_headings.cfg  2016/09/07 v0.21e ExSheets headings instances
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.sty
 (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count421
-\d@lta=\count422
+\@@multicnt=\count443
+\d@lta=\count444
 \@delta=\dimen444
 \@@delta=\dimen445
-\@gridcnt=\count423
-\@joinkind=\count424
+\@gridcnt=\count445
+\@joinkind=\count446
 \@dotgap=\dimen446
 \@ddotgap=\dimen447
-\@x@diff=\count425
-\@y@diff=\count426
+\@x@diff=\count447
+\@y@diff=\count448
 \x@diff=\dimen448
 \y@diff=\dimen449
 \@dotbox=\box142
-\num@segments=\count427
-\num@segmentsi=\count428
+\num@segments=\count449
+\num@segmentsi=\count450
 \@datafile=\read5
 )
 Package: tasks 2016/08/13 v0.12 Horizontalcolumnedlists (CN)
-\l__tasks_depth_int=\count429
-\g__tasks_int=\count430
-\g__tasks_total_items_int=\count431
-\l__tasks_columns_int=\count432
-\l__tasks_rows_int=\count433
-\g__tasks_current_col_num_int=\count434
-\g__tasks_current_row_num_int=\count435
-\l__tasks_item_columns_int=\count436
+\l__tasks_depth_int=\count451
+\g__tasks_int=\count452
+\g__tasks_total_items_int=\count453
+\l__tasks_columns_int=\count454
+\l__tasks_rows_int=\count455
+\g__tasks_current_col_num_int=\count456
+\g__tasks_current_row_num_int=\count457
+\l__tasks_item_columns_int=\count458
 \l__tasks_item_indent_dim=\dimen450
 \l__tasks_item_default_indent_dim=\dimen451
 \l__tasks_item_width_dim=\dimen452
@@ -2959,15 +2988,15 @@ Package: tasks 2016/08/13 v0.12 Horizontalcolumnedlists (CN)
 \l__tasks_label_offset_dim=\dimen455
 \l__tasks_label_default_offset_dim=\dimen456
 \l__tasks_column_sep_dim=\dimen457
-\l__tasks_after_item_skip=\skip267
-\l__tasks_custom_after_item_skip=\skip268
-\l__tasks_before_list_skip=\skip269
-\l__tasks_after_list_skip=\skip270
+\l__tasks_after_item_skip=\skip270
+\l__tasks_custom_after_item_skip=\skip271
+\l__tasks_before_list_skip=\skip272
+\l__tasks_after_list_skip=\skip273
 \l__tasks_item_coffin=\box143
 \l__tasks_label_coffin=\box144
-\c@task=\count437
-\l__tasks_tmpa_int=\count438
-\l__tasks_tmpb_int=\count439
+\c@task=\count459
+\l__tasks_tmpa_int=\count460
+\l__tasks_tmpb_int=\count461
 \l__tasks_tmpa_coffin=\box145
 .................................................
 . xtemplate info: "declare-object-type"
@@ -3010,10 +3039,10 @@ File: tasks.cfg 2016/08/13 v0.12 tasks instances
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box146
 \UL@hyphenbox=\box147
-\UL@skip=\skip271
+\UL@skip=\skip274
 \UL@hook=\toks80
 \UL@height=\dimen462
-\UL@pe=\count440
+\UL@pe=\count462
 \UL@pixel=\dimen463
 \ULC@box=\box148
 Package: ulem 2012/05/18
@@ -3060,24 +3089,24 @@ Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
 Package filehook Info: Package 'scrlfile' detected and compensated for on input 
 line 102.
 )))
-\c@definitionCounter=\count441
-\c@theoremCounter=\count442
-\c@demonstrationCounter=\count443
-\c@axiomCounter=\count444
-\c@exampleCounter=\count445
-\c@problemCounter=\count446
-\c@noteCounter=\count447
-\c@discussionCounter=\count448
+\c@definitionCounter=\count463
+\c@theoremCounter=\count464
+\c@demonstrationCounter=\count465
+\c@axiomCounter=\count466
+\c@exampleCounter=\count467
+\c@problemCounter=\count468
+\c@noteCounter=\count469
+\c@discussionCounter=\count470
 \mybox=\box149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/12/28 v5.2 context-sensitive quotations (JAW)
-\csq@reset=\count449
-\csq@gtype=\count450
-\csq@glevel=\count451
-\csq@qlevel=\count452
-\csq@maxlvl=\count453
-\csq@tshold=\count454
+\csq@reset=\count471
+\csq@gtype=\count472
+\csq@glevel=\count473
+\csq@qlevel=\count474
+\csq@maxlvl=\count475
+\csq@tshold=\count476
 \csq@ltx@everypar=\toks81
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -3093,8 +3122,8 @@ File: csquotes.cfg
 Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
 ) (./main.aux
 (./txt/titulo.aux)
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
  (./txt/titulo-autor.aux) (./content/sobre-las-mediciones.aux) (./content/error
 es.aux) (./content/magnitudes-electricas.aux)
 (./content/bibliografia.aux))
@@ -3132,16 +3161,16 @@ LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count455
+\scratchcounter=\count477
 \scratchdimen=\dimen465
 \scratchbox=\box150
-\nofMPsegments=\count456
-\nofMParguments=\count457
+\nofMPsegments=\count478
+\nofMParguments=\count479
 \everyMPshowfont=\toks82
-\MPscratchCnt=\count458
+\MPscratchCnt=\count480
 \MPscratchDim=\dimen466
-\MPnumerator=\count459
-\makeMPintoPDFobject=\count460
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
 \everyMPtoPDFconversion=\toks83
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3214,7 +3243,7 @@ Package caption Info: End \AtBeginDocument code.
 (compiling luc: /var/lib/texmf/luatex-cache/generic/fonts/otl/latinmodern-math.l
 uc)(load luc: /home/juanma/.texlive2016/texmf-var/luatex-cache/generic/fonts/otl
 /latinmodern-math.luc)
-\g__fontspec_family_latinmodern-math.otf_int=\count461
+\g__fontspec_family_latinmodern-math.otf_int=\count483
 luaotfload | aux : font no 26 (<unknown>) does not define feature smcp for scrip
 t math with language dflt
 luaotfload | aux : no font with id 26
@@ -4595,7 +4624,7 @@ r `spanish'. on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/exsheets/exsheets_configurations.cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count462
+\c__siunitx_mathsf_int=\count484
 Package microtype Info: Loading generic settings for font family
 (microtype)             `latinmodern-math.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -4616,7 +4645,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count463
+\c__siunitx_mathtt_int=\count485
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5985,35 +6014,87 @@ Package babel Info: Redefining spanish shorthand "?
 File: images/electroiman-un-hilo.png Graphic file (type png)
 
 <use images/electroiman-un-hilo.png>
-Package luatex.def Info: images/electroiman-un-hilo.png used on input line 362.
+Package luatex.def Info: images/electroiman-un-hilo.png used on input line 377.
 (luatex.def)             Requested size: 162.23068pt x 56.08438pt.
 
-<images/electroiman-espira.png, id=413, 229.60782pt x 202.50656pt>
+<images/electroiman-espira.png, id=414, 229.60782pt x 202.50656pt>
 File: images/electroiman-espira.png Graphic file (type png)
 
 <use images/electroiman-espira.png>
-Package luatex.def Info: images/electroiman-espira.png used on input line 369.
+Package luatex.def Info: images/electroiman-espira.png used on input line 386.
 (luatex.def)             Requested size: 114.80362pt x 101.25302pt.
 
-<images/electroiman-bobina.png, id=414, 538.26094pt x 218.31563pt>
+<images/electroiman-bobina.png, id=416, 538.26094pt x 218.31563pt>
 File: images/electroiman-bobina.png Graphic file (type png)
 
 <use images/electroiman-bobina.png>
-Package luatex.def Info: images/electroiman-bobina.png used on input line 376.
+Package luatex.def Info: images/electroiman-bobina.png used on input line 394.
 (luatex.def)             Requested size: 269.1298pt x 109.15753pt.
+LaTeX Info: Redefining \. on input line 409.
+LaTeX Info: Redefining \% on input line 409.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 382.
+(babel)             in language  on input line 409.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 382.
-)
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 409.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 409.
+ [29<./images/electroiman-un-hilo.png>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 420.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 430.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 430.
+
+[30<./images/electroiman-espira.png><./images/electroiman-bobina.png>])
 LaTeX Info: Redefining \. on input line 112.
 LaTeX Info: Redefining \% on input line 112.
 Package babel Info: Redefining spanish shorthand <<
@@ -6040,102 +6121,101 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 112.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 112.
- [29<./images/electroiman-un-hilo.png>]
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 112.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 112.
 
-[30<./images/electroiman-espira.png><./images/electroiman-bobina.png>]
+[31]
 \openout2 = content/bibliografia.aux
-
-(./content/bibliografia.tex)
+ (./content/bibliografia.tex
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 114.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 114.
- [31
-
-
-
-] (./config/configuracao-apendices.tex)
-(./config/configuracao-apendices.tex)
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 168.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 1.
  [32
+
+
+
+])
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+ [33]
+(./config/configuracao-apendices.tex) (./config/configuracao-apendices.tex)
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 168.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 168.
+
+[34
 
 ] (./main.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
- (./main.aux
-(./txt/titulo.aux)
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
- (./txt/titulo-autor.aux) (./content/sobre-las-mediciones.aux) (./content/error
-es.aux) (./content/magnitudes-electricas.aux)
-(./content/bibliografia.aux))
+ (./main.aux (./txt/titulo.aux)
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+ (./txt/titulo-autor.aux)
+(./content/sobre-las-mediciones.aux) (./content/errores.aux)
+(./content/magnitudes-electricas.aux) (./content/bibliografia.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -6150,25 +6230,25 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 )
 
 Here is how much of LuaTeX's memory you used:
- 65359 strings out of 494577
+ 66816 strings out of 494577
  125171,2373549 words of node,token memory allocated
- 8731 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 947 glue, 1 kern, 404 attribute, 60 glue_spec, 404 
+ 9123 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 991 glue, 1 kern, 425 attribute, 60 glue_spec, 425 
 attribute_list, 2 write, 1 pdf_dest, 1 pdf_action nodes
-   avail lists: 1:6,2:535,3:167,4:77,5:339,6:2510,7:531,8:327,9:269,10:13,11:360
-
- 66479 multiletter control sequences out of 65536+600000
- 84 fonts using 19618199 bytes
+   avail lists: 1:8,2:495,3:167,4:77,5:341,6:2510,7:544,8:327,9:269,10:14,11:374
+,12:1
+ 67928 multiletter control sequences out of 65536+600000
+ 84 fonts using 19618275 bytes
  64i,12n,96p,858b,1299s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf><./fonts/Un
 B_Pro_v1.0/UnB-Pro_Italic.otf></usr/share/texmf/fonts/opentype/public/lm-math/la
 tinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-m
 ath.otf><./fonts/UnB_Pro_v1.0/UnB-Pro_Regular.otf><./fonts/UnB_Pro_v1.0/UnB-Pro_
 Bold.otf>
-Output written on main.pdf (32 pages, 232071 bytes).
+Output written on main.pdf (34 pages, 237114 bytes).
 
-PDF statistics: 497 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 132 named destinations out of 1000 (max. 131072)
+PDF statistics: 508 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 133 named destinations out of 1000 (max. 131072)
  305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
