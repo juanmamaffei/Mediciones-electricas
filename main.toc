@@ -41,7 +41,7 @@
 \contentsline {subsubsection}{Capacitancia}{27}{section*.8}
 \contentsline {section}{\numberline {3.7}Campos magnéticos}{29}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}Inductores}{29}{subsection.3.7.1}
-\contentsline {subsubsection}{Construcción}{29}{section*.9}
-\contentsline {subsubsection}{Inductancia}{29}{section*.10}
-\contentsline {subsubsection}{Tensión inducida}{29}{section*.11}
-\contentsline {subsubsection}{Tipos de inductores}{29}{section*.12}
+\contentsline {subsubsection}{Construcción}{29}{section*.12}
+\contentsline {subsubsection}{Inductancia}{29}{section*.13}
+\contentsline {subsubsection}{Tensión inducida}{29}{section*.14}
+\contentsline {subsubsection}{Tipos de inductores}{29}{section*.15}
