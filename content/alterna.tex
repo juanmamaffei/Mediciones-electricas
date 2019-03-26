@@ -1,11 +1,100 @@
 \chapter{Corriente alterna}
 
-\section{Formas de corriente alterna}
+Cuando en una gráfica de \textbf{tensión en función del tiempo} se observa un nivel de tensión por arriba del eje de abscisas, se considera positivo. Cuando está por debajo del eje, se considera negativo, y por lo tanto, representa a una corriente que está circulando en sentido contrario.
+ 
+De esa manera, una tensión que se encuentre sin cruzar el eje en un determinado período de tiempo, se denomina \textbf{continua}. Si el sentido de la corriente cambia de forma periódica (es decir, pasa de negativa a positiva o viceversa, y se repite su forma de onda al transcurrir un determinado tiempo), se denomina \textbf{alterna}.
+\begin{ejemplo}
+	En la figura \ref{fig:acdc}, se pueden apreciar distintas variaciones de la tensión a lo largo del tiempo.
+	\begin{itemize}
+		\item En la \textbf{figura A}, la tensión es continua.
+		\item En la \textbf{figura B}, la tensión es alterna, y tiene una forma de onda cuadrada.
+		\item En la \textbf{figura C}, la tensión es alterna, y tiene una forma de onda senoidal.
+		\item En la \textbf{figura D}, la tensión, si bien tiene forma de onda senoidal, es continua, porque se encuentra siempre por arriba del eje de abscisas. En otras palabras: nunca cambia su sentido, sino que sólo varía su valor de tensión.
+	\end{itemize}
+\end{ejemplo}
 
-\section{Generación de corriente alterna senoidal}
+\begin{figure}[htbp]
+%  \includegraphics[scale=1]{}
+  \caption{Corriente alterna y continua}
+  \label{fig:acdc}
+\end{figure}
 
-\section{Valores característicos}
+Si bien existen varias formas de ondas de corriente alterna (triangular, cuadrada), la más difundida es la \textbf{forma senoidal}, que se puede apreciar en la figura \ref{fig:acdc} (C). Esto es así, porque es el voltaje que se genera en las plantas eléctricas y porque, además, permite realizar ciertos cálculos matemáticos que la explican y predicen, aunque son algo más complejos que los de corriente directa o continua.
 
+\section{Corriente alterna senoidal}
+
+En la figura \ref{fig:ac} se puede distinguir una onda alterna senoidal. Pueden distinguirse los siguientes parámetros:
+
+\begin{itemize}
+	\item Valor instantáneo: magnitud de una forma de onda en cualquier instante. Se han indicado como ejemplos $e_1$, $e_2$ y $e_3$.
+	\item Valor pico: valor instantáneo máximo medido con respecto al nivel de 0 Volts. En la gráfica, se indicó como $Vp$. También se indicó el valor de pico negativo como $-Vp$.
+	\item Valor pico a pico: tensión entre $Vp$ y $-Vp$. Es la suma entre las magnitudes de los valores de pico positivo y negativo.
+	\item Ciclo: parte más pequeña de una onda hasta que comienza a repetirse.	
+	\item Periodo $T$: Tiempo que dura un ciclo. En el ejemplo se tiene 3 periodos (de $O$ a $T_1$, de $T_1$ a $T_2$ y de $T_2$ a $T_3$, aunque pueden indicarse otros periodos).
+	\item Frecuencia $f$: es la cantidad de ciclos que ocurren en 1 segundo. La frecuencia se mide en hertz (Hz), donde $1 Hertz = 1 ciclo por segundo$.
+\end{itemize}
+
+Del desarrollo anterior, se desprende que:
+\begin{equation}
+	\label{eq:frec_ciclos}
+	f=\frac{1}{T}
+\end{equation}
+Y que:
+\begin{equation}
+	\label{eq:ciclos_frec}
+	T=\frac{1}{f}
+\end{equation}
+Donde \textbf{T} se mide en segundos, y \textbf{$f$} se mide en Hz (Hertz).
+\begin{figure}[htbp]
+%  \includegraphics[scale=1]{}
+  \caption{Corriente alterna y continua}
+  \label{fig:ac}
+\end{figure}
+\begin{ejemplo}
+	\label{ej:ac_argentina}
+	En la figura \ref{fig:ac_argentina} se puede apreciar una onda senoidal que representa la tensión utilizada en Argentina.
+	
+	El valor de pico es $Vp = 311 V$ y el periodo $T = 0,02 s$.
+	
+	La frecuencia es $$f=\frac{1}{0,02 s}=50 Hz$$
+	
+	El valor de pico a pico es $$ Vpp = 2 \times 311 V = 622 V $$
+\end{ejemplo}
+\begin{figure}[htbp]
+%  \includegraphics[scale=1]{}
+  \caption{Corriente alterna en Argentina}
+  \label{fig:ac_argentina}
+\end{figure}
+
+\subsection{Definición matemática}
+Si se desea considerar a la tensión (en voltios) en función del tiempo (en segundos) para una forma de onda senoidal, se deberá partir de la función $$v(\alpha) = sen (\alpha) $$
+Obsérvese que en vez de utilizarse la variable $t$ (que se suele utilizar para indicar tiempo como número real), se ha definido un ángulo $\alpha$. Esto se debe a que la función senoidal está definida como el conjunto de valores que se obtienen al proyectar verticalmente un vector de radio que gira con movimiento circular uniforme alrededor de un punto fijo. La forma senoidal completa se trazará luego de haber completado una rotación de 360 grados alrededor del centro (o $2\pi$ radianes).
+
+Suele ser más cómodo trabajar con \textbf{radianes} en vez de \textbf{grados sexagesimales} para medir los ángulos y es lo que se hará en este texto.
+
+La idea de \textbf{proyectar verticalmente} el vector proviene de la trigonometría, ya que el $sen \alpha = \frac{\text{cateto opuesto}}{\text{radio}}$, como puede apreciarse en la figura \ref{fig:seno_triangulo}. Como el radio del vector es 1, entonces $ sen \alpha = \text{cateto opuesto} $, que es la \textbf{proyección vertical} del vector.
+
+\begin{figure}[htbp]
+%  \includegraphics[scale=1]{}
+  \caption{Seno en un triángulo rectángulo}
+  \label{fig:seno_triangulo}
+\end{figure}
+
+Un desarrollo de esta idea puede apreciarse en la figura \ref{fig:seno_proyectado}.
+\begin{figure}[htbp]
+%  \includegraphics[scale=1]{}
+  \caption{Forma de onda senoidal a partir de la proyección de un radio versor}
+  \label{fig:seno_proyectado}
+\end{figure}
+
+El vector gira con una velocidad angular $\omega$ alrededor del centro, determinada por la ecuación $$\omega = \frac{\text{distancia}}{\text{tiempo}}= \frac{\alpha}{t}$$ lo cual implica que $$ \omega t = \alpha $$
+
+Como una vuelta completa se realiza en un periodo $T$ (que a su vez tarda 360 grados o $2 \pi$ en realizarse), se puede decir que 
+$$\omega = \frac{2\pi}{T}$$ o bien, si se utiliza la ecuación \ref{eq:frec_ciclos}, $$\omega = 2\pi f$$
+
+Volviendo a la ecuación de la tensión en función del tiempo, podría redefinirse como $$v(t) = sen (\omega t)$$, permitiendo expresar, ahora sí, la tensión en función del tiempo.
+
+Sólo falta un detalle... debe observarse que el valor de pico de esta onda es el mismo que el del radio vector (1). Por lo tanto, la forma final de la onda seno que representa a la tensión en función del tiempo, deberá estar multiplicada por el valor de pico, de la siguiente forma: $$v = Vp \times sen(\omega t) $$
 \section{Valores rms}
 
 \section{Fasores}
