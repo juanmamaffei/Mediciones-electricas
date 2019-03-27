@@ -37,12 +37,14 @@
 \theoremstyle{definition}
 \newmdtheoremenv[style=definitionSty]{ejemplo}[definitionCounter]{Ejemplo}
 
-% Ambiente "Teorema":
+% Ambiente "Conclusiones":
 
 \mdfdefinestyle{theoremSty}{backgroundcolor=verde_UnB!10, linecolor=verde_UnB, linewidth=0pt, innerleftmargin=3ex, innerrightmargin=3ex, innertopmargin=1ex, innerbottommargin=1ex, innermargin=0, outermargin=0, needspace={0.2\textheight}}
 \newcounter{theoremCounter}[chapter] 
 \numberwithin{theoremCounter}{chapter}
-\newmdtheoremenv[style=theoremSty]{theorem}[theoremCounter]{Teorema}
+\numberwithin{theoremCounter}{section}
+\newmdtheoremenv[style=theoremSty]{conclusiones}[theoremCounter]{Conclusiones}
+
 
 % Ambiente "Demonstração":
 
