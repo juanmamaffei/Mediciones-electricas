@@ -258,11 +258,48 @@ Los instrumentos digitales poseen una determinada \textbf{cantidad de dígitos},
 
 La \textbf{sensibilidad}, en un instrumento digital, corresponde a el dígito menos significativo del rango.
 
-La \textbf{resolución}, por otra parte, no tiene unidad. Para calcularla, se debe pensar en la máxima lectura posible y dividir el valor mínimo que puede medir el último dígito sobre esta lectura máxima.
+La \textbf{resolución}, por otra parte, no tiene unidad. Para calcularla, se debe pensar en la máxima lectura posible y dividir el valor mínimo que puede medir el último dígito sobre esta lectura máxima. Esto quiere decir, que es el menor cambio posible a observar en la cantidad medida. 
 
 $$ \textit{Resolución} = \frac{1}{10^{d}} \textit{siendo $d$ la cantidad de dígitos}$$
 
 La resolución también se suele expresar como porcentaje.
 
 Con estos datos, se puede hallar la sensibilidad en función de la resolución del instrumento:
-$$ Sensibilidad = \frac{\textit{Resolución x Valor a plena escala}}{1000} $$
+$$ \text{Sensibilidad} = \frac{\textit{Resolución x Valor a plena escala}}{1000} $$
+
+La \textbf{deriva de la sensibilidad} es la variación que sufre la sensibilidad como consecuencia de las condiciones ambientales en las que se realiza el experimento de medición.
+
+\subsection{Clase de un instrumento}
+La clase de un instrumento es uno de los indicadores de la precisión del mismo. Es el valor porcentual que expresa la relación entre el error absoluto y el alcance del mismo:
+
+$$ Clase = \frac{E_{abs}max}{Alcance}\times 100 $$
+\begin{figure}
+	\includegraphics[scale=0.7]{images/volt_clase}
+	\caption{Voltímetro Clase 2,5}
+	\label{fig:voltclase}
+\end{figure}
+\begin{ejemplo}
+	En la figura \ref{fig:voltclase}, se puede apreciar que la clase del instrumento es 2,5. Como se ve, el alcance máximo es de 50 V. ¿Cuál es el error absoluto máximo que puede producirse?
+	
+	\emph{Solución:} Reemplazando en la ecuación de clase:
+	
+	$$ 2,5 = \frac{ErrorAbsMax}{50 V} \times 100 
+	\rightarrow
+	ErrorAbsMax = \frac{2,5 \times 50V}{100} = 1,25 V $$
+	
+	
+\end{ejemplo}
+
+\begin{tabular}{|c|p{7cm}|}
+\hline 
+Clase del instrumento & Aplicación \\ 
+\hline 
+0.05 a 0.1 & Patrones de referencia. Calibración de instrumentos. Ensayos de laboratorio muy precisos. \\ 
+\hline 
+0.2 a 0.5 & Ensayos de laboratorio. Contraste de instrumentos de una clase al menos 5 veces mayor \\ 
+\hline 
+>1 & Tableros, paneles de escala vertical, instrumentos portátiles de baja precisión. \\ 
+\hline 
+\end{tabular} 
+
+\subsection{Simbología de los instrumentos de medición eléctrica}

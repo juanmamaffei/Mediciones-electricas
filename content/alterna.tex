@@ -33,7 +33,7 @@ De esa manera, una tensión que se encuentre sin cruzar el eje en un determinado
   \caption{Corriente con forma senoidal no alterna}
   \label{fig:acdc_d}
 \end{figure}
-Si bien existen varias formas de ondas de corriente alterna (triangular, cuadrada), la más difundida es la \textbf{forma senoidal}, que se puede apreciar en la figura \ref{fig:acdc} (C). Esto es así, porque es el voltaje que se genera en las plantas eléctricas y porque, además, permite realizar ciertos cálculos matemáticos que la explican y predicen, aunque son algo más complejos que los de corriente directa o continua.
+Si bien existen varias formas de ondas de corriente alterna (triangular, cuadrada), la más difundida es la \textbf{forma senoidal}, que se puede apreciar en la figura \ref{fig:acdc_c}. Esto es así, porque es el voltaje que se genera en las plantas eléctricas y porque, además, permite realizar ciertos cálculos matemáticos que la explican y predicen, aunque son algo más complejos que los de corriente directa o continua.
 
 \section{Corriente alterna senoidal}
 
@@ -45,7 +45,7 @@ En la figura \ref{fig:ac} se puede distinguir una onda alterna senoidal. Pueden 
 	\item Valor pico a pico: tensión entre $Vp$ y $-Vp$. Es la suma entre las magnitudes de los valores de pico positivo y negativo.
 	\item Ciclo: parte más pequeña de una onda hasta que comienza a repetirse.	
 	\item Periodo $T$: Tiempo que dura un ciclo. En el ejemplo se tiene 3 periodos (de $O$ a $T_1$, de $T_1$ a $T_2$ y de $T_2$ a $T_3$, aunque pueden indicarse otros periodos).
-	\item Frecuencia $f$: es la cantidad de ciclos que ocurren en 1 segundo. La frecuencia se mide en hertz (Hz), donde $1 Hertz = 1 ciclo por segundo$.
+	\item Frecuencia $f$: es la cantidad de ciclos que ocurren en 1 segundo. La frecuencia se mide en hertz (Hz), donde $1\; Hertz = 1\; \text{ciclo por segundo}$.
 \end{itemize}
 
 Del desarrollo anterior, se desprende que:
@@ -68,11 +68,11 @@ Donde \textbf{T} se mide en segundos, y \textbf{$f$} se mide en Hz (Hertz).
 	\label{ej:ac_argentina}
 	En la figura \ref{fig:ac_argentina} se puede apreciar una onda senoidal que representa la tensión utilizada en Argentina.
 	
-	El valor de pico es $Vp = 311 V$ y el periodo $T = 0,02 s$.
+	El valor de pico es $Vp = 311\; V$ y el periodo $T = 0,02\; s$.
 	
-	La frecuencia es $$f=\frac{1}{0,02 s}=50 Hz$$
+	La frecuencia es $$f=\frac{1}{0,02\; s}=50\; Hz$$
 	
-	El valor de pico a pico es $$ Vpp = 2 \times 311 V = 622 V $$
+	El valor de pico a pico es $$ Vpp = 2 \times 311\; V = 622\; V $$
 \end{ejemplo}
 \begin{figure}[htbp]
   \includegraphics[scale=0.1]{images/ac_argentina}
@@ -121,7 +121,7 @@ $$v=Vp \times sen (\omega t \pm \theta ) $$
 Si se comparan dos ondas senoidales de la \textbf{misma frecuencia}, pueden indicarse relaciones de \textbf{adelanto} o de \textbf{atraso} de una con respecto a la otra.
 
 \begin{ejemplo}
-	En la figura \ref{fig:ejemplos_senos} puede apreciarse la función $v(t)=sen(\omega t)$ en color rojo y en color azul la función $v(t)=cos(\omega t)$. Nótese que la forma de onda es exactamente igual al seno, pero con un desplazamiento en el eje horizontal: esto es lo que habitualmente se denomina \textbf{desfasaje}. De ese modo. El coseno se podría redefinir como un seno desplazado, o viceversa: $$ sen(\alpha) = cos(\alpha - 90º) $$ $$ cos(\alpha) = sen(\alpha + 90º) $$
+	En la figura \ref{fig:ejemplos_senos} puede apreciarse la función $v(t)=sen(\omega t)$ en color rojo y en color azul la función $v(t)=cos(\omega t)$. Nótese que la forma de onda es exactamente igual al seno, pero con un desplazamiento en el eje horizontal: esto es lo que habitualmente se denomina \textbf{desfasaje}. De ese modo, el coseno se podría redefinir como un seno desplazado, o viceversa: $$ sen(\alpha) = cos(\alpha - 90º) $$ $$ cos(\alpha) = sen(\alpha + 90º) $$
 	Puede apreciarse en la figura, la función $sen(\omega t -90º)$ en color verde. Nótese que si el ángulo de desplazamiento es positivo, como en el ejemplo anterior, la curva se desplaza hacia la izquierda, y si el ángulo es negativo, como en este caso, el desplazamiento es hacia la derecha.
 \end{ejemplo}
 
@@ -134,7 +134,7 @@ Si se comparan dos ondas senoidales de la \textbf{misma frecuencia}, pueden indi
 \section{Valores rms}
 El \textbf{valor RMS} o \textbf{valor eficaz}, es el valor de tensión o corriente alterna que produce la misma potencia que su equivalente en corriente continua.
 
-No debe confundirse el valor eficaz con el \textbf{valor promedio}. El valor promedio de una tensión es la suma algebraica de las áreas respecto de la longitud de la curva. Si se analiza la corriente alterna senoidal, se observará que el valor promedio de tensión es de $0 V$. No ocurre lo mismo con la \textbf{tensión eficaz}.
+No debe confundirse el valor eficaz con el \textbf{valor promedio}. El valor promedio de una tensión es la suma algebraica de las áreas respecto de la longitud de la curva. Si se analiza la corriente alterna senoidal, se observará que el valor promedio de tensión es de $0\; V$. No ocurre lo mismo con la \textbf{tensión eficaz}.
 
 \begin{figure}[htbp]
   \includegraphics[scale=0.14]{images/potencia_alterna}
@@ -194,6 +194,106 @@ Mediante el cálculo se puede demostrar a través de la integración, pero exced
 		V_{PICO} = \sqrt{2}V_{RMS}=V_{RMS}\times 1,414
 	\end{equation}
 \end{conclusiones}
+
+\section{Respuesta de resistores, capacitores e inductores a la corriente alterna}
+\subsection{Régimen transitorio}
+Los cambios en los circuitos en las redes que poseen inductancia y capacidad no son instantáneos. Por ello, es conveniente evaluar el \textbf{régimen transitorio} de los circuitos, que corresponde a la respuesta que se produce ante una variación en el circuito hasta que se alcanza el \textbf{régimen permanente}, que es el momento en el cual los valores permanecen estables.
+En el caso de una red capacitiva, los transitorios son:
+\begin{itemize}
+	\item Fase de carga.
+	\item Fase de descarga.
+\end{itemize}
+En una red inductiva, los transitorios son:
+\begin{itemize}
+	\item Fase de almacenamiento.
+	\item Fase de liberación.
+\end{itemize}
+\subsubsection{Fase de carga de una red capacitiva}
+Al conectar un capacitor $C$ a una fuente de alimentación $V$ (por el momento, se supondrá que es continua) en serie con una resistencia $R$, éste acumula carga entre sus placas. Al principio, el movimiento de cargas es muy veloz, pero transcurrido un tiempo, el incremento es mucho más lento, hasta que finalmente se estabiliza. Esto se modela con la ecuación:
+\begin{equation}
+	\label{eq:carga_capacitor_i}
+	i(t)=\frac{V}{R}e^{-t / \tau}
+\end{equation}
+Donde $\tau = RC $ se denomina \textbf{constante de tiempo} y se mide en segundos.
+
+Para deducir que $\tau$ refiere a tiempo, se utilizará la Ley de Ohm, la ecuación \ref{eq:capacitancia} y la ecuación \ref{eq:2}: $$ \tau = RC = (V/I)(Q/V)=(\frac{V}{Q/t})(Q/V)=t$$
+
+Por el contrario, la tensión en el capacitor será mínima en el instante en el cual se suministra tensión entre las placas, e irá aumentando a medida que las placas se vayan cargando. Cuando esto ocurra, la tensión será la de la fuente. Esto se modela con la ecuación:
+\begin{equation}
+	\label{eq:carga_capacitor_v}
+	v(t)=V(1-e^{-t / \tau})
+\end{equation}
+
+Como una buena aproximación, se sabe que luego de cinco constantes de tiempo, la carga del capacitor es casi completa (más el 90\%). Esto suele ser útil para realizar cálculos y estimaciones.
+
+Para demostrarlo, se reemplaza $t=5\tau$ en la ecuación \ref{eq:carga_capacitor_v}, obteniendo:
+
+\begin{eqnarray*}
+	v(5\tau)=V(1-e^{-5\tau / \tau} \\
+	v(5\tau)=V(1-e^{-5} \\
+	v(5\tau)=V-Ve^{-5} \\
+	v(5\tau)=V-0,07358V  \\
+	v(5\tau)=0,926V
+\end{eqnarray*}
+
+Lo que ocurre con la corriente en este periodo de tiempo es que se vuelve muy cercana a $0 A$, debido a que las placas están casi cargadas por completo. El razonamiento es el mismo, pero reemplazando $t=5\tau$ en la ecuación \ref{eq:carga_capacitor_i}, y se dejará para ejercicio del lector.
+
+\begin{conclusiones}
+	La tensión de un capacitor no varía de forma instantánea.
+		
+	Durante la fase de carga, la corriente comienza siendo muy alta, pero luego de cinco constantes de tiempo, se vuelve cercana a $0\; A$. Por el contrario, la tensión comienza siendo $0\; V$ y transcurridos cinco constantes de tiempo, se vuelve cercana al valor de la fuente de alimentación.
+	
+	El mayor cambio de voltaje y de corriente ocurren durante la primera constante de tiempo.
+	
+	Cuando el transitorio comienza, el circuito equivalente del capacitor es un cortocircuito, pero cuando el transitorio finalizó, el circuito equivalente del capacitor es un circuito abierto.
+\end{conclusiones}
+\subsubsection{Fase de descarga de una red capacitiva}
+La manera más rápida de descargar un capacitor es cortocircuitando sus contactos. Esto hará que la corriente fluya de una placa a la otra de forma acelerada, pero esto conlleva varios riesgos para el operario y para el componente, que, como mínimo, provocará un chispazo, dependiendo de su capacidad.
+
+Si se piensa en el circuito utilizado para la fase de carga (batería en serie con resitencia y capacitor), cortocircuitando la batería (o reemplazándola por un cable), el capacitor se descargará por la resistencia de forma más lenta y segura, pero es importante notar que la polaridad de la corriente se invertirá. La curva de descarga de la tensión será similar a la curva de carga de la corriente:
+\begin{equation}
+	\label{eq:descarga_capacitor_v}
+	v(t)=Ve^{-t / \tau}
+\end{equation}
+Y la corriente será la misma que en la fase de carga, pero con la polaridad invertida:
+\begin{equation}
+	\label{eq:descarga_capacitor_i}
+	i(t)=-\frac{V}{R}e^{-t / \tau}
+\end{equation}
+Al igual que en la fase de carga, se supone que la fase de descarga estará casi completa luego de cinco constantes de tiempo.
+
+En este análisis de respuesta transitoria, se omitirán las condiciones iniciales. Esto quiere decir, que se supondrá que los capacitores \textbf{siempre están descargados}.
+
+\subsubsection{Fase de almacenamiento en una red inductiva}
+
+Existen semejanzas entre la \textbf{tensión de una bobina} y la \textbf{corriente de un capacitor}. Para el siguiente análisis, se supondrá un circuito RL serie (fuente de tensión continua, interruptor, resistencia e inductor).
+
+Así como un capacitor almacena energía en forma de campo eléctrico entre sus placas, una bobina almacena energía en forma de campo magnético. En el instante en el que se cierra el interruptor, la bobina ofrece una \textbf{acción de bloqueo}, efecto de la \textit{Ley de Lenz} (refiérase al capítulo correspondiente a \textit{Máquinas eléctricas} para un mejor desarrollo). Esta acción de bloqueo, impedirá la aparición de corriente de manera instantánea, provocando una curva de respuesta de corriente muy similar a la de tensión del capacitor: al principio $i_L = 0$, luego se incrementará rápidamente, y finalmente se acercará con menor rapidez al valor determinado por la red $V/R$. Este comportamiento es modelado con la siguiente ecuación:
+
+\subsubsection{Fase de liberación en una red inductiva}
+\begin{equation}
+	\label{eq:almacenamiento_inductor_i}
+	i(t)=\frac{V}{R}(1-e^{-t / \tau})
+\end{equation}
+
+Con la constante de tiempo, esta vez definida como $\tau = \frac{L}{R} $, extendiéndose el análisis sobre la misma realizada con los capacitores.
+
+La tensión en la bobina será:
+\begin{equation}
+	\label{eq:almacenamiento_inductor_v}
+	v(t)=Ve^{-t / \tau}
+\end{equation}
+
+\begin{conclusiones}
+	La fase de almacenamiento finaliza aproximadamente en cinco constantes de tiempo.
+	
+	En una red inductiva, el cambio de corriente nunca es instantáneo, debido a sus características de bloqueo.
+	
+	Apenas se cierra el interruptor, la bobina se convierte en un circuito abierto, pero luego de que finalice su fase de almacenamiento, se comporta como un cortocircuito.
+\end{conclusiones}
+\subsection{Respuesta del resistor}
+\subsection{Respuesta del capacitor}
+\subsection{Respuesta del inductor}
 \section{Fasores}
 Los fasores permiten relacionar tensiones y corrientes alternas senoidales de una forma más sencilla que si se trabajara directamente con las ondas.
 

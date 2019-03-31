@@ -57,7 +57,7 @@ Suele ser útil expresar el error relativo como porcentaje. Para eso, multiplica
 Nótese que, si bien en ambos ejemplos el error absoluto es el mismo, el error relativo del ejemplo \ref{ejE:1} es mucho mayor que la del ejemplo \ref{ejE:2}; por lo que la segunda medición es mucho más precisa.
 
 \section{Clasificación de los errores}
-\subsection{Errores groseros}
+\subsection{Errores humanos}
 Son los errores producidos por una mala elección del instrumento o del método, por una mala interpretación del operario (como por ejemplo una transposición de cifras), o bien por una implementación errónea (una lectura en escala incorrecta).
 
 Es posible detectar errores groseros controlando de forma permanente la coherencia de los valores dentro de una serie de mediciones. Si existe un valor que resulte sospechoso para el contexto en el cual se tomó, entonces debería revisarse.
@@ -73,35 +73,4 @@ Pueden producirse por:
 	\item Errores por tendencia del observador, ya sea en exceso o en defecto.
 	\item Errores condicionados por el ambiente. Aspectos como la temperatura, humedad, vibraciones o presión, pueden afectar la precisión de un instrumento o de la técnica utilizada.
 \end{itemize}
-\section{Clase de un instrumento}
-La clase de un instrumento es uno de los indicadores de la precisión del mismo. Es el valor porcentual que expresa la relación entre el error absoluto y el alcance del mismo:
 
-$$ Clase = \frac{E_{abs}max}{Alcance}\times 100 $$
-\begin{figure}
-	\includegraphics[scale=0.7]{images/volt_clase}
-	\caption{Voltímetro Clase 2,5}
-	\label{fig:voltclase}
-\end{figure}
-\begin{ejemplo}
-	En la figura \ref{fig:voltclase}, se puede apreciar que la clase del instrumento es 2,5. Como se ve, el alcance máximo es de 50 V. ¿Cuál es el error absoluto máximo que puede producirse?
-	
-	\emph{Solución:} Reemplazando en la ecuación de clase:
-	
-	$$ 2,5 = \frac{ErrorAbsMax}{50 V} \times 100 
-	\rightarrow
-	ErrorAbsMax = \frac{2,5 \times 50V}{100} = 1,25 V $$
-	
-	
-\end{ejemplo}
-
-\begin{tabular}{|c|p{7cm}|}
-\hline 
-Clase del instrumento & Aplicación \\ 
-\hline 
-0.05 a 0.1 & Patrones de referencia. Calibración de instrumentos. Ensayos de laboratorio muy precisos. \\ 
-\hline 
-0.2 a 0.5 & Ensayos de laboratorio. Contraste de instrumentos de una clase al menos 5 veces mayor \\ 
-\hline 
->1 & Tableros, paneles de escala vertical, instrumentos portátiles de baja precisión. \\ 
-\hline 
-\end{tabular} 

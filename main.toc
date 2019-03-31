@@ -14,16 +14,17 @@
 \contentsline {section}{\numberline {1.5}Generalidades de instrumentos de medición eléctrica}{13}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Instrumentos analógicos}{13}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Instrumentos digitales}{13}{subsection.1.5.2}
-\contentsline {chapter}{\numberline {2}Errores}{15}{chapter.2}
-\contentsline {subsection}{\numberline {2.0.1}Error absoluto}{15}{subsection.2.0.1}
-\contentsline {subsection}{\numberline {2.0.2}Tolerancia}{15}{subsection.2.0.2}
-\contentsline {subsubsection}{Valor verdadero probable}{16}{section*.1}
-\contentsline {subsection}{\numberline {2.0.3}Error relativo}{16}{subsection.2.0.3}
-\contentsline {subsubsection}{Error relativo porcentual}{16}{section*.2}
-\contentsline {section}{\numberline {2.1}Clasificación de los errores}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Errores groseros}{17}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Errores sistemáticos}{17}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Clase de un instrumento}{18}{section.2.2}
+\contentsline {subsection}{\numberline {1.5.3}Clase de un instrumento}{14}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Simbología de los instrumentos de medición eléctrica}{16}{subsection.1.5.4}
+\contentsline {chapter}{\numberline {2}Errores}{17}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.1}Error absoluto}{17}{subsection.2.0.1}
+\contentsline {subsection}{\numberline {2.0.2}Tolerancia}{17}{subsection.2.0.2}
+\contentsline {subsubsection}{Valor verdadero probable}{18}{section*.2}
+\contentsline {subsection}{\numberline {2.0.3}Error relativo}{18}{subsection.2.0.3}
+\contentsline {subsubsection}{Error relativo porcentual}{18}{section*.3}
+\contentsline {section}{\numberline {2.1}Clasificación de los errores}{19}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Errores humanos}{19}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Errores sistemáticos}{19}{subsection.2.1.2}
 \contentsline {chapter}{\numberline {3}Magnitudes eléctricas}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}El átomo}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Fuerza eléctrica}{22}{subsection.3.1.1}
@@ -41,58 +42,67 @@
 \contentsline {subsubsection}{Capacitancia}{29}{section*.8}
 \contentsline {section}{\numberline {3.7}Campos magnéticos}{31}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}Inductores}{32}{subsection.3.7.1}
+\contentsline {section}{\numberline {3.8}Sobre la resistencia, capacidad e inductancia}{33}{section.3.8}
 \contentsline {chapter}{\numberline {4}Corriente alterna}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Corriente alterna senoidal}{38}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Definición matemática}{39}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Relaciones de fase}{41}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Valores rms}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}Fasores}{44}{section.4.3}
-\contentsline {section}{\numberline {4.4}Potencia}{45}{section.4.4}
-\contentsline {chapter}{\numberline {5}Sistemas trifásicos}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Generación}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Secuencias de fases}{47}{section.5.2}
-\contentsline {section}{\numberline {5.3}Potencia}{47}{section.5.3}
-\contentsline {section}{\numberline {5.4}Cargas desbalanceadas}{47}{section.5.4}
-\contentsline {chapter}{\numberline {6}Instrumentos de medición}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}Galvanómetro}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}Multímetro}{49}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Voltímetro}{49}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Amperímetro}{49}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Óhmetro}{49}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Vatímetro}{49}{section.6.3}
-\contentsline {section}{\numberline {6.4}Capacímetro}{49}{section.6.4}
-\contentsline {section}{\numberline {6.5}Frecuencímetro}{49}{section.6.5}
-\contentsline {section}{\numberline {6.6}Pinza amperométrica}{49}{section.6.6}
-\contentsline {section}{\numberline {6.7}Megóhmetro, megger o medidor de aislamiento eléctrico}{49}{section.6.7}
-\contentsline {section}{\numberline {6.8}Telurímetro o medidor de puesta a tierra}{49}{section.6.8}
-\contentsline {section}{\numberline {6.9}Osciloscopio}{50}{section.6.9}
-\contentsline {section}{\numberline {6.10}Comprobadores de tensión}{50}{section.6.10}
-\contentsline {subsection}{\numberline {6.10.1}Buscapolo}{50}{subsection.6.10.1}
-\contentsline {subsection}{\numberline {6.10.2}Medidor inductivo}{50}{subsection.6.10.2}
-\contentsline {section}{\numberline {6.11}Cofímetro o medidor de factor de potencia}{50}{section.6.11}
-\contentsline {section}{\numberline {6.12}Medidores de energía}{50}{section.6.12}
-\contentsline {subsection}{\numberline {6.12.1}Transformadores de corriente}{50}{subsection.6.12.1}
-\contentsline {section}{\numberline {6.13}Medidor de campo electromagnético}{50}{section.6.13}
-\contentsline {section}{\numberline {6.14}Milióhmetro}{50}{section.6.14}
-\contentsline {section}{\numberline {6.15}Generadores de funciones}{50}{section.6.15}
-\contentsline {chapter}{\numberline {7}Máquinas eléctricas}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}Generadores}{51}{section.7.1}
-\contentsline {section}{\numberline {7.2}Motores}{51}{section.7.2}
-\contentsline {section}{\numberline {7.3}Transformadores}{51}{section.7.3}
-\contentsline {chapter}{\numberline {8}Prácticas de laboratorio}{53}{chapter.8}
-\contentsline {section}{\numberline {8.1}Mediciones en CC}{53}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Prueba de componentes}{53}{subsection.8.1.1}
-\contentsline {section}{\numberline {8.2}Ensayos sobre instalaciones de CA}{53}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Consumos}{53}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Energía}{53}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Puesta a tierra}{53}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Potencia}{53}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}Armónicas}{53}{subsection.8.2.5}
-\contentsline {section}{\numberline {8.3}Ensayos sobre máquinas eléctricas}{54}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Motores de CA}{54}{subsection.8.3.1}
-\contentsline {subsubsection}{Aislamiento}{54}{section*.22}
-\contentsline {subsubsection}{Bobinados}{54}{section*.23}
-\contentsline {subsubsection}{Frecuencia}{54}{section*.24}
-\contentsline {subsection}{\numberline {8.3.2}Transformadores}{54}{subsection.8.3.2}
-\contentsline {subsubsection}{Transformador de aislación galvánica}{54}{section*.25}
-\contentsline {section}{\numberline {8.4}Tratamiento digital de datos}{54}{section.8.4}
+\contentsline {section}{\numberline {4.3}Respuesta de resistores, capacitores e inductores a la corriente alterna}{44}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Régimen transitorio}{44}{subsection.4.3.1}
+\contentsline {subsubsection}{Fase de carga de una red capacitiva}{45}{section*.22}
+\contentsline {subsubsection}{Fase de descarga de una red capacitiva}{46}{section*.23}
+\contentsline {subsubsection}{Fase de almacenamiento en una red inductiva}{47}{section*.24}
+\contentsline {subsection}{\numberline {4.3.2}Respuesta del resistor}{48}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Respuesta del capacitor}{48}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Respuesta del inductor}{48}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Fasores}{48}{section.4.4}
+\contentsline {section}{\numberline {4.5}Potencia}{48}{section.4.5}
+\contentsline {chapter}{\numberline {5}Sistemas trifásicos}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Generación}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}Secuencias de fases}{49}{section.5.2}
+\contentsline {section}{\numberline {5.3}Potencia}{49}{section.5.3}
+\contentsline {section}{\numberline {5.4}Cargas desbalanceadas}{49}{section.5.4}
+\contentsline {chapter}{\numberline {6}Instrumentos de medición}{51}{chapter.6}
+\contentsline {section}{\numberline {6.1}Galvanómetro}{51}{section.6.1}
+\contentsline {section}{\numberline {6.2}Multímetro}{51}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Voltímetro}{51}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Amperímetro}{51}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Óhmetro}{51}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Vatímetro}{51}{section.6.3}
+\contentsline {section}{\numberline {6.4}Capacímetro}{51}{section.6.4}
+\contentsline {section}{\numberline {6.5}Frecuencímetro}{51}{section.6.5}
+\contentsline {section}{\numberline {6.6}Pinza amperométrica}{51}{section.6.6}
+\contentsline {section}{\numberline {6.7}Megóhmetro, megger o medidor de aislamiento eléctrico}{51}{section.6.7}
+\contentsline {section}{\numberline {6.8}Telurímetro o medidor de puesta a tierra}{51}{section.6.8}
+\contentsline {section}{\numberline {6.9}Osciloscopio}{52}{section.6.9}
+\contentsline {section}{\numberline {6.10}Comprobadores de tensión}{52}{section.6.10}
+\contentsline {subsection}{\numberline {6.10.1}Buscapolo}{52}{subsection.6.10.1}
+\contentsline {subsection}{\numberline {6.10.2}Medidor inductivo}{52}{subsection.6.10.2}
+\contentsline {section}{\numberline {6.11}Cofímetro o medidor de factor de potencia}{52}{section.6.11}
+\contentsline {section}{\numberline {6.12}Medidores de energía}{52}{section.6.12}
+\contentsline {subsection}{\numberline {6.12.1}Transformadores de corriente}{52}{subsection.6.12.1}
+\contentsline {section}{\numberline {6.13}Medidor de campo electromagnético}{52}{section.6.13}
+\contentsline {section}{\numberline {6.14}Milióhmetro}{52}{section.6.14}
+\contentsline {section}{\numberline {6.15}Generadores de funciones}{52}{section.6.15}
+\contentsline {chapter}{\numberline {7}Máquinas eléctricas}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Generadores}{53}{section.7.1}
+\contentsline {section}{\numberline {7.2}Motores}{53}{section.7.2}
+\contentsline {section}{\numberline {7.3}Transformadores}{53}{section.7.3}
+\contentsline {chapter}{\numberline {8}Prácticas de laboratorio}{55}{chapter.8}
+\contentsline {section}{\numberline {8.1}Mediciones en CC}{55}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Prueba de componentes}{55}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}Ensayos sobre instalaciones de CA}{55}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Consumos}{55}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Energía}{55}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Puesta a tierra}{55}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Potencia}{55}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}Armónicas}{55}{subsection.8.2.5}
+\contentsline {section}{\numberline {8.3}Ensayos sobre máquinas eléctricas}{56}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Motores de CA}{56}{subsection.8.3.1}
+\contentsline {subsubsection}{Aislamiento}{56}{section*.25}
+\contentsline {subsubsection}{Bobinados}{56}{section*.26}
+\contentsline {subsubsection}{Frecuencia}{56}{section*.27}
+\contentsline {subsection}{\numberline {8.3.2}Transformadores}{56}{subsection.8.3.2}
+\contentsline {subsubsection}{Transformador de aislación galvánica}{56}{section*.28}
+\contentsline {section}{\numberline {8.4}Tratamiento digital de datos}{56}{section.8.4}
