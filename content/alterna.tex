@@ -270,7 +270,7 @@ Existen semejanzas entre la \textbf{tensión de una bobina} y la \textbf{corrien
 
 Así como un capacitor almacena energía en forma de campo eléctrico entre sus placas, una bobina almacena energía en forma de campo magnético. En el instante en el que se cierra el interruptor, la bobina ofrece una \textbf{acción de bloqueo}, efecto de la \textit{Ley de Lenz} (refiérase al capítulo correspondiente a \textit{Máquinas eléctricas} para un mejor desarrollo). Esta acción de bloqueo, impedirá la aparición de corriente de manera instantánea, provocando una curva de respuesta de corriente muy similar a la de tensión del capacitor: al principio $i_L = 0$, luego se incrementará rápidamente, y finalmente se acercará con menor rapidez al valor determinado por la red $V/R$. Este comportamiento es modelado con la siguiente ecuación:
 
-\subsubsection{Fase de liberación en una red inductiva}
+
 \begin{equation}
 	\label{eq:almacenamiento_inductor_i}
 	i(t)=\frac{V}{R}(1-e^{-t / \tau})
@@ -291,20 +291,151 @@ La tensión en la bobina será:
 	
 	Apenas se cierra el interruptor, la bobina se convierte en un circuito abierto, pero luego de que finalice su fase de almacenamiento, se comporta como un cortocircuito.
 \end{conclusiones}
+
+\subsubsection{Fase de liberación en una red inductiva}
+
+En una red capacitiva, la energía se mantenía almacenada en forma de campo eléctrico, aún cuando se desconectara la fuente de tensión, debido a la atracción de cargas entre las placas (sólo se descargaría por las corrientes de fuga). En un inductor, al eliminar el flujo de corriente eléctrica, el campo magnético se liberará rápidamente, y la reducción abrupta de corriente provocará un chispazo en los contactos. Como la tensión es producto de la \textbf{variación en la corriente}, y la variación es abrupta, la tensión será muy alta.
+
+Al liberar la energía, el inductor sigue la curva de descarga de las siguientes ecuaciones de tensión y corriente respecto del tiempo:
+\begin{equation}
+	\label{eq:liberacion_inductor_v}
+	v(t)=-Ve^{-t / \tau}
+\end{equation}
+\begin{equation}
+	\label{eq:liberacion_inductor_v}
+	i(t)=\frac{V}{R} e^{-t / \tau}
+\end{equation}
+
+\begin{conclusiones}
+	Los inductores y capacitores, idealmente, no disipan energía, sino que la almacenan como campo eléctrico (en el caso del capacitor) o como campo magnético (en el caso del inductor).
+	
+	Todas las fases transitorias analizadas tienen una duración aproximada de cinco constantes de tiempo.
+\end{conclusiones}
+
 \subsection{Respuesta del resistor}
-\subsection{Respuesta del capacitor}
+
+Para frecuencias de línea ($50\; Hz$ en el caso de Argentina), las cargas resistivas tienen un comportamiento lineal, y por ello puede aplicarse directamente la Ley de Ohm para calcular sus tensiones y corrientes.
+
+\begin{figure}[htbp]
+%  \includegraphics[scale=0.14]{images/potencia_alterna}
+  \caption{Curvas de respuesta del resistor en corriente alterna}
+  \label{fig:respuesta_resistor_curvas}
+\end{figure}
+\begin{figure}[htbp]
+%  \includegraphics[scale=0.14]{images/potencia_alterna}
+  \caption{Circuito resistivo con una fuente de corriente alterna}
+  \label{fig:respuesta_resistor_circuito}
+\end{figure}
+
+$$ i = \frac{V_{RMS} \times sen(\omega t)}{R} = \frac{V_{RMS}}{R} sen(\omega t) = I_{RMS} sen(\omega t) $$
+
+Como se observa en la figura~\ref{fig:respuesta_resistor_curvas}, la fase de la corriente y la tensión es la misma. Por lo tanto, la variación de corriente y tensión ocurren en la misma proporción y puede considerarse:
+
+\begin{equation}
+	\label{eq:i_resistor_alterna}
+	I_{RMS} = \frac{V_{RMS}}{R}
+\end{equation}
+\begin{equation}
+	\label{eq:i_resistor_alterna}
+	V_{RMS} = I_{RMS}\times R
+\end{equation}
+
 \subsection{Respuesta del inductor}
+
+La tensión a través de un inductor está directamente relacionado con la velocidad de cambio de la corriente a través del mismo. En corriente alterna, esta variación está dada, entre otros factores, por la frecuencia de la red. Por ello, existe una relación entre la frecuencia, la tensión en el inductor y su valor de inductancia.
+
+\begin{eqnarray*}
+	v_L = L \frac{di_L}{dt} \\
+	v_L = L \frac{d}{dt}(Ip\times sen(\omega t)) \\
+	v_L = L( \omega Ip\times cos (\omega t)) \\
+	v_L = \omega L Ip\times cos(\omega t) \\
+	v_L = \omega L Ip\times sen(\omega t +90^{\circ}) \\
+\end{eqnarray*}
+
+Como se explicó antes, el valor de pico está relacionado con $\omega=2\pi f$, y por $L$ como se explicó anteriormente. También puede apreciarse que la corriente y la tensión difieren en su fase por 90º.
+
+\begin{conclusiones}
+	En el inductor, la tensión $v_L$ va por delante 90º a la corriente $i_L$. 
+	\begin{equation}
+		\label{eq:i_inductor}
+		i_L = Ip\times sen(\omega t)
+	\end{equation}
+	
+	\begin{equation}
+		\label{eq:v_inductor}
+		v_L = \omega \times L \times Ip \times sen(\omega t + 90^{\circ})
+	\end{equation}
+	
+\end{conclusiones}
+
+\subsection{Respuesta del capacitor}
+
+La tensión en un capacitor está limitada por la velocidad a la cual se depositan o liberan las cargas entre sus placas, y por ello, a mayor frecuencia, mayor corriente.
+
+Por otra parte, mientras mayor sea el valor de capacitancia, mayor será la corriente capacitiva resultante, debido a que $i = C(dv/dt)$.
+
+\begin{eqnarray*}
+	i_C = C \frac{dv_C}{dt} \\
+	i_C = C \frac{d}{dt}(Vp\times sen(\omega t)) \\
+	i_C = C (\omega \times Vp \times cos(\omega t)) \\
+	i_C = \omega \times C \times Vp \times sen(\omega t + 90^{\circ}) \\
+\end{eqnarray*}
+
+\begin{conclusiones}
+	En el capacitor, la corriente $i_C$ va por delante a la tensión $v_C$ unos 90º. 
+	\begin{equation}
+		\label{eq:v_capacitor}
+		v_C = Vp\times sen(\omega t)
+	\end{equation}
+	\begin{equation}
+		\label{eq:i_capacitor}
+		i_C = \omega \times C \times Vp \times sen(\omega t + 90^{\circ})
+	\end{equation}
+\end{conclusiones}
+
+\subsection{Impedancia}
+
+La \textbf{oposición} en un circuito de corriente alterna, está dada por la Ley de Ohm. Ocurre que, al incorporar capacitancias e inductancias, la idea de \textbf{resistencia} resulta insuficiente para modelar la oposición.
+
+Si se vuelve a analizar lo expuesto en este capítulo según la relación $\text{Efecto} = \frac{\text{Causa}}{\text{Oposición}} \rightarrow \text{Oposición} = \frac{\text{Causa}}{\text{Efecto}}$, como se ha hecho anteriormente, y volviendo a suponer a la corriente como el \textbf{efecto} que produce la \textbf{tensión}, se puede abordar la idea de \textbf{impedancia}, definida como \textit{la oposición que presenta un circuito de de corriente alterna al aplicarle una tensión}.
+
+\begin{equation}
+	\label{eq:impedancia}
+	Z=\frac{V}{I}
+\end{equation}
+
+En la ecuación \ref{eq:impedancia}, $Z$ refiere a la impedancia, y tanto $V$ como $I$ son fasores (números complejos que representan a la tensión y corriente alterna respectivamente).
+
+La impedancia, cuyo término proviene de la idea de \textit{impedir el paso de la corriente}, estará compuesta por una parte \textbf{resistiva}, y una parte \textbf{reactiva} (que \textit{reacciona}, o no sólo consume energía sino que también puede almacenarla y devolverla eventualmente). Los componentes \textbf{reactivos} serán los inductores y los capacitores.
+
+Para el caso del inductor, según las ecuaciones \ref{eq:i_inductor} y \ref{eq:v_inductor}, se define a la oposición del mismo como \textbf{reactancia inductiva $X_L$} de la siguiente forma:
+
+$$ X_L = \frac{\omega \times L \times Ip \times sen(\omega t)}{Ip\times sen(\omega t)} = \omega L $$
+
+De manera análoga, para el capacitor y según las ecuaciones \ref{eq:i_capacitor} y \ref{eq:v_capacitor}, se define como \textbf{reactancia capacitiva $X_C$} a:
+
+$$ X_C = \frac{Vp\times sen(\omega t)}{\omega \times C \times Vp \times sen(\omega t)} = \frac{1}{\omega C} $$
+
+La \textbf{impedancia Z}, puede ser definida como un fasor que relaciona la \textbf{resistencia} con la \textbf{reactancia} de la siguiente forma:
+
+\begin{equation}
+	\label{eq:impedancia_rectangular}
+	Z = R + j(X_L-X_C)
+\end{equation}
+
 \section{Fasores}
 Los fasores permiten relacionar tensiones y corrientes alternas senoidales de una forma más sencilla que si se trabajara directamente con las ondas.
 
 Como ya se sabe, una onda senoidal se define completamente por su \textbf{amplitud}, \textbf{frecuencia} y \textbf{fase}. Como se trabajará siempre con la misma frecuencia, sólo se necesitará la amplitud y la fase para poder definirlas, y ésto se puede hacer a través de vectores, que se llamarán fasores.
 
-Un \textbf{fasor} es un número complejo que tiene como variable a su argumento.
-$$ U = | U | e^{j\omega t} $$
-Aplicando la fórmula de Euler en la expresión anterior, resulta,
-$$ U = | U | cos (\omega t) + j|U| sen(\omega t) $$
+%Un \textbf{fasor} es un número complejo que tiene como variable a su argumento.
+%$$ U = | U | e^{j\omega t} $$
+%Aplicando la fórmula de Euler en la expresión anterior, resulta,
+%$$ U = | U | cos (\omega t) + j|U| sen(\omega t) $$
 
 Un fasor es un vector giratorio que permite representar una onda de corriente o tensión. El modulo del vector representa el valor eficaz de la onda, mientras que la frecuencia será la velocidad a la que giran (cuestión que será omitida, porque se supone que todos giran a la misma velocidad angular). La fase está representada por el ángulo entre fasores.
 
-La impedancia, también es un número complejo, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$.
+La impedancia, también es un número complejo, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente.
+
+
 \section{Potencia}
