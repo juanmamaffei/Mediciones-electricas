@@ -433,9 +433,97 @@ Como ya se sabe, una onda senoidal se define completamente por su \textbf{amplit
 %Aplicando la fórmula de Euler en la expresión anterior, resulta,
 %$$ U = | U | cos (\omega t) + j|U| sen(\omega t) $$
 
-Un fasor es un vector giratorio que permite representar una onda de corriente o tensión. El modulo del vector representa el valor eficaz de la onda, mientras que la frecuencia será la velocidad a la que giran (cuestión que será omitida, porque se supone que todos giran a la misma velocidad angular). La fase está representada por el ángulo entre fasores.
+Un \textbf{fasor} es un vector giratorio que permite representar una onda de corriente o de tensión. El módulo del vector representa el valor eficaz de la onda, mientras que la frecuencia será la velocidad a la que giran (cuestión que será omitida, porque se supone que todos giran a la misma velocidad angular), y la fase está representada por el ángulo entre fasores.
 
-La impedancia, también es un número complejo, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente.
+En otras palabras, los fasores representan una fotografía instantánea de la posición del vector giratorio que define las ondas de tensión y de corriente.
 
+La impedancia, también es un número complejo y fasor, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente. La diferencia con los fasores de tensión y de corriente, es que la impedancia no se encuentra girando sino que está estática.
+
+Para realizar operaciones con fasores (lo cual es más sencillo que operar con ecuaciones de ondas), se debe utilizar el álgebra de los números complejos, resultando más conveniente utilizar la \textbf{forma rectangular} para realizar sumas y restas, y la \textbf{forma polar} para realizar multiplicaciones y divisiones.
 
 \section{Potencia}
+
+La ecuación general de la potencia es: $$ p = vi $$
+
+Nótese que las tres magnitudes varían en el tiempo (y por ello están escritas en minúscula). Para el caso de corriente continua, bastaría con operar utilizando la ecuación  \ref{eq:pot}, pero cuando se trata de una corriente alterna senoidal, este cálculo es algo más complejo, y más aún cuando existen desfasajes entre la tensión y la corriente aplicada a la carga.
+
+En corriente alterna se definen tres tipos de potencia: la activa, reactiva y aparente, y a su vez, se introduce un factor de potencia.
+
+La \textbf{potencia activa} es la que consume cualquier aparato eléctrico para funcionar, y se mide en Watts ($W$).
+
+En corriente alterna las bobinas y los condensadores no sólo consumen energía, sino que también la acumulan. Entonces, una cierta cantidad de potencia se mueve dentro del circuito pero no sale de él, y recibe el nombre de \textbf{potencia reactiva}. Éste tipo de potencia se mide en Volt-Amperes reactivos ($VAr$).
+
+En el caso de la potencia reactiva, no hay un real consumo de energía, ya que primero se consume y luego se devuelve, pero este fenómeno implica que el proveedor de energía deba entregar toda esta potencia (la activa y también la reactiva, aunque luego ésta última vaya a ser devuelta), con su consecuente necesidad de dimensionar los conductores para un consumo mayor. Pareciera ser que, como la potencia reactiva no es disipada, entonces no  debería ser tenida en cuenta, pero para el proveedor de energía es importante, ya que debe entregarla de todos modos, aunque luego sea devuelta. Desde el punto de vista del consumidor, una parte de la energía se pide ``prestada" para hacer funcionar elementos con consumos reactivos (como motores o transformadores) y luego se devuelve a la red, pero de todos modos, aunque esta energía no haya sido parte de la energía aprovechada por los elementos de la red, fue necesaria para hacerlos funcionar correctamente.
+
+La \textbf{potencia aparente} corresponde a la energía que se entrega por el proveedor, que no sólo expresa el valor de potencia activa sino también a la potencia reactiva. Esto llevaría a pensar que la potencia aparente es simplemente la suma de ambas potencias, pero debe recordarse que en corriente alterna, ambos valores corresponden a ondas, y por lo tanto su cálculo no es tan simple de realizar. La unidad que se utiliza para medir la potencia aparente es el Volt-Ampere ($VA$).
+
+A continuación, se muestran imágenes para distintos tipos de consumo.
+\begin{itemize}
+	\item Para el consumo resistivo puro de la figura \ref{fig:potencia_alterna_resistiva}, las ondas de corriente y de tensión están en fase. La potencia será el producto entre ambas, y como se observa en la gráfica, siempre es positiva (está por arriba del eje de abscisas). Esto significa que siempre se está entregando potencia activa.
+	\item En los consumos capacitivo puro e inductivo puro de las figuras \ref{fig:potencia_alterna_capacitiva} y \ref{fig:potencia_alterna_inductiva} respectivamente, puede apreciarse que durante medio ciclo de potencia, el sistema entrega potencia, pero la otra mitad de tiempo la absorbe. En otras palabras, la potencia activa es de $0\; W$, porque nunca se está disipando energía, y la potencia es puramente reactiva.
+	\item En las curvas de la figura \ref{fig:potencia_alterna_mixta}, se observa un consumo real, que es en parte reactivo y en parte activo, pero la parte activa es mayor que la reactiva. Es decir, que la potencia entregada es mayor a la potencia devuelta. Esto es lo que ocurre en las redes eléctricas reales.
+\end{itemize}
+% Imágenes de consumo resistivo, inductivo, capacitivo y mixto.
+\begin{figure}[htbp]
+  \includegraphics[scale=0.1]{images/potencia_alterna_resistiva}
+  \caption{Respuesta de un circuito resistivo puro en C.A.: corriente en azul, tensión en rojo y potencia en verde}
+  \label{fig:potencia_alterna_resistiva}
+\end{figure}
+
+\begin{figure}[htbp]
+  \includegraphics[scale=0.1]{images/potencia_alterna_inductiva}
+  \caption{Respuesta de un circuito inductivo puro en C.A.: corriente en azul, tensión en rojo y potencia en verde}
+  \label{fig:potencia_alterna_inductiva}
+\end{figure}
+
+\begin{figure}[htbp]
+  \includegraphics[scale=0.1]{images/potencia_alterna_capacitiva}
+  \caption{Respuesta de un circuito capacitivo puro en C.A.: corriente en azul, tensión en rojo y potencia en verde}
+  \label{fig:potencia_alterna_capacitiva}
+\end{figure}
+
+\begin{figure}[htbp]
+  \includegraphics[scale=0.1]{images/potencia_alterna_mixta}
+  \caption{Respuesta de un circuito real (resistivo y reactivo) en C.A.: corriente en azul, tensión en rojo y potencia en verde}
+  \label{fig:potencia_alterna_mixta}
+\end{figure}
+Como la realización de operaciones con ecuaciones de ondas es algo complejo e impreciso, se verá a continuación cómo hacerlo con fasores.
+
+\subsection{Triángulo de potencias}
+
+Si se recuerda la representación fasorial de la impedancia, se verá que en el eje de ordenadas se expresaban los fasores de reactancia: hacia arriba $X_L$, y hacia abajo $X_C$, y en el eje de abscisas, el valor de resistencia $R$.
+
+\begin{figure}[htbp]
+  \includegraphics[scale=0.16]{images/triangulo_potencias}
+  \caption{Triángulo de potencias}
+  \label{fig:triangulo_potencias}
+\end{figure}
+
+El triángulo de potencias estará formado por:
+\begin{itemize}
+	\item La potencia activa $P$ en el eje de abscisas.
+	\item La potencia reactiva $Q$ en el eje de ordenadas.
+	\item La potencia aparente $S$ como la suma de ambos vectores.
+	\item El ángulo entre $P$ y $S$, llamado $\varphi$.
+\end{itemize}
+
+De ese modo, la relación entre la potencia activa y la aparente es el \textbf{factor de potencia}, o también llamado \textbf{coseno de $\varphi$}, debido a que ésta es la forma en la cual se calcula.
+
+Utilizando el Teorema de Pitágoras, se llega a la conclusión de que la relación entre las tres potencias es:
+
+\begin{equation}
+	\label{eq:potencias_alterna}
+	S^{2}=P^{2}+Q^{2}
+\end{equation}
+
+Y dado que $S=V_{RMS}\times I_{RMS}$, utilizando trigonometría se pueden definir las potencias activa y reactiva como:
+
+\begin{eqnarray}
+	\label{eq:potencias_activa_reactiva}
+	Q=V_{RMS}\times I_{RMS} \times sen(\varphi) \\
+	S=V_{RMS}\times I_{RMS} \times cos(\varphi)
+\end{eqnarray}
+
+Como se indicó en el apartado anterior, la potencia reactiva implica el transporte de energía que no será aprovechada posteriormente. Las pérdidas en los cables por efecto Joule serán mayores aunque para el consumo efectivo de potencia activa no haya diferencias. Esto perjudica claramente a las empresas que suministran energía. Por este motivo, en talleres e industrias, se suele \textbf{penalizar el consumo reactivo excesivo}, limitando el \textbf{factor de potencia} a 0,8 (siendo 1 el valor ideal).
+
+Por ello, suele ser necesario compensar la potencia reactiva con cargas capacitivas o inductivas.  
