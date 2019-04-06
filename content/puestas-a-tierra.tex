@@ -1,0 +1,109 @@
+
+\chapter{Puestas a tierra}
+
+En este capítulo se trabajará según los parámetros establecidos en el reglamento de la AEA del 2006.
+
+Contactos directos.
+Contactos indirectos.
+
+Consideraciones del reglamento
+
+Es indispensable, para evitar accidentes por contactos indirectos,
+\begin{itemize}
+	\item Sistemas de puesta a tierra.
+	\item Dispositivos de corte automático.
+	\item Cada masa conectada a un conductor de protección de puesta a tierra.
+\end{itemize}
+
+Existe un protocolo claro para la verificación y medición de puestas a tierra, elaborado por la Superintendencia de Riesgos de Trabajo, disponible en los recursos anexos a este documento, junto con la resolución 900 de la SRT, que regula los requerimientos de medición de puestas a tierra.
+
+Este documento sirve para formalizar las presentaciones de los informes que se deben presentar ante ART, o SRT o las ATL (Ministerios de Trabajo Regionales de cada provincia), y se verá en profundidad cómo debe completarse en estas páginas.
+
+Existen distintos tipos de puesta a tierra:
+\begin{itemize}
+	\item Toma de Tierra del neutro de Transformador.
+	\item Toma de Tierra de Seguridad de las Masas.
+	\item De protección de equipos electrónicos.
+	\item De informática.
+	\item De iluminación.
+	\item De pararrayos.
+	\item Otros.
+\end{itemize}
+
+Continuidad de las masas: Circuito de puesta a tierra continuo y permanente, circuito de puesta a tierra con capcaidad de conducir la carga de la corriente de falla.
+
+Protecciones contra contactos indirectos: DD, IA, FUS.
+
+No es lo mismo DD que ID, ya que en plantas industriales o locales comerciales grandes se requieren más de 500mA (hasta 10A) e instalaciones de hasta 2000 o 3000A de trabajo.
+
+Interruptor automático y fusible no puede usarse en viviendas, locales comerciales (donde actúa personal no capacitado). Este tipo de instalaciones sólo puede usar esquema TT, en el cual la corriente de falla es demasiado baja como para ser vista por un IA o un FUS. Sólo se puede emplear protección diferencial de 30mA en todos los circuitos terminales y de 300mA en los circuitos principales.
+
+No alcanza sólo con medir puestas a tierra ($R_{PAT}$), sino que en toda instalación deben actuar dispositivos automáticos de desconexión.
+
+La creencia popular de que conectar una masa eléctrica a tierra se protege a las personas contra los contactos indirectos, ya que la tensión de contacto entre la persona y la masa sería muy baja es FALSA. La sola presencia de una puesta a tierra adecuada no asegura la seguridad de una instalación, sino que además, debe acompañarse con un dispositivo de desconexión inmediata ante la aparición de una corriente de falla. Es decir, que lo que salvará de la muerte a la persona o animal que se ponga en contacto con la masa electrificada, será la desconexión automática de la alimentación antes que se produzca el contacto.
+
+%Este mito es completamente falso en el esquema TT (el más difundido, siendo el TN-S el  segundo más extendido y el sistema IT exclusivo para quirófanos o minas).
+
+Las masas no se conectan en serie, sino que se debe hacer por derivación con el conductor de tierra.
+
+%Antes de la aplicación de los reglamentos de la AEA, se solía conectar los chasis de heladeras, lavarropas y artefactos eléctricos y electrónicos a una masa aceptable, como lo era el sistema de tuberías de agua corriente (dando, la canilla metálica, una excelente puesta a tierra de bajo valor óhmico), y provocando que la corriente de defecto sea tan alta que funda el fusible, interrumpiendo el circuito. La parte fundamental de esto es que EL FUSIBLE SE FUNDE Y DESCONECTA EL CIRCUITO, ya que de producirse el contacto humano con el chasis electrificado, la persona recibiría la descarga, de no ser por la interrupción del circuito provocada por el fusible.
+
+El problema de los electrodos dispersos: si existen electrodos dispersos en la instalación eléctrica, la puesta a tierra no es aceptable, debido a que no existe equipotencialidad.
+
+CIRCUITOS TERMINALES DE HASTA 32A
+
+El tiempo de desconexión depende del ECT y del tipo de circuito que se utilice.
+Cualquiera sea el ECT adoptado, si el circuito terminal tiene un consumo de hasta $32\; A$ para las tensiones de servicio ($220\; V$), la protección contra C.I. debe realizarse en los tiempos máximos siguientes:
+
+\begin{itemize}
+	\item Esquema TN-S: $0,2\; s=200\; mS$.
+	\item Esquema TT: $0,06\; s=60\; mS$.
+\end{itemize} 
+
+Para los esquemas TT, se deben utilizar los DD de $30\; mA$, pero para verificar la seguridad, se debe utilizar los tiempos de disparo recorridos por \textbf{5 veces la corriente diferencial}. Entonces es falso que \textbf{los diferenciales deban actuar en $30\; mS$}
+
+Las $R_{PAT}$ no necesitan ser tan bajas como se cree.
+
+La resolución 900 pide que se realice una verificación anual de las puestas a tierra, y que los telurímetros utilizados tengan una certificación (sin importar su antigüedad).
+
+Ensayos para verificar si el dispositivo diferencial puede desconectar ante contactos indirectos indicados por la norma:
+\begin{enumerate}
+	\item Un diferencial no debe disparar con la mitad de la corriente diferencial (un diferencial de $30\; mA$ no debería dispararse con una corriente de $15\; mA$ o menos).
+	\item Se debe aplicar la corriente de $30\; mA$ en una sola aplicación y el diferencial deberá disparar en un tiempo no mayor a $300\; mS$.
+	\item Si el diferencial está recorrido por el doble de su corriente diferencial, el dispositivo deberá dispararse en la mitad del tiempo máximo. Es decir, que si a un diferencial de $30\; mA$ se le aplican $60\; mA$, deberá disparar en un tiempo no mayor a $150\; mS$.
+	\item Se debe comprobar el tiempo de disparo al aplicar 5 veces su corriente nominal, y deberá ser como máximo de $40\; mS$.
+\end{enumerate}
+
+Cuando se emplea protección diferencial no se debe considerar el tiempo de apertura $I_{\Delta n}$ sino $I_{\Delta n}$.
+
+CIRCUITOS SECCIONALES O MAYORES A 32A
+
+Para circuitos seccionales (aquellos que van de tablero a tablero) o para circuitos terminales mayores a $32\; A$), se permitirán tiempos mayores a los mencionados anteriormente, permitiendo aplicar el principio de selectividad.
+
+Para el esquema TN-S, se admitirán tiempos de desconexión de hasta 5 segundos, mientras que para el esquema TT, el tiempo máximo de desconexión será de 1 segundo.
+
+USO DEL CRITERIO DE SELECTIVIDAD
+\begin{ejemplo}
+	En una vivienda, se utiliza un interruptor diferencial de $100\; mS$ selectivo en el tablero principal. Este tablero se conecta con otros tres tableros terminales diferentes, siguiendo la siguiente regla de seccionamiento:
+	\begin{enumerate}
+		\item Cocina, baño.
+		\item Habitación 1, habitación 2.
+		\item Patio, cochera.
+	\end{enumerate}
+ 	En cada tablero terminal, se utilizan interruptores de $30\; mA$.
+ 	
+ 	Al producirse una falla en la aislación de un velador de la habitación 2, actúa el interruptor diferencial del tablero 2, permitiendo reconocer la falla de manera más sencilla y sin dejar sin alimentación al resto de la vivienda.
+\end{ejemplo}
+
+%Inst q mida corrientes de corto, corrientes de falla, imp en lazos de falla, funcionamiento de los diferenciales.
+
+ELECTRODOS DISPERSOS
+
+Es común observar, en distintas instalaciones, electrodos dispersos (en distintas máquinas, al pie de una central telefónica, al pie de equipos de telecomunicaciones, etc.)
+
+Esto está prohibido por el reglamento, a menos que estos electrodos se conecten entre sí y a la barra de puesta a tierra, logrando equipotencializarse.
+
+Las masas eléctricas y las masas extrañas deben conectarse a un conductor de equipotencialidad o en su defecto, al conductor de protección.
+
+Conductor de equipotencialidad y conductor de protección: ...
+
