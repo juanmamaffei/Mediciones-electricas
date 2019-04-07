@@ -107,3 +107,59 @@ Las masas eléctricas y las masas extrañas deben conectarse a un conductor de e
 
 Conductor de equipotencialidad y conductor de protección: ...
 
+Los electrodos de puesta a tierra de descargas atmosféricas deben estar conectados a la barra de cobre de puesta a tierra del tablero principal. Esto evitará la aparición de arcos eléctricos porque habrá equipotencialidad entre las masas de tierra y del edificio o instalación.
+
+%Normas en otros países IE32605 AEA32605 FPA780 NVR519
+
+ESQUEMAS DE CONEXIÓN A TIERRA
+
+Para establecer las condiciones de protección (tensiones de contacto esperables y tiempos máximos tolerables de desconexión) es necesario conocer el esquema de conexión a tierra empleado.
+ 
+ESQUEMA TT
+
+\begin{figure}[htbp]
+  \centering  
+  \includegraphics[width=\textwidth]{images/ect-tt}
+  \caption{ECT TT. Fuente: AEA, 2006}
+  \label{fig:ect-tt}
+\end{figure}
+
+En el esquema se puede apreciar la puesta a tierra de servicio $R_b$, la puesta a tierra de protección $R_a$, los conductores de puesta a tierra $PE$ conectados desde el electrodo $R_a$ a la \textbf{barra de puesta a tierra $PE$}, y a todos los tomacorrientes de tres espigas.
+Al producirse un contacto indirecto, la corriente de defecto $I_d$ circulará desde la fase $L_1$ hasta el electrodo $R_a$, para luego recorrer por tierra la distancia que sea necesaria hasta alcanzar el electrodo de puesta a tierra de servicio $R_b$ y cerrar el circuito.
+
+El valor de resistencia de puesta a tierra puede, según el reglamento, alcanzar los $40\; \Omega$ siempre y cuando la protección diferencial posea una corriente de disparo máxima de $300\; mA$.
+
+\begin{ejemplo}
+	Dada una puesta a tierra en un buen suelo, en el que se ha alcanzado una resistencia de puesta a tierra de $10\; \Omega$, y la distribuidora de energía posee una resistencia de puesta de servicio de $1\; \Omega$, la corriente de defecto se podría calcular según la Ley de Ohm, de la siguiente forma:
+	
+	$$I_d= \frac{V_{\text{línea}}}{\text{Suma de resistencias}}$$
+	$$I_d = \frac{220\; V}{10\; \Omega + 1\; \Omega}=20\; A $$
+
+	Es decir que ante una falla en una instalación típica, un valor de corriente cercano a $20\; A$ circulará por la rama de la corriente de defecto. Este valor es muy superior a los valores de corte de los interruptores diferenciales.
+\end{ejemplo}
+
+Las siglas TT indican Tierra-Tierra. Esto significa que el sistema dispone de una puesta a tierra de servicio y una puesta a tierra para la instalación por separado. La puesta a tierra de servicio es responsabilidad de la empresa distribuidora, mientras que la tierra de la instalación es trabajo del instalador.
+
+Nunca se debe, en un esquema TT, conectar la tierra con neutro, debido a que la seguridad dependería de la calidad del neutro que entregue la compañía. Además, esto provocaría que el esquema se convierta en TN-S.
+
+La Ley fija que la tensión de contacto máxima es de $24\; V$, y toda tensión superior en masas eléctricas o extrañas, deberá ser detectada por el diferencial e interrumpida de inmediato para evitar accidentes.
+
+El protocolo exige medir $R_a$ (el cual deberá ser menor a $40\; \Omega$, verificar la continuidad de los conductores de protección (aquellos que van desde cada dispositivo y tomacorriente de tres contactos al conductor de tierra) y del conductor de tierra (que es el conductor que va desde el electrodo $R_a$ hasta la barra de puesta a tierra en el tablero principal. Se deberá verificar también, mediante los distintos ensayos, el dispositivo de protección que proteja contra contactos indirectos (interruptor diferencial). 
+
+TN-S
+%Imagen
+
+Las instalaciones que utilizan este esquema son aquellos que toman en media tensión (como por ejemplo grandes industrias) o aquellos que han incorporado un transformador en su instalación, con el fin de adecuar el sistema a TN-S (por venir de un ECT TT).
+
+Aquí el conductor de protección de la instalación se conecta a la barra de neutro. De ahí el nombre TN (Tierra-Neutro).
+
+Por otra parte, se debe destacar que la conexión entre tierra y neutro se hace en las barras del tablero principal, pero los conductores de tierra y de neutro deberán estar separados a lo largo de la instalación (por ello la letra S en TN-S).
+
+La corriente de falla se produce por los elementos metálicos (no por la tierra) y por ello es de muy alto valor y se permite utilizar fusibles o interruptores automáticos (además de diferenciales, como era el caso del esquema TT).
+
+Dicho de otra forma, la resistencia $R_b$ no participa del lazo de corriente de falla, pero aún así debe poseer un valor muy bajo por otras razones: ... ESCRIBIR RAZONES
+
+
+
+TN-C
+IT
