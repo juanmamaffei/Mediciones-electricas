@@ -8,11 +8,11 @@ Contactos indirectos.
 
 Consideraciones del reglamento
 
-Es indispensable, para evitar accidentes por contactos indirectos,
+Es indispensable, para evitar accidentes por contactos indirectos, verificar:
 \begin{itemize}
-	\item Sistemas de puesta a tierra.
-	\item Dispositivos de corte automático.
-	\item Cada masa conectada a un conductor de protección de puesta a tierra.
+	\item El cumplimiento del sistema de puesta a tierra indicado.
+	\item El funcionamiento de los dispositivos de corte automático.
+	\item Que cada masa se encuentre conectada a un conductor de protección de puesta a tierra.
 \end{itemize}
 
 Existe un protocolo claro para la verificación y medición de puestas a tierra, elaborado por la Superintendencia de Riesgos de Trabajo, disponible en los recursos anexos a este documento, junto con la resolución 900 de la SRT, que regula los requerimientos de medición de puestas a tierra.
@@ -113,8 +113,10 @@ Los electrodos de puesta a tierra de descargas atmosféricas deben estar conecta
 
 ESQUEMAS DE CONEXIÓN A TIERRA
 
+Las redes de alimentación ponen a tierra el neutro a través de un electrodo llamado \textbf{puesta a tierra de servicio}, y las masas eléctricas se ponen a tierra a través de una \textbf{puesta a tierra de protección}.
+
 Para establecer las condiciones de protección (tensiones de contacto esperables y tiempos máximos tolerables de desconexión) es necesario conocer el esquema de conexión a tierra empleado.
- 
+
 ESQUEMA TT
 
 \begin{figure}[htbp]
@@ -128,6 +130,8 @@ En el esquema se puede apreciar la puesta a tierra de servicio $R_b$, la puesta 
 Al producirse un contacto indirecto, la corriente de defecto $I_d$ circulará desde la fase $L_1$ hasta el electrodo $R_a$, para luego recorrer por tierra la distancia que sea necesaria hasta alcanzar el electrodo de puesta a tierra de servicio $R_b$ y cerrar el circuito.
 
 El valor de resistencia de puesta a tierra puede, según el reglamento, alcanzar los $40\; \Omega$ siempre y cuando la protección diferencial posea una corriente de disparo máxima de $300\; mA$.
+
+Antiguamente se buscaba un valor menor a $10\; \Omega$ para la puesta a tierra, pero en realidad, esto era conveniente cuando no existía protección diferencial, debido a que esto haría que la corriente de falla sea mucho mayor, y activaría los termomagnéticos o fundiría los fusibles. Para sistemas con protección diferencial (como es obligatorio para el sistema TT), no es necesario que el valor óhmico de la puesta a tierra sea tan elevado.
 
 \begin{ejemplo}
 	Dada una puesta a tierra en un buen suelo, en el que se ha alcanzado una resistencia de puesta a tierra de $10\; \Omega$, y la distribuidora de energía posee una resistencia de puesta de servicio de $1\; \Omega$, la corriente de defecto se podría calcular según la Ley de Ohm, de la siguiente forma:
@@ -160,6 +164,9 @@ La corriente de falla se produce por los elementos metálicos (no por la tierra)
 Dicho de otra forma, la resistencia $R_b$ no participa del lazo de corriente de falla, pero aún así debe poseer un valor muy bajo por otras razones: ... ESCRIBIR RAZONES
 
 
-
 TN-C
+Esquema.
+Tiene tres problemas.
 IT
+Esquema.
+Sólo en quirófanos.
