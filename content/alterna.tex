@@ -340,22 +340,10 @@ $$\dot{u}+\dot{v}= (a_u+a_v)+j(b_u+b_v)$$
 $$\dot{u}-\dot{v}= (a_u-a_v)+j(b_u-b_v)$$
 $$\frac{\dot{u}}{\dot{v}}=|\frac{|U|}{|V|} \angle (\theta_u - \theta_v )$$
 $$\dot{u}\times \dot{v}=|U| \times |V| \angle (\theta_u + \theta_v )$$
-Para
 
 \subsection{Impedancia}
 
 La \textbf{oposición} en un circuito de corriente alterna, está dada por la Ley de Ohm. Ocurre que, al incorporar capacitancias e inductancias, la idea de \textbf{resistencia} resulta insuficiente para modelar la oposición.
-
-La impedancia, también es un número complejo y fasor, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente. La diferencia con los fasores de tensión y de corriente, es que la impedancia no se encuentra girando sino que está estática.
-
-Si se vuelve a analizar lo expuesto en este capítulo según la relación $\text{Efecto} = \frac{\text{Causa}}{\text{Oposición}} \rightarrow \text{Oposición} = \frac{\text{Causa}}{\text{Efecto}}$, como se ha hecho anteriormente, y volviendo a suponer a la corriente como el \textbf{efecto} que produce la \textbf{tensión}, se puede abordar la idea de \textbf{impedancia}, definida como \textit{la oposición que presenta un circuito de de corriente alterna al aplicarle una tensión}.
-
-\begin{equation}
-	\label{eq:impedancia}
-	Z=\frac{V}{I}
-\end{equation}
-
-En la ecuación \ref{eq:impedancia}, $Z$ refiere a la impedancia, y tanto $V$ como $I$ son fasores (números complejos que representan a la tensión y corriente alterna respectivamente).
 
 La impedancia, cuyo término proviene de la idea de \textit{impedir el paso de la corriente}, estará compuesta por una parte \textbf{resistiva}, y una parte \textbf{reactiva} (que \textit{reacciona}, o no sólo consume energía sino que también puede almacenarla y devolverla eventualmente). Los componentes \textbf{reactivos} serán los inductores y los capacitores.
 
@@ -367,12 +355,25 @@ De manera análoga, para el capacitor y según las ecuaciones \ref{eq:i_capacito
 
 $$ X_C = \frac{Vp\times sen(\omega t)}{\omega \times C \times Vp \times sen(\omega t)} = \frac{1}{\omega C} $$
 
-La \textbf{impedancia Z}, puede ser definida como un fasor que relaciona la \textbf{resistencia} con la \textbf{reactancia} de la siguiente forma:
+La \textbf{impedancia $\dot{z}$}, puede ser definida como un fasor que relaciona la \textbf{resistencia} con la \textbf{reactancia} de la siguiente forma:
 
 \begin{equation}
 	\label{eq:impedancia_rectangular}
-	Z = R + j(X_L-X_C)
+	\dot{z} = R + j(X_L-X_C)
 \end{equation}
+
+%La impedancia, también es un número complejo y fasor, definido como $\dot{z}= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente.
+
+La diferencia con los fasores de tensión y de corriente, es que la impedancia no se encuentra girando sino que está estática.
+
+Si se vuelve a analizar lo expuesto en este capítulo según la relación $\text{Efecto} = \frac{\text{Causa}}{\text{Oposición}} \rightarrow \text{Oposición} = \frac{\text{Causa}}{\text{Efecto}}$, como se ha hecho anteriormente, y volviendo a suponer a la corriente como el \textbf{efecto} que produce la \textbf{tensión}, se puede abordar la idea de \textbf{impedancia}, definida como \textit{la oposición que presenta un circuito de de corriente alterna al aplicarle una tensión}.
+
+\begin{equation}
+	\label{eq:impedancia}
+	\dot{z}=\frac{\dot{v}}{\dot{i}}
+\end{equation}
+
+En la ecuación \ref{eq:impedancia}, $\dot{z}$ refiere a la impedancia, y tanto $\dot{v}$ como $\dot{i}$ son fasores (números complejos que representan a la tensión y corriente alterna respectivamente).
 
 \section{Potencia}
 
@@ -452,11 +453,55 @@ Utilizando el Teorema de Pitágoras, se llega a la conclusión de que la relaci�
 Y dado que $S=V_{RMS}\times I_{RMS}$, utilizando trigonometría se pueden definir las potencias activa y reactiva como:
 
 \begin{eqnarray}
-	\label{eq:potencias_activa_reactiva}
+	\label{eq:potencia_reactiva}
 	Q=V_{RMS}\times I_{RMS} \times sen(\varphi) \\
-	S=V_{RMS}\times I_{RMS} \times cos(\varphi)
+	\label{eq:potencia_activa}
+	P=V_{RMS}\times I_{RMS} \times cos(\varphi)
 \end{eqnarray}
 
 Como se indicó en el apartado anterior, la potencia reactiva implica el transporte de energía que no será aprovechada posteriormente. Las pérdidas en los cables por efecto Joule serán mayores aunque para el consumo efectivo de potencia activa no haya diferencias. Esto perjudica claramente a las empresas que suministran energía. Por este motivo, en talleres e industrias, se suele \textbf{penalizar el consumo reactivo excesivo}, limitando el \textbf{factor de potencia} a 0,8 (siendo 1 el valor ideal).
 
-Por ello, suele ser necesario compensar la potencia reactiva con cargas capacitivas o inductivas.  
+Por ello, suele ser necesario compensar la potencia reactiva con cargas capacitivas (o inductivas).
+
+
+Si se tienen las potencias y se desea calcular el factor de potencia ($cos \varphi$), de la ecuación de potencia aparente, y de la ecuación de $P$ obtenida en \ref{eq:potencia_activa}, 
+
+\begin{equation}
+	\label{eq:factor_potencia}
+	cos(\varphi)= \frac{P}{S}
+\end{equation}
+
+Las unidades que se utilizan para los distintos tipos de potencia son:
+\begin{itemize}
+	\item Watt y sus múltiplos, para la \textbf{potencia activa}.
+	\item Volt-Ampere para la \textbf{potencia aparente}.
+	\item Volt-Ampere reactivo para la \textbf{potencia reactiva}.
+\end{itemize}
+
+\begin{ejemplo}
+	Una carga consume 3 W de potencia activa, 4 VAr de potencia reactiva y 5 VA de potencia aparente.
+\end{ejemplo}
+
+Debido a que en la ecuación \ref{eq:factor_potencia} se eliminan las unidades, el \textbf{factor de potencia} no posee unidad.
+
+\subsection{Compensación del factor de potencia}
+
+En la industria y en las instalaciones residenciales, las cargas son principalmente inductivas, como las de motores y transformadores. Por este motivo, el factor de potencia suele ser menor a 1 y es necesario corregirlo para evitar multas y mejorar el rendimiento de la instalación.
+
+Si se observa las curvas de potencia \ref{fig:potencia_alterna_inductiva} y \ref{fig:potencia_alterna_capacitiva}, se puede verificar que la potencia promedio es 0, cuando las cargas son puramente inductivas o puramente capacitivas, y por lo tanto, no se está realizando trabajo útil.
+
+Para el mejoramiento del factor de potencia, se desea reducir la potencia reactiva a \textbf{0 VAr}, haciendo que el ángulo de desfasaje disminuya a 0 grados.
+
+La potencia activa no deberá cambiar, ya que es el trabajo útil que realiza la instalación, y lo que haremos mediante la corrección, es lograr que el valor de potencia aparente sea lo más cercano posible al valor de potencia activa.
+
+Cuando la parte imaginaria del fasor de impedancia sea positivo (carga inductiva), será necesario mejorar el factor de potencia a través de la instalación de capacitores en paralelo.
+
+Procedimiento:
+
+\begin{enumerate}
+	\item Hallar el valor de impedancia de la línea.
+	\item Expresar la impedancia en forma polar. De este modo, el ángulo $\theta$ de la impedancia será igual al ángulo $\varphi$, y el coseno de dicho ángulo, será igual al \textbf{factor de potencia inicial}.
+	\item Como el factor de potencia final buscado es $1$, el ángulo de desfasaje será $0$ grados, la potencia reactiva será $0 VAr$ y la potencia activa será igual a la potencia aparente. Esto significa que la potencia que deberá absorver el conjunto de capacitores a instalar será exactamente igual al valor de potencia reactiva medido o calculado en un principio.
+	\item Como la tensión que caerá en el capacitor será la misma que la tensión de la fuente, la potencia en el capacitor será puramente reactiva $ Q = \frac{|V|^{2}}{X_C} $. Despejando $X_C$, $$X_C = \frac{|V|^{2}}{Q}$$
+	\item Por definición de reactancia capacitiva, $X_C=1/(\omega f C)$. En el paso anterior se pudo calcular $X_C$, por lo que se reemplazará en la ecuación anterior y se podrá despejar $C$ de la misma, hallando así el valor de capacidad necesario para corregir el factor de potencia, $$C=\frac{1}{2\pi f X_C}$$
+\end{enumerate}

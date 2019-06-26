@@ -55,44 +55,27 @@
 \BOOKMARK [2][-]{subsection.4.4.2}{Impedancia}{section.4.4}% 55
 \BOOKMARK [1][-]{section.4.5}{Potencia}{chapter.4}% 56
 \BOOKMARK [2][-]{subsection.4.5.1}{Triángulo de potencias}{section.4.5}% 57
-\BOOKMARK [0][-]{chapter.5}{Puestas a tierra}{}% 58
-\BOOKMARK [0][-]{chapter.6}{Instrumentos de medición}{}% 59
-\BOOKMARK [1][-]{section.6.1}{Galvanómetro}{chapter.6}% 60
-\BOOKMARK [1][-]{section.6.2}{Multímetro}{chapter.6}% 61
-\BOOKMARK [2][-]{subsection.6.2.1}{Voltímetro}{section.6.2}% 62
-\BOOKMARK [2][-]{subsection.6.2.2}{Amperímetro}{section.6.2}% 63
-\BOOKMARK [2][-]{subsection.6.2.3}{Óhmetro}{section.6.2}% 64
-\BOOKMARK [1][-]{section.6.3}{Vatímetro}{chapter.6}% 65
-\BOOKMARK [1][-]{section.6.4}{Capacímetro}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.5}{Frecuencímetro}{chapter.6}% 67
-\BOOKMARK [1][-]{section.6.6}{Pinza amperométrica}{chapter.6}% 68
-\BOOKMARK [1][-]{section.6.7}{Megóhmetro, megger o medidor de aislamiento eléctrico}{chapter.6}% 69
-\BOOKMARK [1][-]{section.6.8}{Telurímetro o medidor de puesta a tierra}{chapter.6}% 70
-\BOOKMARK [1][-]{section.6.9}{Osciloscopio}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.10}{Comprobadores de tensión}{chapter.6}% 72
-\BOOKMARK [2][-]{subsection.6.10.1}{Buscapolo}{section.6.10}% 73
-\BOOKMARK [2][-]{subsection.6.10.2}{Medidor inductivo}{section.6.10}% 74
-\BOOKMARK [1][-]{section.6.11}{Cofímetro o medidor de factor de potencia}{chapter.6}% 75
-\BOOKMARK [1][-]{section.6.12}{Medidores de energía}{chapter.6}% 76
-\BOOKMARK [2][-]{subsection.6.12.1}{Transformadores de corriente}{section.6.12}% 77
-\BOOKMARK [1][-]{section.6.13}{Medidor de campo electromagnético}{chapter.6}% 78
-\BOOKMARK [1][-]{section.6.14}{Milióhmetro}{chapter.6}% 79
-\BOOKMARK [1][-]{section.6.15}{Generadores de funciones}{chapter.6}% 80
-\BOOKMARK [0][-]{chapter.7}{Máquinas eléctricas}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Transformadores}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.2}{Generadores}{chapter.7}% 83
-\BOOKMARK [1][-]{section.7.3}{Motores}{chapter.7}% 84
-\BOOKMARK [0][-]{chapter.8}{Prácticas de laboratorio}{}% 85
-\BOOKMARK [1][-]{section.8.1}{Mediciones en CC}{chapter.8}% 86
-\BOOKMARK [2][-]{subsection.8.1.1}{Prueba de componentes}{section.8.1}% 87
-\BOOKMARK [1][-]{section.8.2}{Ensayos sobre instalaciones de CA}{chapter.8}% 88
-\BOOKMARK [2][-]{subsection.8.2.1}{Rectificación de CA}{section.8.2}% 89
-\BOOKMARK [2][-]{subsection.8.2.2}{Consumos}{section.8.2}% 90
-\BOOKMARK [2][-]{subsection.8.2.3}{Energía}{section.8.2}% 91
-\BOOKMARK [2][-]{subsection.8.2.4}{Puesta a tierra}{section.8.2}% 92
-\BOOKMARK [2][-]{subsection.8.2.5}{Potencia}{section.8.2}% 93
-\BOOKMARK [2][-]{subsection.8.2.6}{Armónicas}{section.8.2}% 94
-\BOOKMARK [1][-]{section.8.3}{Ensayos sobre máquinas eléctricas}{chapter.8}% 95
-\BOOKMARK [2][-]{subsection.8.3.1}{Motores de CA}{section.8.3}% 96
-\BOOKMARK [2][-]{subsection.8.3.2}{Transformadores}{section.8.3}% 97
-\BOOKMARK [1][-]{section.8.4}{Tratamiento digital de datos}{chapter.8}% 98
+\BOOKMARK [2][-]{subsection.4.5.2}{Compensación del factor de potencia}{section.4.5}% 58
+\BOOKMARK [0][-]{chapter.5}{Puestas a tierra}{}% 59
+\BOOKMARK [0][-]{chapter.6}{Instrumentos de medición}{}% 60
+\BOOKMARK [1][-]{section.6.1}{Galvanómetro}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.2}{Multímetro}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.2.1}{Voltímetro}{section.6.2}% 63
+\BOOKMARK [2][-]{subsection.6.2.2}{Amperímetro}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.3}{Óhmetro}{section.6.2}% 65
+\BOOKMARK [1][-]{section.6.3}{Vatímetro}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.4}{Capacímetro}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.5}{Frecuencímetro}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.6}{Pinza amperométrica}{chapter.6}% 69
+\BOOKMARK [1][-]{section.6.7}{Megóhmetro, megger o medidor de aislamiento eléctrico}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.8}{Telurímetro o medidor de puesta a tierra}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.9}{Osciloscopio}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.10}{Comprobadores de tensión}{chapter.6}% 73
+\BOOKMARK [2][-]{subsection.6.10.1}{Buscapolo}{section.6.10}% 74
+\BOOKMARK [2][-]{subsection.6.10.2}{Medidor inductivo}{section.6.10}% 75
+\BOOKMARK [1][-]{section.6.11}{Cofímetro o medidor de factor de potencia}{chapter.6}% 76
+\BOOKMARK [1][-]{section.6.12}{Medidores de energía}{chapter.6}% 77
+\BOOKMARK [2][-]{subsection.6.12.1}{Transformadores de corriente}{section.6.12}% 78
+\BOOKMARK [1][-]{section.6.13}{Medidor de campo electromagnético}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.14}{Milióhmetro}{chapter.6}% 80
+\BOOKMARK [1][-]{section.6.15}{Generadores de funciones}{chapter.6}% 81
