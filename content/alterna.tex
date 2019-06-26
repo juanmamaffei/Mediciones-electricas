@@ -241,6 +241,8 @@ La tensión a través de un inductor está directamente relacionado con la veloc
 
 Como se explicó antes, el valor de pico está relacionado con $\omega=2\pi f$, y por $L$ como se explicó anteriormente. También puede apreciarse que la corriente y la tensión difieren en su fase por 90º.
 
+Al establecer una tensión entre los bornes de un inductor, aparecerá un campo magnético en el área circundante al mismo. Al eliminarse dicha tensión, el campo desaparecerá pero no de forma instantánea. Es decir, que variará desde su máxima intensidad hasta llegar a desaparecer por completo. Debido a que existe una variación de campo magnético, se inducirá una corriente entre sus bornes (Ley de Faraday), y además, será en sentido opuesto a la fuente que lo produjo (Ley de Lenz).
+
 \begin{conclusiones}
 	En el inductor, la tensión $v_L$ va por delante 90º a la corriente $i_L$. 
 	\begin{equation}
@@ -280,11 +282,71 @@ Por otra parte, mientras mayor sea el valor de capacitancia, mayor será la corr
 	\end{equation}
 \end{conclusiones}
 
+\section{Fasores}
+Los fasores permiten relacionar tensiones y corrientes alternas senoidales de una forma más sencilla que si se trabajara directamente con las ondas.
 
+La resolución de problemas con ondas senoidales requeriría el uso de ecuaciones diferenciales, pero con el modelo que se propondrá en esta sección, los cálculos serán mucho más sencillos. Esto es posible porque existe isomorfismo entre el espacio vectorial de funciones armónicas de velocidad angular $\omega$ y el espacio vectorial $R^{2}$. Para demostrarlo, es necesario contar con conocimientos de álgebra abstracta, por lo que no se realizará tal demostración ya que excedería los contenidos del curso.
+
+Si todas las ondas con las que se trabaja, poseen la misma velocidad angular, pueden representarse como fasores, que son vectores rotatorios que giran en sentido antihorario con velocidad angular $\omega$.
+
+Estos vectores rotatorios pueden ser representados como números complejos, y utilizar el álgebra de complejos para operar con ellos.
+
+Los datos necesarios para poder definir cada oscilación en este sistema son la \textbf{amplitud} y el ángulo de \textbf{fase}.
+
+%Un \textbf{fasor} es un número complejo que tiene como variable a su argumento.
+%$$ U = | U | e^{j\omega t} $$
+%Aplicando la fórmula de Euler en la expresión anterior, resulta,
+%$$ U = | U | cos (\omega t) + j|U| sen(\omega t) $$
+
+El módulo del vector representa el valor eficaz de la onda, mientras que la frecuencia está relacionada con la velocidad a la que giran (cuestión que será omitida, porque se supone que todos giran a la misma velocidad angular), y la fase está representada por el ángulo entre fasores.
+
+En otras palabras, los fasores representan una fotografía instantánea de la posición del vector giratorio que define las ondas de tensión y de corriente.
+
+Para realizar operaciones con fasores (lo cual es más sencillo que operar con ecuaciones de ondas), se debe utilizar el álgebra de los números complejos, resultando más conveniente utilizar la \textbf{forma rectangular} para realizar sumas y restas, y la \textbf{forma polar} para realizar multiplicaciones y divisiones.
+
+\subsection{Síntesis de álgebra de complejos}
+
+Un estudio completo de números complejos excede el contenido de este apunte. Se limitará a sintetizar las técnicas necesarias para trabajar con fasores.
+
+Dado un fasor de nombre $\dot{v}$ (nótese que se añadió un punto, para indicar que se trata de un fasor), con módulo $|V|$ y ángulo $\theta$, con $a$ como su componente en $x$ y $b$ como su componente en $y$, puede representarse dicho vector de dos formas:
+
+\begin{enumerate}
+	\item Forma polar: $|V| \angle \theta$
+	\item Forma rectangular: $a+jb$
+\end{enumerate}
+
+Nota: $j$ es la unidad imaginaria, que en aplicaciones matemáticas suele ser la letra $i$. Para aplicaciones eléctricas, se prefiere la letra $j$ para no confundirlo con la corriente eléctrica.
+
+Ambas formas son suficientes para representar por completo el fasor, pero entonces, ¿por qué podría ser preferible trabajar con una u otra? 
+
+La respuesta es muy sencilla... para sumar y restar, es conveniente trabajar con números en forma rectangular, mientras que para dividir y multiplicar fasores, suele ser más fácil en forma polar.
+
+\subsubsection{Conversión entre formas}
+
+Utilizando el teorema de Pitágoras y las relaciones trigonométricas, es posible encontrar que para el fasor $\dot{v}=|V| \angle \theta=a+jb$:
+\begin{itemize}
+	\item $|V|=\sqrt{a^{2}+b^{2}}$
+	\item $\theta = tan^{-1}\frac{b}{a}$
+	\item $a=|V|.cos(\theta)$
+	\item $b=|V|.sen(\theta)$
+\end{itemize}
+
+Siendo las dos primeras relaciones las utilizadas para convertir \textbf{de forma polar a rectangular}, y las dos últimas para convertir \textbf{de forma rectangular a polar}.
+
+\subsubsection{Operaciones}
+
+Dados dos fasores $\dot{u}=a_u+jb_u$ y $\dot{v}=a_v+jb_v$, con la siguiente forma polar equivalente $\dot{u}=|U| \angle \theta_u$ y  $\dot{v}=|V| \angle \theta_v$
+$$\dot{u}+\dot{v}= (a_u+a_v)+j(b_u+b_v)$$
+$$\dot{u}-\dot{v}= (a_u-a_v)+j(b_u-b_v)$$
+$$\frac{\dot{u}}{\dot{v}}=|\frac{|U|}{|V|} \angle (\theta_u - \theta_v )$$
+$$\dot{u}\times \dot{v}=|U| \times |V| \angle (\theta_u + \theta_v )$$
+Para
 
 \subsection{Impedancia}
 
 La \textbf{oposición} en un circuito de corriente alterna, está dada por la Ley de Ohm. Ocurre que, al incorporar capacitancias e inductancias, la idea de \textbf{resistencia} resulta insuficiente para modelar la oposición.
+
+La impedancia, también es un número complejo y fasor, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente. La diferencia con los fasores de tensión y de corriente, es que la impedancia no se encuentra girando sino que está estática.
 
 Si se vuelve a analizar lo expuesto en este capítulo según la relación $\text{Efecto} = \frac{\text{Causa}}{\text{Oposición}} \rightarrow \text{Oposición} = \frac{\text{Causa}}{\text{Efecto}}$, como se ha hecho anteriormente, y volviendo a suponer a la corriente como el \textbf{efecto} que produce la \textbf{tensión}, se puede abordar la idea de \textbf{impedancia}, definida como \textit{la oposición que presenta un circuito de de corriente alterna al aplicarle una tensión}.
 
@@ -311,34 +373,6 @@ La \textbf{impedancia Z}, puede ser definida como un fasor que relaciona la \tex
 	\label{eq:impedancia_rectangular}
 	Z = R + j(X_L-X_C)
 \end{equation}
-
-\section{Fasores}
-Los fasores permiten relacionar tensiones y corrientes alternas senoidales de una forma más sencilla que si se trabajara directamente con las ondas.
-
-Como ya se sabe, una onda senoidal se define completamente por su \textbf{amplitud}, \textbf{frecuencia} y \textbf{fase}. Como se trabajará siempre con la misma frecuencia, sólo se necesitará la amplitud y la fase para poder definirlas, y ésto se puede hacer a través de vectores, que se llamarán fasores.
-
-%Un \textbf{fasor} es un número complejo que tiene como variable a su argumento.
-%$$ U = | U | e^{j\omega t} $$
-%Aplicando la fórmula de Euler en la expresión anterior, resulta,
-%$$ U = | U | cos (\omega t) + j|U| sen(\omega t) $$
-
-Un \textbf{fasor} es un vector giratorio que permite representar una onda de corriente o de tensión. El módulo del vector representa el valor eficaz de la onda, mientras que la frecuencia será la velocidad a la que giran (cuestión que será omitida, porque se supone que todos giran a la misma velocidad angular), y la fase está representada por el ángulo entre fasores.
-
-En otras palabras, los fasores representan una fotografía instantánea de la posición del vector giratorio que define las ondas de tensión y de corriente.
-
-La impedancia, también es un número complejo y fasor, definido como $Z= R+j(X_L - X_C)$, y $X_L = \omega L $, $X_C = \frac{1}{\omega C}$, como se ha visto anteriormente. La diferencia con los fasores de tensión y de corriente, es que la impedancia no se encuentra girando sino que está estática.
-
-Para realizar operaciones con fasores (lo cual es más sencillo que operar con ecuaciones de ondas), se debe utilizar el álgebra de los números complejos, resultando más conveniente utilizar la \textbf{forma rectangular} para realizar sumas y restas, y la \textbf{forma polar} para realizar multiplicaciones y divisiones.
-
-\subsection{Síntesis de álgebra de complejos}
-
-Un estudio completo de números complejos excede el contenido de este apunte. Se limitará a sintetizar las técnicas necesarias para trabajar con fasores.
-
-\subsubsection{Conversión rectangular a polar}
-
-Dado un vector $v$ con módulo $|V|$ y ángulo $\theta$, con $a$ como su componente en $x$ y $b$ como su componente en $y$, puede representarse dicho vector como el número complejo $a+jb$, donde $j$ es la unidad imaginaria (no se utiliza $i$ para no confundirlo con la corriente eléctrica).
-
-
 
 \section{Potencia}
 
