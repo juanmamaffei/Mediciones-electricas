@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2019.3.7)  26 JUN 2019 10:31
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2019.3.7)  26 JUN 2019 11:27
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.087 seconds
+luaotfload | main : initialization completed in 0.085 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
@@ -7322,6 +7322,10 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 2.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 2.
+Package mdframed Info: mdframed works in twoside mode on input line 8.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 8.
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 31.
 Package babel Info: Redefining spanish shorthand >>
@@ -7352,37 +7356,30 @@ Package babel Info: Redefining spanish shorthand "?
 
 ]
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 67.
  [62]
-Package mdframed Info: mdframed works in twoside mode on input line 86.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 86.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 96.
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
 Package babel Info: Redefining spanish shorthand <<
@@ -7409,68 +7406,74 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 96.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 96.
- [63] <images/ect-tt.png, id=941, 1065.9825pt x 500.62032pt>
+ [63]
+Package mdframed Info: mdframed works in twoside mode on input line 96.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 96.
+Package mdframed Info: Not enough space on this page on input line 106.
+ <images/ect-tt.png, id=938, 1065.9825pt x 500.62032pt>
 File: images/ect-tt.png Graphic file (type png)
 
 <use images/ect-tt.png>
-Package luatex.def Info: images/ect-tt.png used on input line 124.
+Package luatex.def Info: images/ect-tt.png used on input line 134.
 (luatex.def)             Requested size: 358.50473pt x 168.36005pt.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 131.
- [64<./images/ect-tt.png>]
-Package mdframed Info: mdframed works in twoside mode on input line 136.
+(babel)             in language  on input line 142.
+ [64]
+Package mdframed Info: mdframed works in twoside mode on input line 146.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 136.
-LaTeX Info: Redefining \. on input line 152.
-LaTeX Info: Redefining \% on input line 152.
+(mdframed)              on input line 146.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 152.
- [65])
+(babel)             in language  on input line 156.
+ [65<./images/ect-tt.png>])
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 113.
 Package babel Info: Redefining spanish shorthand >>
@@ -7536,21 +7539,21 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 4.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 4.
-<images/fotos/tester1.jpg, id=957, 2235.35126pt x 2037.6125pt>
+<images/fotos/tester1.jpg, id=958, 2235.35126pt x 2037.6125pt>
 File: images/fotos/tester1.jpg Graphic file (type jpg)
 
 <use images/fotos/tester1.jpg>
 Package luatex.def Info: images/fotos/tester1.jpg used on input line 8.
 (luatex.def)             Requested size: 179.25237pt x 163.38542pt.
 
-<images/fotos/testerdebanco.jpg, id=958, 5331.92pt x 2999.205pt>
+<images/fotos/testerdebanco.jpg, id=959, 5331.92pt x 2999.205pt>
 File: images/fotos/testerdebanco.jpg Graphic file (type jpg)
 
 <use images/fotos/testerdebanco.jpg>
 Package luatex.def Info: images/fotos/testerdebanco.jpg used on input line 15.
 (luatex.def)             Requested size: 179.25237pt x 100.81836pt.
 
-<images/fotos/tester3.jpg, id=959, 1708.3825pt x 3581.38pt>
+<images/fotos/tester3.jpg, id=960, 1708.3825pt x 3581.38pt>
 File: images/fotos/tester3.jpg Graphic file (type jpg)
 
 <use images/fotos/tester3.jpg>
@@ -7572,7 +7575,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 26.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 26.
-<images/fotos/voltimetro.jpg, id=960, 2480.26625pt x 2422.04875pt>
+<images/fotos/voltimetro.jpg, id=961, 2480.26625pt x 2422.04875pt>
 File: images/fotos/voltimetro.jpg Graphic file (type jpg)
 
 <use images/fotos/voltimetro.jpg>
@@ -7591,7 +7594,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 33.
 
-<images/fotos/amperimetro.jpg, id=961, 2261.44875pt x 2308.625pt>
+<images/fotos/amperimetro.jpg, id=962, 2261.44875pt x 2308.625pt>
 File: images/fotos/amperimetro.jpg Graphic file (type jpg)
 
 <use images/fotos/amperimetro.jpg>
@@ -7730,7 +7733,7 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 43.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 43.
- <images/fotos/vatimetro.jpg, id=983, 2961.0625pt x 2902.845pt>
+ <images/fotos/vatimetro.jpg, id=984, 2961.0625pt x 2902.845pt>
 File: images/fotos/vatimetro.jpg Graphic file (type jpg)
 
 <use images/fotos/vatimetro.jpg>
@@ -7761,7 +7764,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 53.
 
-<images/fotos/frecuencimetro.jpg, id=984, 5331.92pt x 2999.205pt>
+<images/fotos/frecuencimetro.jpg, id=985, 5331.92pt x 2999.205pt>
 File: images/fotos/frecuencimetro.jpg Graphic file (type jpg)
 
 <use images/fotos/frecuencimetro.jpg>
@@ -7807,14 +7810,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 62.
 
-<images/fotos/pinza1.jpg, id=991, 2541.495pt x 2089.8075pt>
+<images/fotos/pinza1.jpg, id=992, 2541.495pt x 2089.8075pt>
 File: images/fotos/pinza1.jpg Graphic file (type jpg)
 
 <use images/fotos/pinza1.jpg>
 Package luatex.def Info: images/fotos/pinza1.jpg used on input line 66.
 (luatex.def)             Requested size: 107.53705pt x 88.42502pt.
 
-<images/fotos/pinza2.jpg, id=992, 2238.3625pt x 4699.5575pt>
+<images/fotos/pinza2.jpg, id=993, 2238.3625pt x 4699.5575pt>
 File: images/fotos/pinza2.jpg Graphic file (type jpg)
 
 <use images/fotos/pinza2.jpg>
@@ -7889,7 +7892,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 78.
 
-<images/fotos/megger.jpg, id=1004, 1979.395pt x 2501.345pt>
+<images/fotos/megger.jpg, id=1005, 1979.395pt x 2501.345pt>
 File: images/fotos/megger.jpg Graphic file (type jpg)
 
 <use images/fotos/megger.jpg>
@@ -7908,7 +7911,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 87.
 
-<images/fotos/telurimetro1.jpg, id=1005, 2107.875pt x 1984.41376pt>
+<images/fotos/telurimetro1.jpg, id=1006, 2107.875pt x 1984.41376pt>
 File: images/fotos/telurimetro1.jpg Graphic file (type jpg)
 
 <use images/fotos/telurimetro1.jpg>
@@ -7952,14 +7955,14 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 96.
 
-<images/fotos/osciloscopio1.jpg, id=1011, 5331.92pt x 2999.205pt>
+<images/fotos/osciloscopio1.jpg, id=1012, 5331.92pt x 2999.205pt>
 File: images/fotos/osciloscopio1.jpg Graphic file (type jpg)
 
 <use images/fotos/osciloscopio1.jpg>
 Package luatex.def Info: images/fotos/osciloscopio1.jpg used on input line 100.
 (luatex.def)             Requested size: 358.4653pt x 201.63673pt.
 
-<images/fotos/osciloscopio2.jpg, id=1012, 4780.86125pt x 1967.35pt>
+<images/fotos/osciloscopio2.jpg, id=1013, 4780.86125pt x 1967.35pt>
 File: images/fotos/osciloscopio2.jpg Graphic file (type jpg)
 
 <use images/fotos/osciloscopio2.jpg>
@@ -8067,7 +8070,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 115.
 
-<images/fotos/cofimetro.jpg, id=1024, 2471.2325pt x 2518.40875pt>
+<images/fotos/cofimetro.jpg, id=1025, 2471.2325pt x 2518.40875pt>
 File: images/fotos/cofimetro.jpg Graphic file (type jpg)
 
 <use images/fotos/cofimetro.jpg>
@@ -8110,7 +8113,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 127.
 
-<images/fotos/electromagnetico.jpg, id=1025, 1549.79pt x 3229.06375pt>
+<images/fotos/electromagnetico.jpg, id=1026, 1549.79pt x 3229.06375pt>
 File: images/fotos/electromagnetico.jpg Graphic file (type jpg)
 
 <use images/fotos/electromagnetico.jpg>
@@ -8169,7 +8172,7 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 137.
 
-<images/fotos/generadordefunciones1.jpg, id=1031, 2152.04pt x 1364.09625pt>
+<images/fotos/generadordefunciones1.jpg, id=1032, 2152.04pt x 1364.09625pt>
 File: images/fotos/generadordefunciones1.jpg Graphic file (type jpg)
 
 <use images/fotos/generadordefunciones1.jpg>
@@ -8177,7 +8180,7 @@ Package luatex.def Info: images/fotos/generadordefunciones1.jpg used on input li
 ne 141.
 (luatex.def)             Requested size: 358.48637pt x 227.23087pt.
 
-<images/fotos/generadordefunciones2.jpg, id=1032, 4579.1075pt x 2325.68875pt>
+<images/fotos/generadordefunciones2.jpg, id=1033, 4579.1075pt x 2325.68875pt>
 File: images/fotos/generadordefunciones2.jpg Graphic file (type jpg)
 
 <use images/fotos/generadordefunciones2.jpg>
@@ -8185,7 +8188,7 @@ Package luatex.def Info: images/fotos/generadordefunciones2.jpg used on input li
 ne 148.
 (luatex.def)             Requested size: 358.44061pt x 182.04886pt.
 
-<images/fotos/generadordefunciones3.jpg, id=1033, 4719.6325pt x 2212.265pt>
+<images/fotos/generadordefunciones3.jpg, id=1034, 4719.6325pt x 2212.265pt>
 File: images/fotos/generadordefunciones3.jpg Graphic file (type jpg)
 
 <use images/fotos/generadordefunciones3.jpg>
@@ -8362,25 +8365,25 @@ LaTeX Warning: There were multiply-defined labels.
 )
 
 Here is how much of LuaTeX's memory you used:
- 67589 strings out of 494577
+ 67590 strings out of 494577
  125171,2373549 words of node,token memory allocated
- 17813 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2009 glue, 1 kern, 816 attribute, 60 glue_spec, 816
+ 17964 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2026 glue, 1 kern, 824 attribute, 60 glue_spec, 824
  attribute_list, 2 write, 1 pdf_dest, 1 pdf_action nodes
-   avail lists: 1:10,2:300,3:223,4:84,5:370,6:3937,7:846,8:327,9:338,10:23,11:64
-1,12:1
+   avail lists: 1:10,2:300,3:223,4:82,5:355,6:2877,7:467,8:327,9:338,10:23,11:46
+3,12:1
  68202 multiletter control sequences out of 65536+600000
- 85 fonts using 19715303 bytes
+ 85 fonts using 19715075 bytes
  64i,12n,96p,1004b,1299s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-math.otf><./fonts/Un
 B_Pro_v1.0/UnB-Pro_Italic.otf></usr/share/texmf/fonts/opentype/public/lm-math/la
 tinmodern-math.otf></usr/share/texmf/fonts/opentype/public/lm-math/latinmodern-m
 ath.otf><./fonts/UnB_Pro_v1.0/UnB-Pro_Regular.otf><./fonts/UnB_Pro_v1.0/UnB-Pro_
 Bold.otf>
-Output written on main.pdf (82 pages, 9031351 bytes).
+Output written on main.pdf (82 pages, 9032100 bytes).
 
-PDF statistics: 1136 PDF objects out of 1200 (max. 8388607)
- 960 compressed objects within 10 object streams
- 334 named destinations out of 1000 (max. 131072)
+PDF statistics: 1137 PDF objects out of 1200 (max. 8388607)
+ 961 compressed objects within 10 object streams
+ 335 named destinations out of 1000 (max. 131072)
  649 words of extra memory for PDF output out of 10000 (max. 10000000)
 
