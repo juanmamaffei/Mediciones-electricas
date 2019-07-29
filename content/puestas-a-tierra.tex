@@ -1,5 +1,5 @@
 
-\chapter{Esquemas de conexión a tierra}
+\chapter{Protección contra contactos directos e indirectos}
 
 El paso de la corriente eléctrica por el cuerpo humano puede llevar a lesiones que van desde quemaduras leves hasta la muerte.
 
@@ -12,6 +12,10 @@ La descarga puede ocurrir al producirse un \textbf{contacto directo} del cuerpo 
 \end{ejemplo}
 
 Existen distintos \textbf{esquemas de conexión a tierra} que permiten proteger a las personas y animales ante contactos directos e indirectos.
+
+En Argentina, rige la norma 90364 de la Asociación Electrotécnica Argentina, basado en la Norma IEC 60364. Dicha norma, fue la que se tomó como base para escribir este documento.
+
+Lo que se pretende en el reglamento es proteger a las personas, a las instalaciones contra los incendios de origen eléctrico, proteger de sobrecargas y cortocircuitos, proteger a los materiales y a los equipos contra sobretensiones y a las personas y animales de contactos directos e indirectos.
 
 \section{Dispositivos de protección}
 \textbf{Fusible}
@@ -28,9 +32,7 @@ Al producirse un exceso de corriente, la temperatura aumenta en el bimetal, y é
 
 Se trata de un interruptor que sensa, a través de una bobina toroidal, la corriente de entrada y de salida de la instalación. Debido a que su diferencia debe ser siempre $0 A$, si existe alguna corriente de fuga, automáticamente se encarga de interrumpir el circuito.
 
-En este capítulo se trabajará según los parámetros establecidos en el reglamento de la AEA del 2006 y las normas IEC *********.
-
-Consideraciones del reglamento
+\subsection{Errores comunes y consideraciones del reglamento}
 
 Es indispensable, para evitar accidentes por contactos indirectos, verificar:
 \begin{itemize}
@@ -39,14 +41,20 @@ Es indispensable, para evitar accidentes por contactos indirectos, verificar:
 	\item Que cada masa se encuentre conectada a un conductor de protección de puesta a tierra.
 \end{itemize}
 
+Es habitual que sólo se exija el valor de puesta a tierra y se considere como única comprobación para conocer el grado de protección de una instalación contra contactos indirectos. De hecho, también es común oir entre los profesionales la necesidad de medir valores de puesta a tierra exageradamente bajos.
+
 Existe un protocolo claro para la verificación y medición de puestas a tierra, elaborado por la Superintendencia de Riesgos de Trabajo, disponible en los recursos anexos a este documento, junto con la resolución 900 de la SRT, que regula los requerimientos de medición de puestas a tierra.
 
 Este documento sirve para formalizar las presentaciones de los informes que se deben presentar ante ART, o SRT o las ATL (Ministerios de Trabajo Regionales de cada provincia), y se verá en profundidad cómo debe completarse en estas páginas.
 
+Allí se deben completar datos relacionados con el instrumento de medición utilizado, condiciones de trabajo reales, metodología utilizada, continuidad de conductores de protección, funcionamiento de interruptores diferenciales, descripción de la condición del terreno, uso de cada puesta a tierra existente en la instalación, el esquema de conexión a tierra utilizado.
+
+% Instrumentos a utilizar: telurímetro de tres bornes, telurímetro de cuatro bornes, medidor de continuidad, medidor de funcionamiento de diferenciales, medidor de corrientes de falla. Calibrados con norma IEC 61557
+
 Existen distintos tipos de puesta a tierra:
 \begin{itemize}
-	\item Toma de Tierra del neutro de Transformador.
-	\item Toma de Tierra de Seguridad de las Masas.
+	\item Tierra del neutro de Transformador.
+	\item Tierra de Seguridad de las Masas.
 	\item De protección de equipos electrónicos.
 	\item De informática.
 	\item De iluminación.
@@ -54,7 +62,24 @@ Existen distintos tipos de puesta a tierra:
 	\item Otros.
 \end{itemize}
 
-Continuidad de las masas: Circuito de puesta a tierra continuo y permanente, circuito de puesta a tierra con capcaidad de conducir la carga de la corriente de falla.
+Pero segú el reglamento, sólo deberían existir:
+\begin{itemize}
+	\item Puesta a Tierra del neutro de Transformador (si el transformador es propio).
+	\item Puesta a Tierra de Seguridad de las Masas.
+	\item Puesta a Tierra para pararrayos (que deberá vincularse luego con la PAT de Seguridad).
+\end{itemize}
+
+En principio, no deberían existir más electrodos de puesta a tierra. Si así fuera, todos deberían conectarse entre sí, para asegurar la equipotencialidad. Por ello, deberá evaluarse la continuidad de las masas.
+
+En cuanto a la continuidad de las masas, deberá verificarse que la barra de puesta a tierra tenga continuidad con todos los electrodos de puesta a tierra, los conductores de puesta a tierra y las masas.
+
+% Continuidad de las masas: Circuito de puesta a tierra continuo y permanente, circuito de puesta a tierra con capcaidad de conducir la carga de la corriente de falla.
+
+También, deberá medirse la corriente de falla, y verificar que el circuito de puesta a tierra pueda conducir la corriente de falla y que tenga una resistencia adecuada. Para esto, deberá evaluarse el diámetro del conductor, verificando que cumpla con los valores especificados en el reglamento.
+
+Muchos reglamentos internacionales, no especifican un valor de resistencia de puesta a tierra, sino que indican el valor de tensión de contacto de las masas ante una falla. En Argentina, por el contrario, se especifica un valor de puesta a tierra ($50 /Omega$) lo que hace perder de vista que lo que realmente importa es que la masa no debe encontrarse a una tensión peligrosa.
+
+
 
 Protecciones contra contactos indirectos: DD, IA, FUS.
 
