@@ -1,5 +1,10 @@
 # Material didáctico correspondiente a los cursos de Mediciones eléctricas
 
+** Para ver el material, descargue el archivo main.pdf **
+
+En la carpeta _Bibliografía complementaria_ encontrará material adicional de utilidad.
+
+
 ## CURSO I: Mediciones eléctricas para técnicos nóveles y futuros docentes
 
 **Duración total:** 60 HORAS
